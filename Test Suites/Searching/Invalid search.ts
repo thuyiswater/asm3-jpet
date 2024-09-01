@@ -15,49 +15,49 @@
       <guid>ca300cf3-575f-436d-999b-384761f388b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Search Product Empty</testCaseId>
+      <testCaseId>Test Cases/Searching/Search Product Empty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>22adb57e-b4a9-4566-ae0b-087ccb2b3853</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Search Product Typo</testCaseId>
+      <testCaseId>Test Cases/Searching/Search Product Typo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d9f5a9f0-2963-4b55-84d3-73fb3ea20409</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Search Product Incomplete</testCaseId>
+      <testCaseId>Test Cases/Searching/Search Product Incomplete</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>3c49e316-143a-4680-847f-bbec9ae99a74</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Search Product With Space In Input</testCaseId>
+      <testCaseId>Test Cases/Searching/Search Product With Space In Input</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6711efad-2330-4a71-81b2-6a2fcb74ab0e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Search Product Numeric</testCaseId>
+      <testCaseId>Test Cases/Searching/Search Product Numeric</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fca79957-5001-448e-8d5e-f23ce4de3d35</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Search Product Special Characters</testCaseId>
+      <testCaseId>Test Cases/Searching/Search Product Special Characters</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8c432ee5-4baa-48c3-8a66-b5587eec8bff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Search Product Long Input</testCaseId>
+      <testCaseId>Test Cases/Searching/Search Product Long Input</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
