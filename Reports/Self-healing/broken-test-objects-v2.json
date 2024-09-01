@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_JPetStore Demo/input_User ID_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes-1383474214\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/table/tbody/tr/td[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_JPetStore Demo/input_User ID_username_idRelative.png"
+    }
+  ]
+}
