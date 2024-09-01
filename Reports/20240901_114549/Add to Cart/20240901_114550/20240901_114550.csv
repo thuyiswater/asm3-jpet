@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Add to Cart,Chrome 128.0.0.0,,,01-09-2024 11:45:53,01-09-2024 11:46:02,8.937s,PASSED
+,,,,,,,
+Test Cases/Add to Cart,Chrome 128.0.0.0,,,01-09-2024 11:45:53,01-09-2024 11:46:02,8.828s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,01-09-2024 11:45:53,01-09-2024 11:45:55,1.185s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 128.0.0.0,,,01-09-2024 11:45:55,01-09-2024 11:45:56,1.267s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/h2_Welcome to JPetStore 6""), 0)",Chrome 128.0.0.0,,,01-09-2024 11:45:56,01-09-2024 11:45:56,0.309s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Enter the Store""))",Chrome 128.0.0.0,,,01-09-2024 11:45:56,01-09-2024 11:45:57,1.184s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/img""), 0)",Chrome 128.0.0.0,,,01-09-2024 11:45:57,01-09-2024 11:45:58,0.245s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/img_1""))",Chrome 128.0.0.0,,,01-09-2024 11:45:58,01-09-2024 11:45:58,0.495s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/div_FishProduct IDNameFI-SW-01AngelfishFI-S_1fe894""))",Chrome 128.0.0.0,,,01-09-2024 11:45:58,01-09-2024 11:45:58,0.260s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/div_FishProduct IDNameFI-SW-01AngelfishFI-S_1fe894""), 0)",Chrome 128.0.0.0,,,01-09-2024 11:45:58,01-09-2024 11:45:59,0.249s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_FI-SW-01""))",Chrome 128.0.0.0,,,01-09-2024 11:45:59,01-09-2024 11:45:59,0.506s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/div_AngelfishItem IDProduct IDDescriptionLi_4c213d""), 0)",Chrome 128.0.0.0,,,01-09-2024 11:45:59,01-09-2024 11:45:59,0.235s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_EST-1""))",Chrome 128.0.0.0,,,01-09-2024 11:45:59,01-09-2024 11:46:00,0.918s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/img_1_2""), 0)",Chrome 128.0.0.0,,,01-09-2024 11:46:00,01-09-2024 11:46:00,0.239s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_JPetStore Demo/a_Add to Cart""))",Chrome 128.0.0.0,,,01-09-2024 11:46:00,01-09-2024 11:46:01,0.255s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Add to Cart""))",Chrome 128.0.0.0,,,01-09-2024 11:46:01,01-09-2024 11:46:01,0.489s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/div_Shopping CartItem IDProduct IDDescripti_f30008""), 0)",Chrome 128.0.0.0,,,01-09-2024 11:46:01,01-09-2024 11:46:01,0.236s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/td_FI-SW-01""), 0)",Chrome 128.0.0.0,,,01-09-2024 11:46:01,01-09-2024 11:46:02,0.232s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/td_EST-1""), 0)",Chrome 128.0.0.0,,,01-09-2024 11:46:02,01-09-2024 11:46:02,0.233s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,01-09-2024 11:46:02,01-09-2024 11:46:02,0.065s,PASSED
