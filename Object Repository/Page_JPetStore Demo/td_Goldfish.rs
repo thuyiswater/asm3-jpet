@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Enter the Store</name>
+   <name>td_Goldfish</name>
    <tag></tag>
-   <elementGuidId>ebc3ac1e-1401-4285-b530-8193b9bb1675</elementGuidId>
+   <elementGuidId>8a1cc2b3-a4b9-4138-ab8d-51947d7956a2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a</value>
+         <key>XPATH</key>
+         <value>//div[@id='Catalog']/table/tbody/tr[2]/td[3]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='Content']/p/a</value>
+         <key>CSS</key>
+         <value>td:nth-of-type(3)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Enter the Store&quot;i]</value>
+         <value>internal:role=cell[name=&quot;Goldfish&quot;i] >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,95 +28,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>d91e0af8-0007-43ef-a3db-aee5493c6de0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>actions/Catalog.action</value>
-      <webElementGuid>5492101a-ac8a-4628-aaaf-49de95dab48d</webElementGuid>
+      <value>td</value>
+      <webElementGuid>8350219b-bc22-441f-8f53-b9111e1c23d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Enter the Store</value>
-      <webElementGuid>16c05bd4-afb7-4a97-9bda-0c85d2e7ccc5</webElementGuid>
+      <value>Goldfish</value>
+      <webElementGuid>24a87f8d-f357-4a57-bd00-86f8a09010d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Content&quot;)/p[1]/a[1]</value>
-      <webElementGuid>e5248fcc-b050-4f6e-94ff-c19ea03b5cac</webElementGuid>
+      <value>id(&quot;Catalog&quot;)/table[1]/tbody[1]/tr[2]/td[3]</value>
+      <webElementGuid>44eb9934-7922-4f28-963b-fac57e2f24ad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Content']/p/a</value>
-      <webElementGuid>5b44fc19-39ca-4664-8f95-b4fe43402238</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Enter the Store')]</value>
-      <webElementGuid>af198f54-4b81-48cc-a9f8-82b846ccff2e</webElementGuid>
+      <value>//div[@id='Catalog']/table/tbody/tr[2]/td[3]</value>
+      <webElementGuid>84281cf1-233f-4cd0-9ff9-1491680457b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to JPetStore 6'])[1]/following::a[1]</value>
-      <webElementGuid>50d7d6e1-bdd8-4503-8b84-92a28163563f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FI-FW-02'])[1]/following::td[1]</value>
+      <webElementGuid>2df1d7ff-d821-45eb-8fa0-2065e9c9084b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright www.mybatis.org'])[1]/preceding::a[1]</value>
-      <webElementGuid>3e730a6b-dcaa-438e-92cf-885edd4f58c9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fresh Water fish from China'])[1]/following::td[2]</value>
+      <webElementGuid>7a6f0af0-77af-4659-8305-8c4895174007</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Enter the Store']/parent::*</value>
-      <webElementGuid>f4c27d58-6aee-4270-8f08-d715d68020ce</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Great family dog'])[1]/preceding::td[1]</value>
+      <webElementGuid>6bbd974e-7c44-452c-854e-1b9f90cea497</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'actions/Catalog.action')]</value>
-      <webElementGuid>55137c8e-cf3d-4558-81d9-7a06b40d2ae3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='K9-RT-01'])[1]/preceding::td[2]</value>
+      <webElementGuid>76f46743-1a3f-499d-8833-91c112249278</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Goldfish']/parent::*</value>
+      <webElementGuid>1897cb4b-4d5e-4cfe-a066-1d03ce24ffa5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a</value>
-      <webElementGuid>bc01f267-188b-4c43-820e-5058af3045ea</webElementGuid>
+      <value>//td[3]</value>
+      <webElementGuid>ee69681d-a5ec-4739-a8b3-95139c8a51c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'actions/Catalog.action' and (text() = 'Enter the Store' or . = 'Enter the Store')]</value>
-      <webElementGuid>a3011db7-73a0-47db-aba3-194880877271</webElementGuid>
+      <value>//td[(text() = 'Goldfish' or . = 'Goldfish')]</value>
+      <webElementGuid>3c7e513e-510d-45d2-8381-6156c406fe96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OctoPerf'])[1]/preceding::td[2]</value>
+      <webElementGuid>fb54bac1-0f55-4078-9b82-0ab338cc7702</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

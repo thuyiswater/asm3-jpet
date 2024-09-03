@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Enter the Store</name>
+   <name>a_FI-SW-01</name>
    <tag></tag>
-   <elementGuidId>ebc3ac1e-1401-4285-b530-8193b9bb1675</elementGuidId>
+   <elementGuidId>a0157c7a-04b8-4d8f-925f-e838c51fe8cf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a</value>
+         <value>td > a</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='Content']/p/a</value>
+         <value>//div[@id='Catalog']/table/tbody/tr[2]/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Enter the Store&quot;i]</value>
+         <value>internal:role=link[name=&quot;FI-SW-01&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,94 +29,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d91e0af8-0007-43ef-a3db-aee5493c6de0</webElementGuid>
+      <webElementGuid>013b91e7-1a82-4472-99ec-b678354182cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>actions/Catalog.action</value>
-      <webElementGuid>5492101a-ac8a-4628-aaaf-49de95dab48d</webElementGuid>
+      <value>/actions/Catalog.action?viewProduct=&amp;productId=FI-SW-01</value>
+      <webElementGuid>c316a1fa-0873-4aa2-a3a8-0ff3c5dd30ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Enter the Store</value>
-      <webElementGuid>16c05bd4-afb7-4a97-9bda-0c85d2e7ccc5</webElementGuid>
+      <value>FI-SW-01</value>
+      <webElementGuid>202851f9-ec2f-44db-8382-5ecfc7793608</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Content&quot;)/p[1]/a[1]</value>
-      <webElementGuid>e5248fcc-b050-4f6e-94ff-c19ea03b5cac</webElementGuid>
+      <value>id(&quot;Catalog&quot;)/table[1]/tbody[1]/tr[2]/td[1]/a[1]</value>
+      <webElementGuid>dba5d3d3-0469-42f1-b538-ea2ffbea345d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Content']/p/a</value>
-      <webElementGuid>5b44fc19-39ca-4664-8f95-b4fe43402238</webElementGuid>
+      <value>//div[@id='Catalog']/table/tbody/tr[2]/td/a</value>
+      <webElementGuid>1e8ef60e-c9c4-4154-8a8b-bcd1fd4765d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Enter the Store')]</value>
-      <webElementGuid>af198f54-4b81-48cc-a9f8-82b846ccff2e</webElementGuid>
+      <value>//a[contains(text(),'FI-SW-01')]</value>
+      <webElementGuid>f6e203cd-7de7-462c-97e8-148ca23795f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to JPetStore 6'])[1]/following::a[1]</value>
-      <webElementGuid>50d7d6e1-bdd8-4503-8b84-92a28163563f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::a[1]</value>
+      <webElementGuid>a72e7f56-5f03-4d03-8db2-96b3b2ad827b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright www.mybatis.org'])[1]/preceding::a[1]</value>
-      <webElementGuid>3e730a6b-dcaa-438e-92cf-885edd4f58c9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product ID'])[1]/following::a[1]</value>
+      <webElementGuid>11c624e9-99f7-4b5d-ac35-b3f146887a9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Enter the Store']/parent::*</value>
-      <webElementGuid>f4c27d58-6aee-4270-8f08-d715d68020ce</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Angelfish'])[1]/preceding::a[1]</value>
+      <webElementGuid>040022d6-ff24-4387-8505-de6ae5a02ccc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FI-SW-02'])[1]/preceding::a[1]</value>
+      <webElementGuid>92a32f95-243d-4083-ba3d-487ae6697437</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='FI-SW-01']/parent::*</value>
+      <webElementGuid>8e0d6b47-7bc4-4178-9518-9e3cbea57448</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'actions/Catalog.action')]</value>
-      <webElementGuid>55137c8e-cf3d-4558-81d9-7a06b40d2ae3</webElementGuid>
+      <value>//a[contains(@href, '/actions/Catalog.action?viewProduct=&amp;productId=FI-SW-01')]</value>
+      <webElementGuid>b6ee7cab-1703-4e51-abb6-d50a08012a8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a</value>
-      <webElementGuid>bc01f267-188b-4c43-820e-5058af3045ea</webElementGuid>
+      <value>//td/a</value>
+      <webElementGuid>112ca518-3f39-42e9-b880-dbf822d8e821</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'actions/Catalog.action' and (text() = 'Enter the Store' or . = 'Enter the Store')]</value>
-      <webElementGuid>a3011db7-73a0-47db-aba3-194880877271</webElementGuid>
+      <value>//a[@href = '/actions/Catalog.action?viewProduct=&amp;productId=FI-SW-01' and (text() = 'FI-SW-01' or . = 'FI-SW-01')]</value>
+      <webElementGuid>3c3264ff-ff83-45e5-a751-d62f6dc84b6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

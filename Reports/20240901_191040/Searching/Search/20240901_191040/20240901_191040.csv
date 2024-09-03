@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search,Chrome 128.0.0.0,,,01-09-2024 19:10:42,01-09-2024 19:14:32,3m - 50.230s,FAILED
+,,,,,,,
+Test Cases/Searching/Search Product By Category,Chrome 128.0.0.0,,,01-09-2024 19:13:18,01-09-2024 19:14:13,54.931s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,01-09-2024 19:13:18,01-09-2024 19:13:34,16.614s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,01-09-2024 19:13:34,01-09-2024 19:13:36,1.568s,PASSED
+"setText(findTestObject(""Object Repository/Page_JPetStore Demo/input__keyword""), ""reptiles"")",Chrome 128.0.0.0,,,01-09-2024 19:13:36,01-09-2024 19:13:39,2.664s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_JPetStore Demo/input__keyword""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,01-09-2024 19:13:39,01-09-2024 19:13:41,2.599s,PASSED
+"verifyElementPresent(findTestObject(""Page_JPetStore Demo/td_reptiles""), 0)",Chrome 128.0.0.0,,,01-09-2024 19:13:41,01-09-2024 19:14:13,31.463s,FAILED
+,,,,,,,
+Test Cases/Searching/Search Product By Name,Chrome 128.0.0.0,,,01-09-2024 19:14:13,01-09-2024 19:14:32,19.756s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,01-09-2024 19:14:13,01-09-2024 19:14:29,15.996s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,01-09-2024 19:14:29,01-09-2024 19:14:31,1.740s,PASSED
+"setText(findTestObject(""Object Repository/Page_JPetStore Demo/input__keyword""), ""goldfish"")",Chrome 128.0.0.0,,,01-09-2024 19:14:31,01-09-2024 19:14:31,0.572s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_JPetStore Demo/input__keyword""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,01-09-2024 19:14:31,01-09-2024 19:14:32,1.050s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/td_Goldfish""), 0)",Chrome 128.0.0.0,,,01-09-2024 19:14:32,01-09-2024 19:14:32,0.233s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,01-09-2024 19:14:32,01-09-2024 19:14:32,0.090s,PASSED

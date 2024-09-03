@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Enter the Store</name>
+   <name>a_Add to Cart</name>
    <tag></tag>
-   <elementGuidId>ebc3ac1e-1401-4285-b530-8193b9bb1675</elementGuidId>
+   <elementGuidId>f8ac11bb-cf37-411a-bd77-9af745922352</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a</value>
+         <value>a.Button</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='Content']/p/a</value>
+         <value>//div[@id='Catalog']/table/tbody/tr[7]/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Enter the Store&quot;i]</value>
+         <value>internal:role=link[name=&quot;Add to Cart&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,94 +29,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d91e0af8-0007-43ef-a3db-aee5493c6de0</webElementGuid>
+      <webElementGuid>e1d3d089-8ed9-4457-81bf-1b8ac99251f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>actions/Catalog.action</value>
-      <webElementGuid>5492101a-ac8a-4628-aaaf-49de95dab48d</webElementGuid>
+      <value>/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-1</value>
+      <webElementGuid>71f558dd-79cf-408b-b6a7-ed8a355a515b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Button</value>
+      <webElementGuid>4f8e4a2a-fb29-4f7e-822b-15d3fcfef531</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Enter the Store</value>
-      <webElementGuid>16c05bd4-afb7-4a97-9bda-0c85d2e7ccc5</webElementGuid>
+      <value>Add to Cart</value>
+      <webElementGuid>03439834-92d0-4b44-a9b6-1634a01329ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Content&quot;)/p[1]/a[1]</value>
-      <webElementGuid>e5248fcc-b050-4f6e-94ff-c19ea03b5cac</webElementGuid>
+      <value>id(&quot;Catalog&quot;)/table[1]/tbody[1]/tr[7]/td[1]/a[@class=&quot;Button&quot;]</value>
+      <webElementGuid>2358d4be-d70b-4049-bd4b-68fbcbac53cc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Content']/p/a</value>
-      <webElementGuid>5b44fc19-39ca-4664-8f95-b4fe43402238</webElementGuid>
+      <value>//div[@id='Catalog']/table/tbody/tr[7]/td/a</value>
+      <webElementGuid>8f26c1d4-fd01-4208-9ad2-24b3afbe41d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Enter the Store')]</value>
-      <webElementGuid>af198f54-4b81-48cc-a9f8-82b846ccff2e</webElementGuid>
+      <value>//a[contains(text(),'Add to Cart')]</value>
+      <webElementGuid>0c11eedb-db03-4ad0-abb1-684c7bba94db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to JPetStore 6'])[1]/following::a[1]</value>
-      <webElementGuid>50d7d6e1-bdd8-4503-8b84-92a28163563f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$16.50'])[1]/following::a[1]</value>
+      <webElementGuid>e9cd1f55-edb5-44ec-b8e5-0c5c6d181395</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright www.mybatis.org'])[1]/preceding::a[1]</value>
-      <webElementGuid>3e730a6b-dcaa-438e-92cf-885edd4f58c9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back ordered.'])[1]/following::a[1]</value>
+      <webElementGuid>a1d23998-06f1-435e-b379-d51e207efe36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Enter the Store']/parent::*</value>
-      <webElementGuid>f4c27d58-6aee-4270-8f08-d715d68020ce</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OctoPerf'])[1]/preceding::a[1]</value>
+      <webElementGuid>21573861-7c66-43a5-a299-fa22485a2c3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add to Cart']/parent::*</value>
+      <webElementGuid>8377680a-61b8-4560-be6c-04c900b4999e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'actions/Catalog.action')]</value>
-      <webElementGuid>55137c8e-cf3d-4558-81d9-7a06b40d2ae3</webElementGuid>
+      <value>//a[contains(@href, '/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-1')]</value>
+      <webElementGuid>d7957008-df52-4c5d-8045-8a10941024bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a</value>
-      <webElementGuid>bc01f267-188b-4c43-820e-5058af3045ea</webElementGuid>
+      <value>//td/a</value>
+      <webElementGuid>0dd809c7-de78-4905-bca7-8d41efad1b4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'actions/Catalog.action' and (text() = 'Enter the Store' or . = 'Enter the Store')]</value>
-      <webElementGuid>a3011db7-73a0-47db-aba3-194880877271</webElementGuid>
+      <value>//a[@href = '/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-1' and (text() = 'Add to Cart' or . = 'Add to Cart')]</value>
+      <webElementGuid>92e74763-842c-48f1-a915-44cadffed037</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

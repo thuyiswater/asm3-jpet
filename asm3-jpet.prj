@@ -3,7 +3,7 @@
    <description></description>
    <name>asm3-jpet</name>
    <tag></tag>
-   <UUID>f2037c42-9eaf-4c71-ba05-a2388dbd0ca5</UUID>
+   <UUID>1a8ebf5b-9e76-41a7-982e-f0e73f3e1a21</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>9.6.0</createdVersion>
    <freeLicense>false</freeLicense>
@@ -11,7 +11,6 @@
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>9.6.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/maichieuthuy/Katalon Studio/asm3-jpet/asm3-jpet.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

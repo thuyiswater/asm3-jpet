@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>%Users%maichieuthuy%Katalon Studio%asm3-jpet%asm3-jpet.prj</name>
+	<name>%Users%dudu%git%asm3-jpet%asm3-jpet.prj</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,7 +17,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1725091396623</id>
+			<id>1725190525277</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -26,7 +26,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1725091396625</id>
+			<id>1725190525278</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -35,7 +35,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1725167707725</id>
+			<id>1725190580602</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -44,7 +44,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1725167707728</id>
+			<id>1725190580604</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -53,7 +53,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1725167718163</id>
+			<id>1725190621366</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -62,7 +62,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1725167718165</id>
+			<id>1725190621367</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -71,7 +71,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1725190371131</id>
+			<id>1725190694035</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -80,7 +80,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1725190371133</id>
+			<id>1725190694036</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -89,7 +89,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1725206279895</id>
+			<id>1725192127147</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -98,7 +98,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1725206279898</id>
+			<id>1725192127149</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -107,7 +107,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1725352679152</id>
+			<id>1725193155888</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -116,7 +116,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1725352679156</id>
+			<id>1725193155893</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -125,7 +125,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1725352689614</id>
+			<id>1725292635842</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -134,7 +134,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1725352689615</id>
+			<id>1725292635847</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
