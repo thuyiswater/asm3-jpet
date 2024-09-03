@@ -8,7 +8,7 @@
       "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/table/tbody/tr/td[2]/input",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_JPetStore Demo/input_User ID_username_idRelative.png"
+      "pathToScreenshot": "Reports/20240901_230351/Sign Up/20240901_230352/Object Repository/Page_JPetStore Demo/input_User ID_username_idRelative.png"
     }
   ]
 }
