@@ -1,0 +1,97 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Invalid search,Chrome 128.0.0.0,,,05-09-2024 22:03:06,05-09-2024 22:04:11,1m - 4.893s,FAILED
+,,,,,,,
+Test Cases/Searching/Search Product Empty,Chrome 128.0.0.0,,,05-09-2024 22:03:06,05-09-2024 22:03:19,13.071s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,05-09-2024 22:03:06,05-09-2024 22:03:15,8.991s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 128.0.0.0,,,05-09-2024 22:03:15,05-09-2024 22:03:16,0.945s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Search Product/Search Product Empty/h2_Welcome to JPetStore 6""), 0)",Chrome 128.0.0.0,,,05-09-2024 22:03:16,05-09-2024 22:03:16,0.487s,PASSED
+"click(findTestObject(""Object Repository/Search Product/Search Product Empty/a_Enter the Store""))",Chrome 128.0.0.0,,,05-09-2024 22:03:16,05-09-2024 22:03:17,1.191s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Search Product/Search Product Empty/input__searchProducts""))",Chrome 128.0.0.0,,,05-09-2024 22:03:17,05-09-2024 22:03:18,0.256s,PASSED
+"click(findTestObject(""Object Repository/Search Product/Search Product Empty/input__searchProducts""))",Chrome 128.0.0.0,,,05-09-2024 22:03:18,05-09-2024 22:03:18,0.483s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Search Product/Search Product Empty/li_Please enter a keyword to search for, th_53394b""))",Chrome 128.0.0.0,,,05-09-2024 22:03:18,05-09-2024 22:03:18,0.268s,PASSED
+"result = getText(findTestObject(""Object Repository/Search Product/Search Product Empty/li_Please enter a keyword to search for, th_53394b""))",Chrome 128.0.0.0,,,05-09-2024 22:03:18,05-09-2024 22:03:19,0.234s,PASSED
+"assert result == ""Please enter a keyword to search for, then press the search button.""",Chrome 128.0.0.0,,,05-09-2024 22:03:19,05-09-2024 22:03:19,0.001s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,05-09-2024 22:03:19,05-09-2024 22:03:19,0.084s,PASSED
+,,,,,,,
+Test Cases/Searching/Search Product Typo,Chrome 128.0.0.0,,,05-09-2024 22:03:35,05-09-2024 22:03:40,5.107s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,05-09-2024 22:03:35,05-09-2024 22:03:36,0.862s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 128.0.0.0,,,05-09-2024 22:03:36,05-09-2024 22:03:37,0.687s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Search Product/Search Product Typo/h2_Welcome to JPetStore 6""), 0)",Chrome 128.0.0.0,,,05-09-2024 22:03:37,05-09-2024 22:03:37,0.478s,PASSED
+"click(findTestObject(""Object Repository/Search Product/Search Product Typo/a_Enter the Store""))",Chrome 128.0.0.0,,,05-09-2024 22:03:37,05-09-2024 22:03:38,1.235s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Search Product/Search Product Typo/input__searchProducts""))",Chrome 128.0.0.0,,,05-09-2024 22:03:38,05-09-2024 22:03:39,0.257s,PASSED
+"setText(findTestObject(""Object Repository/Search Product/Search Product Typo/input__keyword""), ""doug"")",Chrome 128.0.0.0,,,05-09-2024 22:03:39,05-09-2024 22:03:39,0.587s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search Product/Search Product Typo/input__keyword""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,05-09-2024 22:03:39,05-09-2024 22:03:40,0.494s,PASSED
+"verifyElementVisible(findTestObject(""Search Product/Search Product Typo/table_Product IDName""))",Chrome 128.0.0.0,,,05-09-2024 22:03:40,05-09-2024 22:03:40,0.243s,PASSED
+"table = findTestObject(""Object Repository/Search Product/Search Product Typo/table_Product IDName"")",Chrome 128.0.0.0,,,05-09-2024 22:03:40,05-09-2024 22:03:40,0.001s,PASSED
+tableText = getText(table),Chrome 128.0.0.0,,,05-09-2024 22:03:40,05-09-2024 22:03:40,0.241s,PASSED
+"isBulldogPresent = tableText.contains(""Bulldog"")",Chrome 128.0.0.0,,,05-09-2024 22:03:40,05-09-2024 22:03:40,0.001s,PASSED
+"assert isBulldogPresent : ""The table does not contain 'Bulldog'.""",Chrome 128.0.0.0,,,05-09-2024 22:03:40,05-09-2024 22:03:40,0.001s,FAILED
+,,,,,,,
+Test Cases/Searching/Search Product Incomplete,Chrome 128.0.0.0,,,05-09-2024 22:03:40,05-09-2024 22:03:50,9.632s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,05-09-2024 22:03:40,05-09-2024 22:03:41,0.885s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 128.0.0.0,,,05-09-2024 22:03:41,05-09-2024 22:03:42,0.924s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Search Product/Search Product Incomplete/h2_Welcome to JPetStore 6""), 0)",Chrome 128.0.0.0,,,05-09-2024 22:03:42,05-09-2024 22:03:42,0.247s,PASSED
+"click(findTestObject(""Object Repository/Search Product/Search Product Incomplete/a_Enter the Store""))",Chrome 128.0.0.0,,,05-09-2024 22:03:42,05-09-2024 22:03:43,1.145s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Search Product/Search Product Incomplete/input__searchProducts""))",Chrome 128.0.0.0,,,05-09-2024 22:03:43,05-09-2024 22:03:44,0.269s,PASSED
+"setText(findTestObject(""Object Repository/Search Product/Search Product Incomplete/input__keyword""), ""poo"")",Chrome 128.0.0.0,,,05-09-2024 22:03:44,05-09-2024 22:03:45,1.157s,PASSED
+"click(findTestObject(""Object Repository/Search Product/Search Product Incomplete/input__searchProducts""))",Chrome 128.0.0.0,,,05-09-2024 22:03:45,05-09-2024 22:03:46,0.917s,PASSED
+"verifyElementVisible(findTestObject(""Search Product/Search Product Incomplete/table_Product IDName""))",Chrome 128.0.0.0,,,05-09-2024 22:03:46,05-09-2024 22:03:48,1.961s,PASSED
+"table = findTestObject(""Object Repository/Search Product/Search Product Incomplete/table_Product IDName"")",Chrome 128.0.0.0,,,05-09-2024 22:03:48,05-09-2024 22:03:48,0.003s,PASSED
+tableText = getText(table),Chrome 128.0.0.0,,,05-09-2024 22:03:48,05-09-2024 22:03:50,1.989s,PASSED
+"isPoodlePresent = tableText.contains(""Poodle"")",Chrome 128.0.0.0,,,05-09-2024 22:03:50,05-09-2024 22:03:50,0.001s,PASSED
+"assert isPoodlePresent : ""The table does not contain 'Poodle'.""",Chrome 128.0.0.0,,,05-09-2024 22:03:50,05-09-2024 22:03:50,0.001s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,05-09-2024 22:03:50,05-09-2024 22:03:50,0.090s,PASSED
+,,,,,,,
+Test Cases/Searching/Search Product With Space In Input,Chrome 128.0.0.0,,,05-09-2024 22:03:50,05-09-2024 22:03:56,5.773s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,05-09-2024 22:03:50,05-09-2024 22:03:51,0.863s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 128.0.0.0,,,05-09-2024 22:03:51,05-09-2024 22:03:51,0.687s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Search Product/Search Product With Space In Input/h2_Welcome to JPetStore 6""), 0)",Chrome 128.0.0.0,,,05-09-2024 22:03:51,05-09-2024 22:03:52,0.454s,PASSED
+"click(findTestObject(""Object Repository/Search Product/Search Product With Space In Input/a_Enter the Store""))",Chrome 128.0.0.0,,,05-09-2024 22:03:52,05-09-2024 22:03:53,1.236s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Search Product/Search Product With Space In Input/input__searchProducts""))",Chrome 128.0.0.0,,,05-09-2024 22:03:53,05-09-2024 22:03:53,0.250s,PASSED
+"setText(findTestObject(""Object Repository/Search Product/Search Product With Space In Input/input__keyword""), ""gold fish"")",Chrome 128.0.0.0,,,05-09-2024 22:03:53,05-09-2024 22:03:54,0.611s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search Product/Search Product With Space In Input/input__keyword""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,05-09-2024 22:03:54,05-09-2024 22:03:55,1.005s,PASSED
+"verifyElementVisible(findTestObject(""Search Product/Search Product With Space In Input/table_Product IDName""))",Chrome 128.0.0.0,,,05-09-2024 22:03:55,05-09-2024 22:03:55,0.273s,PASSED
+"table = findTestObject(""Object Repository/Search Product/Search Product With Space In Input/table_Product IDName"")",Chrome 128.0.0.0,,,05-09-2024 22:03:55,05-09-2024 22:03:55,0.003s,PASSED
+tableText = getText(table),Chrome 128.0.0.0,,,05-09-2024 22:03:55,05-09-2024 22:03:56,0.248s,PASSED
+"isGoldfishPresent = tableText.contains(""Goldfish"")",Chrome 128.0.0.0,,,05-09-2024 22:03:56,05-09-2024 22:03:56,0.001s,PASSED
+"assert isGoldfishPresent : ""The table does not contain 'Goldfish'.""",Chrome 128.0.0.0,,,05-09-2024 22:03:56,05-09-2024 22:03:56,0.001s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,05-09-2024 22:03:56,05-09-2024 22:03:56,0.083s,PASSED
+,,,,,,,
+Test Cases/Searching/Search Product Numeric,Chrome 128.0.0.0,,,05-09-2024 22:03:56,05-09-2024 22:04:01,5.038s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,05-09-2024 22:03:56,05-09-2024 22:03:57,0.837s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 128.0.0.0,,,05-09-2024 22:03:57,05-09-2024 22:03:57,0.695s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Search Product/Search Product Numeric/h2_Welcome to JPetStore 6""), 0)",Chrome 128.0.0.0,,,05-09-2024 22:03:57,05-09-2024 22:03:58,0.488s,PASSED
+"click(findTestObject(""Object Repository/Search Product/Search Product Numeric/a_Enter the Store""))",Chrome 128.0.0.0,,,05-09-2024 22:03:58,05-09-2024 22:03:59,1.301s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Search Product/Search Product Numeric/input__searchProducts""))",Chrome 128.0.0.0,,,05-09-2024 22:03:59,05-09-2024 22:03:59,0.232s,PASSED
+"setText(findTestObject(""Object Repository/Search Product/Search Product Numeric/input__keyword""), ""123456789"")",Chrome 128.0.0.0,,,05-09-2024 22:03:59,05-09-2024 22:04:00,0.589s,PASSED
+"click(findTestObject(""Object Repository/Search Product/Search Product Numeric/input__searchProducts""))",Chrome 128.0.0.0,,,05-09-2024 22:04:00,05-09-2024 22:04:00,0.513s,PASSED
+"tableRows = TestObject().addProperty(""xpath"", EQUALS, ""//div[@id='Catalog']/table//tr"")",Chrome 128.0.0.0,,,05-09-2024 22:04:00,05-09-2024 22:04:00,0.014s,PASSED
+"rowCount = findWebElements(tableRows, 0).size()",Chrome 128.0.0.0,,,05-09-2024 22:04:00,05-09-2024 22:04:01,0.240s,PASSED
+"assert rowCount <= 2 : ""The table is not empty.""",Chrome 128.0.0.0,,,05-09-2024 22:04:01,05-09-2024 22:04:01,0.001s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,05-09-2024 22:04:01,05-09-2024 22:04:01,0.085s,PASSED
+,,,,,,,
+Test Cases/Searching/Search Product Special Characters,Chrome 128.0.0.0,,,05-09-2024 22:04:01,05-09-2024 22:04:06,4.968s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,05-09-2024 22:04:01,05-09-2024 22:04:02,0.836s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 128.0.0.0,,,05-09-2024 22:04:02,05-09-2024 22:04:02,0.698s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Search Product/Search Product Special Characters/h2_Welcome to JPetStore 6""), 0)",Chrome 128.0.0.0,,,05-09-2024 22:04:02,05-09-2024 22:04:03,0.469s,PASSED
+"click(findTestObject(""Object Repository/Search Product/Search Product Special Characters/a_Enter the Store""))",Chrome 128.0.0.0,,,05-09-2024 22:04:03,05-09-2024 22:04:04,1.205s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Search Product/Search Product Special Characters/input__searchProducts""))",Chrome 128.0.0.0,,,05-09-2024 22:04:04,05-09-2024 22:04:04,0.246s,PASSED
+"setText(findTestObject(""Object Repository/Search Product/Search Product Special Characters/input__keyword""), ""doug"")",Chrome 128.0.0.0,,,05-09-2024 22:04:04,05-09-2024 22:04:05,0.592s,PASSED
+"click(findTestObject(""Object Repository/Search Product/Search Product Special Characters/input__searchProducts""))",Chrome 128.0.0.0,,,05-09-2024 22:04:05,05-09-2024 22:04:05,0.562s,PASSED
+"tableRows = TestObject().addProperty(""xpath"", EQUALS, ""//div[@id='Catalog']/table//tr"")",Chrome 128.0.0.0,,,05-09-2024 22:04:05,05-09-2024 22:04:05,0.001s,PASSED
+"rowCount = findWebElements(tableRows, 0).size()",Chrome 128.0.0.0,,,05-09-2024 22:04:05,05-09-2024 22:04:06,0.233s,PASSED
+"assert rowCount <= 2 : ""The table is not empty.""",Chrome 128.0.0.0,,,05-09-2024 22:04:06,05-09-2024 22:04:06,0.000s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,05-09-2024 22:04:06,05-09-2024 22:04:06,0.086s,PASSED
+,,,,,,,
+Test Cases/Searching/Search Product Long Input,Chrome 128.0.0.0,,,05-09-2024 22:04:06,05-09-2024 22:04:11,4.889s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,05-09-2024 22:04:06,05-09-2024 22:04:06,0.782s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 128.0.0.0,,,05-09-2024 22:04:06,05-09-2024 22:04:07,0.911s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Search Product/Search Product Long Input/h2_Welcome to JPetStore 6""), 0)",Chrome 128.0.0.0,,,05-09-2024 22:04:07,05-09-2024 22:04:08,0.245s,PASSED
+"click(findTestObject(""Object Repository/Search Product/Search Product Long Input/a_Enter the Store""))",Chrome 128.0.0.0,,,05-09-2024 22:04:08,05-09-2024 22:04:09,1.204s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Search Product/Search Product Long Input/input__searchProducts""))",Chrome 128.0.0.0,,,05-09-2024 22:04:09,05-09-2024 22:04:09,0.250s,PASSED
+"setText(findTestObject(""Object Repository/Search Product/Search Product Long Input/input__keyword""), ""aB3$dE9fG!hJkLmN2oPqRsTuVwXyZ1@cD4eF5gH^iJ6kL7mN8oP9qR*sT!uVxYz0#A1bC2dE3fG4hI5jK6lM7nO8pQ9rS&tU*vW!xYz0@A1B2C3D4E5F6G7H8I9J0K!lM^nO*pQ+rS-tU=vW+xY=z0@1A2B3C4D5E6F7G8H9I0J!kL^mN*oP+qR-sT/uV=wX+yZ"")",Chrome 128.0.0.0,,,05-09-2024 22:04:09,05-09-2024 22:04:10,0.627s,PASSED
+"click(findTestObject(""Object Repository/Search Product/Search Product Long Input/input__searchProducts""))",Chrome 128.0.0.0,,,05-09-2024 22:04:10,05-09-2024 22:04:10,0.521s,PASSED
+"tableRows = TestObject().addProperty(""xpath"", EQUALS, ""//div[@id='Catalog']/table//tr"")",Chrome 128.0.0.0,,,05-09-2024 22:04:10,05-09-2024 22:04:10,0.002s,PASSED
+"rowCount = findWebElements(tableRows, 0).size()",Chrome 128.0.0.0,,,05-09-2024 22:04:10,05-09-2024 22:04:10,0.230s,PASSED
+"assert rowCount <= 2 : ""The table is not empty.""",Chrome 128.0.0.0,,,05-09-2024 22:04:10,05-09-2024 22:04:10,0.000s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,05-09-2024 22:04:10,05-09-2024 22:04:11,0.083s,PASSED

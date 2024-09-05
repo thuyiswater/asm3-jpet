@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search,Chrome 128.0.0.0,,,05-09-2024 22:12:02,05-09-2024 22:12:32,30.037s,FAILED
+,,,,,,,
+Test Cases/Searching/Search Product By Category,Chrome 128.0.0.0,,,05-09-2024 22:12:21,05-09-2024 22:12:26,5.403s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,05-09-2024 22:12:21,05-09-2024 22:12:22,1.089s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 128.0.0.0,,,05-09-2024 22:12:22,05-09-2024 22:12:22,0.757s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Search Product/Search Product By Category/h2_Welcome to JPetStore 6""), 0)",Chrome 128.0.0.0,,,05-09-2024 22:12:22,05-09-2024 22:12:23,0.457s,PASSED
+"click(findTestObject(""Object Repository/Search Product/Search Product By Category/a_Enter the Store""))",Chrome 128.0.0.0,,,05-09-2024 22:12:23,05-09-2024 22:12:24,1.157s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Search Product/Search Product By Category/input__searchProducts""))",Chrome 128.0.0.0,,,05-09-2024 22:12:24,05-09-2024 22:12:24,0.253s,PASSED
+"setText(findTestObject(""Object Repository/Search Product/Search Product By Category/input__keyword""), ""reptiles"")",Chrome 128.0.0.0,,,05-09-2024 22:12:24,05-09-2024 22:12:25,0.612s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search Product/Search Product By Category/input__keyword""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,05-09-2024 22:12:25,05-09-2024 22:12:26,0.592s,PASSED
+"verifyElementVisible(findTestObject(""Search Product/Search Product By Category/table_Product IDName""))",Chrome 128.0.0.0,,,05-09-2024 22:12:26,05-09-2024 22:12:26,0.237s,PASSED
+"table = findTestObject(""Object Repository/Search Product/Search Product By Category/table_Product IDName"")",Chrome 128.0.0.0,,,05-09-2024 22:12:26,05-09-2024 22:12:26,0.002s,PASSED
+tableText = getText(table),Chrome 128.0.0.0,,,05-09-2024 22:12:26,05-09-2024 22:12:26,0.225s,PASSED
+"isReptilesPresent = tableText.contains(""Reptiles"")",Chrome 128.0.0.0,,,05-09-2024 22:12:26,05-09-2024 22:12:26,0.000s,PASSED
+"assert isReptilesPresent : ""The table does not contain 'Reptiles'.""",Chrome 128.0.0.0,,,05-09-2024 22:12:26,05-09-2024 22:12:26,0.001s,FAILED
+,,,,,,,
+Test Cases/Searching/Search Product By Name,Chrome 128.0.0.0,,,05-09-2024 22:12:26,05-09-2024 22:12:32,5.755s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,05-09-2024 22:12:26,05-09-2024 22:12:27,0.867s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 128.0.0.0,,,05-09-2024 22:12:27,05-09-2024 22:12:28,0.973s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Search Product/Search Product By Name/h2_Welcome to JPetStore 6""), 0)",Chrome 128.0.0.0,,,05-09-2024 22:12:28,05-09-2024 22:12:28,0.251s,PASSED
+"click(findTestObject(""Object Repository/Search Product/Search Product By Name/a_Enter the Store""))",Chrome 128.0.0.0,,,05-09-2024 22:12:28,05-09-2024 22:12:29,1.202s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Search Product/Search Product By Name/input__searchProducts""))",Chrome 128.0.0.0,,,05-09-2024 22:12:29,05-09-2024 22:12:30,0.263s,PASSED
+"setText(findTestObject(""Object Repository/Search Product/Search Product By Name/input__keyword""), ""goldfish"")",Chrome 128.0.0.0,,,05-09-2024 22:12:30,05-09-2024 22:12:30,0.549s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search Product/Search Product By Name/input__keyword""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,05-09-2024 22:12:30,05-09-2024 22:12:31,0.995s,PASSED
+"verifyElementVisible(findTestObject(""Search Product/Search Product By Name/table_Product IDName""))",Chrome 128.0.0.0,,,05-09-2024 22:12:31,05-09-2024 22:12:31,0.259s,PASSED
+"table = findTestObject(""Object Repository/Search Product/Search Product By Name/table_Product IDName"")",Chrome 128.0.0.0,,,05-09-2024 22:12:31,05-09-2024 22:12:31,0.003s,PASSED
+tableText = getText(table),Chrome 128.0.0.0,,,05-09-2024 22:12:31,05-09-2024 22:12:32,0.243s,PASSED
+"isGoldfishPresent = tableText.contains(""Goldfish"")",Chrome 128.0.0.0,,,05-09-2024 22:12:32,05-09-2024 22:12:32,0.001s,PASSED
+"assert isGoldfishPresent : ""The table does not contain 'Goldfish'.""",Chrome 128.0.0.0,,,05-09-2024 22:12:32,05-09-2024 22:12:32,0.002s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,05-09-2024 22:12:32,05-09-2024 22:12:32,0.100s,PASSED
