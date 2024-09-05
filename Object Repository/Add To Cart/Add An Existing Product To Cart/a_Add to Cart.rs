@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_FI-SW-01</name>
+   <name>a_Add to Cart</name>
    <tag></tag>
-   <elementGuidId>a0157c7a-04b8-4d8f-925f-e838c51fe8cf</elementGuidId>
+   <elementGuidId>302c9821-9265-476e-88f4-e558016e2fdc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td > a</value>
+         <key>XPATH</key>
+         <value>//div[@id='Catalog']/table/tbody/tr[2]/td[5]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='Catalog']/table/tbody/tr[2]/td/a</value>
+         <key>CSS</key>
+         <value>a.Button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;FI-SW-01&quot;i]</value>
+         <value>internal:role=link[name=&quot;Add to Cart&quot;i] >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,110 +29,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>013b91e7-1a82-4472-99ec-b678354182cf</webElementGuid>
+      <webElementGuid>9050dbba-feae-4f83-8be2-e9d246151e64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/actions/Catalog.action?viewProduct=&amp;productId=FI-SW-01</value>
-      <webElementGuid>c316a1fa-0873-4aa2-a3a8-0ff3c5dd30ae</webElementGuid>
+      <value>/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-1</value>
+      <webElementGuid>5f521b98-1cdc-4809-a0e6-12cb45e7bc80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Button</value>
+      <webElementGuid>de810744-7d48-456b-b145-ca9d93f33358</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>FI-SW-01</value>
-      <webElementGuid>202851f9-ec2f-44db-8382-5ecfc7793608</webElementGuid>
+      <value>Add to Cart</value>
+      <webElementGuid>a41a2173-3787-4651-9658-4140de48bf2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Catalog&quot;)/table[1]/tbody[1]/tr[2]/td[1]/a[1]</value>
-      <webElementGuid>dba5d3d3-0469-42f1-b538-ea2ffbea345d</webElementGuid>
+      <value>id(&quot;Catalog&quot;)/table[1]/tbody[1]/tr[2]/td[5]/a[@class=&quot;Button&quot;]</value>
+      <webElementGuid>38b7f1ec-0966-4f03-94e3-d352f4e90616</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Catalog']/table/tbody/tr[2]/td/a</value>
-      <webElementGuid>1e8ef60e-c9c4-4154-8a8b-bcd1fd4765d5</webElementGuid>
+      <value>//div[@id='Catalog']/table/tbody/tr[2]/td[5]/a</value>
+      <webElementGuid>51fe792d-d29c-4b11-87bd-83f0595608a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'FI-SW-01')]</value>
-      <webElementGuid>f6e203cd-7de7-462c-97e8-148ca23795f7</webElementGuid>
+      <value>//a[contains(text(),'Add to Cart')]</value>
+      <webElementGuid>63c6493c-f5db-41fa-ad40-f3d9b729e3d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::a[1]</value>
-      <webElementGuid>a72e7f56-5f03-4d03-8db2-96b3b2ad827b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$16.50'])[1]/following::a[1]</value>
+      <webElementGuid>f6c863a0-144b-4275-bc05-63369fec55f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product ID'])[1]/following::a[1]</value>
-      <webElementGuid>11c624e9-99f7-4b5d-ac35-b3f146887a9e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EST-2'])[1]/preceding::a[1]</value>
+      <webElementGuid>501ef52a-083e-4fb7-a311-85e032ee888d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Angelfish'])[1]/preceding::a[1]</value>
-      <webElementGuid>040022d6-ff24-4387-8505-de6ae5a02ccc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FI-SW-01'])[2]/preceding::a[2]</value>
+      <webElementGuid>634890e6-657e-4383-a91c-ef61674b68b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='FI-SW-02'])[1]/preceding::a[1]</value>
-      <webElementGuid>92a32f95-243d-4083-ba3d-487ae6697437</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='FI-SW-01']/parent::*</value>
-      <webElementGuid>8e0d6b47-7bc4-4178-9518-9e3cbea57448</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Add to Cart']/parent::*</value>
+      <webElementGuid>2fe51f6d-a6a4-4a4b-aec8-e1303f86995d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/actions/Catalog.action?viewProduct=&amp;productId=FI-SW-01')]</value>
-      <webElementGuid>b6ee7cab-1703-4e51-abb6-d50a08012a8d</webElementGuid>
+      <value>//a[contains(@href, '/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-1')]</value>
+      <webElementGuid>5961f29c-48b1-4133-a1bc-a1a27955809e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td/a</value>
-      <webElementGuid>112ca518-3f39-42e9-b880-dbf822d8e821</webElementGuid>
+      <value>//td[5]/a</value>
+      <webElementGuid>f1be276d-7c60-41f1-a1e9-05e5da53c9d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/actions/Catalog.action?viewProduct=&amp;productId=FI-SW-01' and (text() = 'FI-SW-01' or . = 'FI-SW-01')]</value>
-      <webElementGuid>3c3264ff-ff83-45e5-a751-d62f6dc84b6f</webElementGuid>
+      <value>//a[@href = '/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-1' and (text() = 'Add to Cart' or . = 'Add to Cart')]</value>
+      <webElementGuid>6dfea294-11ee-4480-a22c-bd9d17641262</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

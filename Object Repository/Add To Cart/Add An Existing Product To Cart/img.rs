@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_1_2</name>
+   <name>img</name>
    <tag></tag>
-   <elementGuidId>2e208ad2-1510-419e-8fe7-ff2fef54c830</elementGuidId>
+   <elementGuidId>438751ae-3483-4de3-b353-469040127e81</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td > img</value>
+         <key>XPATH</key>
+         <value>//div[@id='QuickLinks']/a/img</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='Catalog']/table/tbody/tr/td/img</value>
+         <key>CSS</key>
+         <value>#QuickLinks > a > img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Salt Water fish from Australia&quot;i] >> internal:role=img</value>
+         <value>#QuickLinks >> internal:role=link >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,46 +29,46 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>63bdd321-a747-4a95-a32f-4a235396ea18</webElementGuid>
+      <webElementGuid>0da29b8e-17cb-462e-b527-d0289b8900fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>../images/fish1.gif</value>
-      <webElementGuid>7e44268f-e6e6-415a-aabc-ff42077dedbd</webElementGuid>
+      <value>../images/sm_fish.gif</value>
+      <webElementGuid>aba616b9-cb3b-4a9f-9e8c-dda64b305a55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Catalog&quot;)/table[1]/tbody[1]/tr[1]/td[1]/img[1]</value>
-      <webElementGuid>2268ff3f-7f88-464e-bd70-bbba3b3e7ac5</webElementGuid>
+      <value>id(&quot;QuickLinks&quot;)/a[1]/img[1]</value>
+      <webElementGuid>6b9faa18-b001-48dc-99fe-12df338a2981</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Catalog']/table/tbody/tr/td/img</value>
-      <webElementGuid>f5d18ae5-90ce-40af-867a-7143b3c540a8</webElementGuid>
+      <value>//div[@id='QuickLinks']/a/img</value>
+      <webElementGuid>303d013d-5764-4a5b-ad69-3f596742ddf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td/img</value>
-      <webElementGuid>65e07e18-648b-4125-8781-983ae0955865</webElementGuid>
+      <value>//div[4]/a/img</value>
+      <webElementGuid>7bcf1ea3-7f72-4821-9eca-6d2b54c35f05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@src = '../images/fish1.gif']</value>
-      <webElementGuid>cf62302b-6dc6-4769-a769-e08dd8952253</webElementGuid>
+      <value>//img[@src = '../images/sm_fish.gif']</value>
+      <webElementGuid>3d153dab-7eeb-4c63-8f87-ecccfb56cef0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

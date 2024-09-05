@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h2_Welcome to JPetStore 6</name>
+   <name>td_FI-SW-01</name>
    <tag></tag>
-   <elementGuidId>1c30308f-c7e2-4da2-9347-97b9946a755b</elementGuidId>
+   <elementGuidId>495cda4d-9913-497d-832a-33e1b33fc438</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h2</value>
+         <key>XPATH</key>
+         <value>//div[@id='Cart']/form/table/tbody/tr[2]/td[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='Content']/h2</value>
+         <key>CSS</key>
+         <value>td:nth-of-type(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=heading[name=&quot;Welcome to JPetStore 6&quot;i]</value>
+         <value>internal:role=cell[name=&quot;FI-SW-01&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,71 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
-      <webElementGuid>e82db2f9-8249-4ab3-ba58-846d2fbc9cea</webElementGuid>
+      <value>td</value>
+      <webElementGuid>6ce0301d-9a1a-41c3-94c1-9f72fbc4d4e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Welcome to JPetStore 6</value>
-      <webElementGuid>8f346a6d-f471-41b5-88e2-84f3ad56ede4</webElementGuid>
+      <value>FI-SW-01</value>
+      <webElementGuid>6f366e18-f775-49ef-a528-5255e3da922b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Content&quot;)/h2[1]</value>
-      <webElementGuid>9ea0efff-bb51-4673-a006-5b66f36162ee</webElementGuid>
+      <value>id(&quot;Cart&quot;)/form[1]/table[1]/tbody[1]/tr[2]/td[2]</value>
+      <webElementGuid>36e295ef-b7c1-4be5-946f-33692091ccd4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Content']/h2</value>
-      <webElementGuid>04579c1f-846e-4dc8-878f-b57e405c6640</webElementGuid>
+      <value>//div[@id='Cart']/form/table/tbody/tr[2]/td[2]</value>
+      <webElementGuid>a9e92d9e-58fc-4876-80c8-cec232d9f11e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter the Store'])[1]/preceding::h2[1]</value>
-      <webElementGuid>137d42a0-a5fd-4914-9a11-3b450d8b8988</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EST-1'])[1]/following::td[1]</value>
+      <webElementGuid>dd012be6-92f6-488f-8753-4a1075053050</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright www.mybatis.org'])[1]/preceding::h2[1]</value>
-      <webElementGuid>4d319aad-4f47-4079-a194-c04582b27584</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Cost'])[1]/following::td[2]</value>
+      <webElementGuid>56d3e07a-a81b-42ed-b512-3b3c86744b24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Welcome to JPetStore 6']/parent::*</value>
-      <webElementGuid>a24d962e-7ddb-43a1-890e-f6a2c318667d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='false'])[1]/preceding::td[2]</value>
+      <webElementGuid>a4d46385-e17a-48e9-b748-d77ac8cbc200</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='FI-SW-01']/parent::*</value>
+      <webElementGuid>3b143d4f-2a2a-4245-b148-95de3f60431c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h2</value>
-      <webElementGuid>17cf3ac2-0095-4c1c-b702-eed1ba5edaf3</webElementGuid>
+      <value>//td[2]</value>
+      <webElementGuid>29573642-2acb-4931-9060-0fe665cfa0aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h2[(text() = 'Welcome to JPetStore 6' or . = 'Welcome to JPetStore 6')]</value>
-      <webElementGuid>9fc1d256-a6f5-4995-983d-f51e0d009b97</webElementGuid>
+      <value>//td[(text() = 'FI-SW-01' or . = 'FI-SW-01')]</value>
+      <webElementGuid>e7c4c3e9-261a-44b3-8cad-a9d8eafbb48d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

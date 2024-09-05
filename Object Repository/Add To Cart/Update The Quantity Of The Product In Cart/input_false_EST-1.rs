@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img</name>
+   <name>input_false_EST-1</name>
    <tag></tag>
-   <elementGuidId>0ad96dc6-86d9-46b6-8958-b7b01103af81</elementGuidId>
+   <elementGuidId>62fbf061-5a67-481d-968b-7432a203a493</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#MainImageContent > img</value>
+         <key>XPATH</key>
+         <value>//input[@name='EST-1']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='MainImageContent']/img</value>
+         <key>CSS</key>
+         <value>input[name=&quot;EST-1&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#MainImageContent >> internal:role=img</value>
+         <value>input[name=&quot;EST-1&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,79 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
-      <webElementGuid>f0bf30e6-1e35-45d9-aef0-c5ece7c4f21b</webElementGuid>
+      <value>input</value>
+      <webElementGuid>0ebc9a02-d1f9-45bd-bbe6-123890186e55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>height</name>
+      <name>size</name>
       <type>Main</type>
-      <value>355</value>
-      <webElementGuid>83c5e84e-ecd4-43f8-b863-708ef9854f87</webElementGuid>
+      <value>3</value>
+      <webElementGuid>40f6c59a-c5d3-4352-b011-9d103dc27b4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>name</name>
       <type>Main</type>
-      <value>../images/splash.gif</value>
-      <webElementGuid>587ba50d-202d-4d8c-8025-f60a3e2d7879</webElementGuid>
+      <value>EST-1</value>
+      <webElementGuid>12f01ce8-d04f-4d0c-b94c-935d23e9b3f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>c95933fa-7517-46f4-aea7-68e120814659</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>align</name>
+      <name>value</name>
       <type>Main</type>
-      <value>middle</value>
-      <webElementGuid>8094dc60-e088-49bd-a969-dcea82826d91</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>usemap</name>
-      <type>Main</type>
-      <value>#estoremap</value>
-      <webElementGuid>2957eb1a-6c3a-469e-8273-313054cfc883</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>width</name>
-      <type>Main</type>
-      <value>350</value>
-      <webElementGuid>1906fe38-862d-48a5-8539-277c77c23bf5</webElementGuid>
+      <value>1</value>
+      <webElementGuid>52e6d3ef-573a-4fe3-831c-32ada8673f11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;MainImageContent&quot;)/img[1]</value>
-      <webElementGuid>cff33685-0f54-403e-9da2-7e8d0b5dfca5</webElementGuid>
+      <value>id(&quot;Cart&quot;)/form[1]/table[1]/tbody[1]/tr[2]/td[5]/input[1]</value>
+      <webElementGuid>2e5a6e4c-fff2-4d01-bd96-2b993a7bd849</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='EST-1']</value>
+      <webElementGuid>72408065-e66a-4c1e-8158-3fadefab2f9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='MainImageContent']/img</value>
-      <webElementGuid>25a0cdcf-f28e-40a7-9d6b-4ff2d7122f39</webElementGuid>
+      <value>//div[@id='Cart']/form/table/tbody/tr[2]/td[5]/input</value>
+      <webElementGuid>7f200f1d-acec-4a3d-8865-4ddfb5985e65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/div/img</value>
-      <webElementGuid>9ae8bdb2-9e64-4023-b2ee-2931ac80c334</webElementGuid>
+      <value>//td[5]/input</value>
+      <webElementGuid>fe160138-cab6-45a7-b2ed-7d5879d77748</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//img[@src = '../images/splash.gif']</value>
-      <webElementGuid>74278854-e339-4797-b01c-3ae9f6c610b6</webElementGuid>
+      <value>//input[@name = 'EST-1' and @type = 'text']</value>
+      <webElementGuid>dac50ea5-deaa-4772-ba52-016d0b6ba587</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Enter the Store</name>
+   <name>td_49.50</name>
    <tag></tag>
-   <elementGuidId>ebc3ac1e-1401-4285-b530-8193b9bb1675</elementGuidId>
+   <elementGuidId>782bdc44-86d2-49b4-ad4f-3d341db7918c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a</value>
+         <key>XPATH</key>
+         <value>//div[@id='Cart']/form/table/tbody/tr[2]/td[7]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='Content']/p/a</value>
+         <key>CSS</key>
+         <value>td:nth-of-type(7)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Enter the Store&quot;i]</value>
+         <value>internal:role=cell[name=&quot;$49.50&quot;s]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,95 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>d91e0af8-0007-43ef-a3db-aee5493c6de0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>actions/Catalog.action</value>
-      <webElementGuid>5492101a-ac8a-4628-aaaf-49de95dab48d</webElementGuid>
+      <value>td</value>
+      <webElementGuid>e43eabb4-16ce-4439-88ba-67130d4b2fad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Enter the Store</value>
-      <webElementGuid>16c05bd4-afb7-4a97-9bda-0c85d2e7ccc5</webElementGuid>
+      <value>$49.50</value>
+      <webElementGuid>2eb3c598-1181-4d3b-9f62-51410997d77e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Content&quot;)/p[1]/a[1]</value>
-      <webElementGuid>e5248fcc-b050-4f6e-94ff-c19ea03b5cac</webElementGuid>
+      <value>id(&quot;Cart&quot;)/form[1]/table[1]/tbody[1]/tr[2]/td[7]</value>
+      <webElementGuid>bc0f5aa6-1475-41ba-8328-44ee457e70f6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Content']/p/a</value>
-      <webElementGuid>5b44fc19-39ca-4664-8f95-b4fe43402238</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Enter the Store')]</value>
-      <webElementGuid>af198f54-4b81-48cc-a9f8-82b846ccff2e</webElementGuid>
+      <value>//div[@id='Cart']/form/table/tbody/tr[2]/td[7]</value>
+      <webElementGuid>edcfade9-7b85-4754-9983-1c81e9512a54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to JPetStore 6'])[1]/following::a[1]</value>
-      <webElementGuid>50d7d6e1-bdd8-4503-8b84-92a28163563f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$16.50'])[1]/following::td[1]</value>
+      <webElementGuid>9afc7bd3-843c-46f7-89f1-afcdf08772f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright www.mybatis.org'])[1]/preceding::a[1]</value>
-      <webElementGuid>3e730a6b-dcaa-438e-92cf-885edd4f58c9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='false'])[1]/following::td[3]</value>
+      <webElementGuid>665a4f6e-9379-40d8-8a87-1f10a80d3354</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Enter the Store']/parent::*</value>
-      <webElementGuid>f4c27d58-6aee-4270-8f08-d715d68020ce</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::td[1]</value>
+      <webElementGuid>8357167a-e950-4c5c-8b1c-30351242a63c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'actions/Catalog.action')]</value>
-      <webElementGuid>55137c8e-cf3d-4558-81d9-7a06b40d2ae3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub Total: $49.50'])[1]/preceding::td[2]</value>
+      <webElementGuid>673eb122-f2e6-42d8-99e8-6e87c629b653</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='$49.50']/parent::*</value>
+      <webElementGuid>be806773-d6c3-4901-807d-21d020537b20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a</value>
-      <webElementGuid>bc01f267-188b-4c43-820e-5058af3045ea</webElementGuid>
+      <value>//td[7]</value>
+      <webElementGuid>1808a46b-f8f8-45e0-a542-f34f8fd70de9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'actions/Catalog.action' and (text() = 'Enter the Store' or . = 'Enter the Store')]</value>
-      <webElementGuid>a3011db7-73a0-47db-aba3-194880877271</webElementGuid>
+      <value>//td[(text() = '$49.50' or . = '$49.50')]</value>
+      <webElementGuid>c04d4760-9da9-4e7a-979b-c152ec77f111</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

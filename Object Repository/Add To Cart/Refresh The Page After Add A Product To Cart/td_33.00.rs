@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_FI-SW-01</name>
+   <name>td_33.00</name>
    <tag></tag>
-   <elementGuidId>7050a578-83c5-40e3-92ed-eeb80b52511c</elementGuidId>
+   <elementGuidId>8efdc5e1-f5fb-4e4a-a588-188b2d5bd09e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td:nth-of-type(2)</value>
+         <key>XPATH</key>
+         <value>//div[@id='Cart']/form/table/tbody/tr[2]/td[7]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='Cart']/form/table/tbody/tr[2]/td[2]</value>
+         <key>CSS</key>
+         <value>td:nth-of-type(7)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;FI-SW-01&quot;i]</value>
+         <value>internal:role=cell[name=&quot;$33.00&quot;s]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,78 +29,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>083d1240-7271-4b30-8d77-96e1a5df3b94</webElementGuid>
+      <webElementGuid>055c73c3-bf7c-478c-8191-c5c4572de3d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>FI-SW-01</value>
-      <webElementGuid>70a7e974-dd6e-4224-acac-bd75f6195211</webElementGuid>
+      <value>$33.00</value>
+      <webElementGuid>4aaa5748-78e5-4c5a-b778-db3195b06a06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Cart&quot;)/form[1]/table[1]/tbody[1]/tr[2]/td[2]</value>
-      <webElementGuid>e7d2a7d2-40f9-46b0-b48b-fbdb4baf5686</webElementGuid>
+      <value>id(&quot;Cart&quot;)/form[1]/table[1]/tbody[1]/tr[2]/td[7]</value>
+      <webElementGuid>8230b512-e6d6-4e7b-b22c-802872b9ac2c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Cart']/form/table/tbody/tr[2]/td[2]</value>
-      <webElementGuid>1467a78a-21e8-4041-8a3b-fa3b347687b8</webElementGuid>
+      <value>//div[@id='Cart']/form/table/tbody/tr[2]/td[7]</value>
+      <webElementGuid>a17133c6-5c50-45c7-b63f-c720664db3d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EST-1'])[1]/following::td[1]</value>
-      <webElementGuid>62d45a25-82cc-46e2-be9d-25c25789c382</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$16.50'])[1]/following::td[1]</value>
+      <webElementGuid>69327c09-6690-4715-9051-657f188d555f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Cost'])[1]/following::td[2]</value>
-      <webElementGuid>d448eb52-6da9-42ce-a9ab-40d07f27ac8b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='false'])[1]/following::td[3]</value>
+      <webElementGuid>74d8b715-9f71-4e42-8712-c80ccea47ebb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='false'])[1]/preceding::td[2]</value>
-      <webElementGuid>a135a7c0-d453-4209-bbb3-e0011a4dfcb0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove'])[1]/preceding::td[1]</value>
+      <webElementGuid>d8f41083-7dd3-4a74-9d1a-9498d98fac34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='FI-SW-01']/parent::*</value>
-      <webElementGuid>2614170a-ab31-4d8b-98cf-68ebd11be797</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub Total: $33.00'])[1]/preceding::td[2]</value>
+      <webElementGuid>435032cf-330b-4e2b-b919-65593d850d0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='$33.00']/parent::*</value>
+      <webElementGuid>25af275c-19a6-4061-b57a-c7d0d5ff5969</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[2]</value>
-      <webElementGuid>b66686d2-3982-45cd-879d-db0b820c8bf3</webElementGuid>
+      <value>//td[7]</value>
+      <webElementGuid>2d6823d8-c36f-47ea-a348-e52bee67f7fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = 'FI-SW-01' or . = 'FI-SW-01')]</value>
-      <webElementGuid>bd508def-5931-4af3-b6a6-a7f206b27631</webElementGuid>
+      <value>//td[(text() = '$33.00' or . = '$33.00')]</value>
+      <webElementGuid>857f30d9-a9b0-44c4-b4e5-f1c8153bd0e3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

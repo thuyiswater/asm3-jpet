@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_1</name>
+   <name>img</name>
    <tag></tag>
-   <elementGuidId>89a666b1-992f-40a6-9b77-f57c7a8e1fee</elementGuidId>
+   <elementGuidId>e7814191-433a-4b96-8d42-a4053a612c8d</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#QuickLinks > a > img</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='QuickLinks']/a/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#QuickLinks > a > img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>c36a05e8-bcb3-4c95-bff7-9fcd083093f8</webElementGuid>
+      <webElementGuid>d71c8a6a-49df-4a58-bde7-a548cd6ed6f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>src</name>
       <type>Main</type>
       <value>../images/sm_fish.gif</value>
-      <webElementGuid>dc94c9f8-68dd-4731-9539-d8362f84bba8</webElementGuid>
+      <webElementGuid>92a65047-08fe-499c-b372-b41a78eb651e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;QuickLinks&quot;)/a[1]/img[1]</value>
-      <webElementGuid>3f266b80-98c2-40cc-aca3-6086b6f27fa1</webElementGuid>
+      <webElementGuid>b6bf5cb5-074d-4e58-87a6-1fc4c1cb2734</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='QuickLinks']/a/img</value>
-      <webElementGuid>9ade3ffe-1c28-4966-a631-f75a3f4d0ddd</webElementGuid>
+      <webElementGuid>a35f8506-8804-4328-8cd1-fb0348b314f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/a/img</value>
-      <webElementGuid>ddea6538-0964-4db8-ac08-48f5c763c31b</webElementGuid>
+      <webElementGuid>95eda9d3-54d7-466c-98a9-cb4a90c44448</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,6 +69,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '../images/sm_fish.gif']</value>
-      <webElementGuid>be00889f-9edf-4e99-96c4-66a0f98ed982</webElementGuid>
+      <webElementGuid>6ecd9f62-7aff-46fe-8f0a-258dab2548c2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
