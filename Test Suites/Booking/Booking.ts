@@ -12,24 +12,24 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>badbcbda-f693-45c6-985d-c31f5a3140da</testSuiteGuid>
    <testCaseLink>
-      <guid>d17d3a64-b01a-4251-a6e6-ff728b6fbef6</guid>
+      <guid>4a57d29b-d995-4709-8658-78091b76088d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Booking Successfully</testCaseId>
+      <testCaseId>Test Cases/Booking/Booking Successfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>304a0d96-5794-4069-a714-e52dea6b1801</guid>
+      <guid>42640407-83a2-4c2f-b177-38efdf44b991</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Submit an Order Unsuccessfully</testCaseId>
+      <testCaseId>Test Cases/Booking/Invalid Quantity String Input</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>83100d62-cb13-44ac-90aa-e261eb9fe3ae</guid>
+      <guid>8082840e-7a71-4f0e-bee2-35082ac614c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Invalid Quantity String Input</testCaseId>
+      <testCaseId>Test Cases/Booking/Submit an Order Unsuccessfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
