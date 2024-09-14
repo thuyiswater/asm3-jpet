@@ -19,13 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://petstore.octoperf.com/actions/Catalog.action')
+WebUI.navigateToUrl('https://petstore.octoperf.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input__keyword'), 'poo')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Search Product/Search Product Incomplete/h2_Welcome to JPetStore 6'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/input__searchProducts'))
+WebUI.click(findTestObject('Object Repository/Search Product/Search Product Incomplete/a_Enter the Store'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_JPetStore Demo/td_Poodle'), 0)
+WebUI.verifyElementClickable(findTestObject('Object Repository/Search Product/Search Product Incomplete/input__searchProducts'))
+
+WebUI.setText(findTestObject('Object Repository/Search Product/Search Product Incomplete/input__keyword'), 'poo')
+
+WebUI.click(findTestObject('Object Repository/Search Product/Search Product Incomplete/input__searchProducts'))
+
+WebUI.verifyElementVisible(findTestObject('Search Product/Search Product Incomplete/table_Product IDName'))
+
+// Locate the table element
+TestObject table = findTestObject('Object Repository/Search Product/Search Product Incomplete/table_Product IDName')
+
+// Get the text content of the table
+String tableText = WebUI.getText(table)
+
+// Verify if 'Goldfish' is present in the table
+boolean isPoodlePresent = tableText.contains('Poodle')
+
+// Assert that 'Goldfish' is found in the table
+assert isPoodlePresent : "The table does not contain 'Poodle'."
 
 WebUI.closeBrowser()
 

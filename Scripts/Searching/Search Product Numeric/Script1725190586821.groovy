@@ -16,16 +16,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testobject.ConditionType
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://petstore.octoperf.com/actions/Catalog.action')
+WebUI.navigateToUrl('https://petstore.octoperf.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_JPetStore Demo/input__keyword'), '123456789')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Search Product/Search Product Numeric/h2_Welcome to JPetStore 6'),
+	0)
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/input__searchProducts'))
+WebUI.click(findTestObject('Object Repository/Search Product/Search Product Numeric/a_Enter the Store'))
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_JPetStore Demo/div_Product IDName'), 0)
+WebUI.verifyElementClickable(findTestObject('Object Repository/Search Product/Search Product Numeric/input__searchProducts'))
+
+WebUI.setText(findTestObject('Object Repository/Search Product/Search Product Numeric/input__keyword'), '123456789')
+
+WebUI.click(findTestObject('Object Repository/Search Product/Search Product Numeric/input__searchProducts'))
+
+// Locate the table rows
+TestObject tableRows = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//div[@id='Catalog']/table//tr")
+
+// Get the number of rows in the table
+int rowCount = WebUI.findWebElements(tableRows, 0).size()
+
+// Check if the table is empty (no rows)
+assert rowCount <= 2 : "The table is not empty."
 
 WebUI.closeBrowser()
 

@@ -19,13 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://petstore.octoperf.com/actions/Catalog.action')
+WebUI.navigateToUrl('https://petstore.octoperf.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/input__searchProducts'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Search Product/Search Product Empty/h2_Welcome to JPetStore 6'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/li_Please enter a keyword to search for, th_53394b'))
+WebUI.click(findTestObject('Object Repository/Search Product/Search Product Empty/a_Enter the Store'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_JPetStore Demo/li_Please enter a keyword to search for, th_53394b'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Search Product/Search Product Empty/input__searchProducts'))
 
+WebUI.click(findTestObject('Object Repository/Search Product/Search Product Empty/input__searchProducts'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Search Product/Search Product Empty/li_Please enter a keyword to search for, th_53394b'))
+
+String result = WebUI.getText(findTestObject('Object Repository/Search Product/Search Product Empty/li_Please enter a keyword to search for, th_53394b'))
+assert result == 'Please enter a keyword to search for, then press the search button.' : "Expected result is 'Please enter a keyword to search for, then press the search button.', but found '${result}'"
 WebUI.closeBrowser()
 
