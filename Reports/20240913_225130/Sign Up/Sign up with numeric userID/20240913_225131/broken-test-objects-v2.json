@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Sign Up/Sign up with numeric userID/input_User ID_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes-1926226986\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/table/tbody/tr/td[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240913_225130/Sign Up/Sign up with numeric userID/20240913_225131/Object Repository/Sign Up/Sign up with numeric userID/input_User ID_username_idRelative.png"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sign up with special character in userID,Chrome 128.0.0.0,,,14-09-2024 15:59:52,14-09-2024 16:00:50,58.104s,PASSED
+,,,,,,,
+Test Cases/Sign Up Test Case/Sign up with special character in userID,Chrome 128.0.0.0,,,14-09-2024 15:59:52,14-09-2024 16:00:50,58.044s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,14-09-2024 15:59:52,14-09-2024 15:59:54,1.779s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 128.0.0.0,,,14-09-2024 15:59:54,14-09-2024 15:59:55,1.012s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/a_Enter the Store""))",Chrome 128.0.0.0,,,14-09-2024 15:59:55,14-09-2024 15:59:56,1.190s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/a_Sign In""))",Chrome 128.0.0.0,,,14-09-2024 15:59:56,14-09-2024 15:59:57,0.530s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/a_Register Now""))",Chrome 128.0.0.0,,,14-09-2024 15:59:57,14-09-2024 15:59:57,0.502s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_User ID_username""), ""thuy*"")",Chrome 128.0.0.0,,,14-09-2024 15:59:57,14-09-2024 15:59:58,0.579s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_User ID_username""))",Chrome 128.0.0.0,,,14-09-2024 15:59:58,14-09-2024 15:59:58,0.240s,PASSED
+"userID = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_User ID_username""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 15:59:58,14-09-2024 15:59:59,1.169s,PASSED
+"assert userID == ""thuy*""",Chrome 128.0.0.0,,,14-09-2024 15:59:59,14-09-2024 15:59:59,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_New password_password""), ""12345"")",Chrome 128.0.0.0,,,14-09-2024 15:59:59,14-09-2024 16:00:03,4.035s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_New password_password""))",Chrome 128.0.0.0,,,14-09-2024 16:00:03,14-09-2024 16:00:05,1.979s,PASSED
+"password = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_New password_password""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 16:00:05,14-09-2024 16:00:07,1.993s,PASSED
+"assert password == ""12345""",Chrome 128.0.0.0,,,14-09-2024 16:00:07,14-09-2024 16:00:07,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Repeat password_repeatedPassword""), ""12345"")",Chrome 128.0.0.0,,,14-09-2024 16:00:07,14-09-2024 16:00:11,4.025s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Repeat password_repeatedPassword""))",Chrome 128.0.0.0,,,14-09-2024 16:00:11,14-09-2024 16:00:13,1.973s,PASSED
+"repeat_password = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Repeat password_repeatedPassword""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 16:00:13,14-09-2024 16:00:15,1.993s,PASSED
+"assert repeat_password == ""12345""",Chrome 128.0.0.0,,,14-09-2024 16:00:15,14-09-2024 16:00:15,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_First name_account.firstName""), ""hi"")",Chrome 128.0.0.0,,,14-09-2024 16:00:15,14-09-2024 16:00:19,4.046s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_First name_account.firstName""))",Chrome 128.0.0.0,,,14-09-2024 16:00:19,14-09-2024 16:00:21,1.967s,PASSED
+"firstname = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_First name_account.firstName""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 16:00:21,14-09-2024 16:00:23,1.699s,PASSED
+"assert firstname == ""hi""",Chrome 128.0.0.0,,,14-09-2024 16:00:23,14-09-2024 16:00:23,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Last name_account.lastName""), ""hi"")",Chrome 128.0.0.0,,,14-09-2024 16:00:23,14-09-2024 16:00:23,0.486s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Last name_account.lastName""))",Chrome 128.0.0.0,,,14-09-2024 16:00:23,14-09-2024 16:00:23,0.233s,PASSED
+"lastname = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Last name_account.lastName""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 16:00:23,14-09-2024 16:00:24,0.230s,PASSED
+"assert lastname == ""hi""",Chrome 128.0.0.0,,,14-09-2024 16:00:24,14-09-2024 16:00:24,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Email_account.email""), ""hi@gmail.com"")",Chrome 128.0.0.0,,,14-09-2024 16:00:24,14-09-2024 16:00:24,0.496s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Email_account.email""))",Chrome 128.0.0.0,,,14-09-2024 16:00:24,14-09-2024 16:00:24,0.232s,PASSED
+"email = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Email_account.email""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 16:00:24,14-09-2024 16:00:25,0.234s,PASSED
+"assert email == ""hi@gmail.com""",Chrome 128.0.0.0,,,14-09-2024 16:00:25,14-09-2024 16:00:25,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Phone_account.phone""), ""12345"")",Chrome 128.0.0.0,,,14-09-2024 16:00:25,14-09-2024 16:00:25,0.509s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Phone_account.phone""))",Chrome 128.0.0.0,,,14-09-2024 16:00:25,14-09-2024 16:00:25,0.237s,PASSED
+"phone = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Phone_account.phone""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 16:00:25,14-09-2024 16:00:27,1.636s,PASSED
+"assert phone == ""12345""",Chrome 128.0.0.0,,,14-09-2024 16:00:27,14-09-2024 16:00:27,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Address 1_account.address1""), ""12 abc"")",Chrome 128.0.0.0,,,14-09-2024 16:00:27,14-09-2024 16:00:31,4.018s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Address 1_account.address1""))",Chrome 128.0.0.0,,,14-09-2024 16:00:31,14-09-2024 16:00:33,1.982s,PASSED
+"address1 = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Address 1_account.address1""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 16:00:33,14-09-2024 16:00:35,1.996s,PASSED
+"assert address1 == ""12 abc""",Chrome 128.0.0.0,,,14-09-2024 16:00:35,14-09-2024 16:00:35,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Address 2_account.address2""), ""12 abc"")",Chrome 128.0.0.0,,,14-09-2024 16:00:35,14-09-2024 16:00:39,4.023s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Address 2_account.address2""))",Chrome 128.0.0.0,,,14-09-2024 16:00:39,14-09-2024 16:00:41,1.980s,PASSED
+"address2 = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Address 2_account.address2""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 16:00:41,14-09-2024 16:00:43,1.991s,PASSED
+"assert address2 == ""12 abc""",Chrome 128.0.0.0,,,14-09-2024 16:00:43,14-09-2024 16:00:43,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_City_account.city""), ""abc"")",Chrome 128.0.0.0,,,14-09-2024 16:00:43,14-09-2024 16:00:46,2.620s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_City_account.city""))",Chrome 128.0.0.0,,,14-09-2024 16:00:46,14-09-2024 16:00:46,0.230s,PASSED
+"city = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_City_account.city""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 16:00:46,14-09-2024 16:00:46,0.229s,PASSED
+"assert city == ""abc""",Chrome 128.0.0.0,,,14-09-2024 16:00:46,14-09-2024 16:00:46,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_State_account.state""), ""abc"")",Chrome 128.0.0.0,,,14-09-2024 16:00:46,14-09-2024 16:00:47,0.483s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_State_account.state""))",Chrome 128.0.0.0,,,14-09-2024 16:00:47,14-09-2024 16:00:47,0.230s,PASSED
+"state = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_State_account.state""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 16:00:47,14-09-2024 16:00:47,0.236s,PASSED
+"assert state == ""abc""",Chrome 128.0.0.0,,,14-09-2024 16:00:47,14-09-2024 16:00:47,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Zip_account.zip""), ""20"")",Chrome 128.0.0.0,,,14-09-2024 16:00:47,14-09-2024 16:00:48,0.510s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Zip_account.zip""))",Chrome 128.0.0.0,,,14-09-2024 16:00:48,14-09-2024 16:00:48,0.242s,PASSED
+"zip = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Zip_account.zip""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 16:00:48,14-09-2024 16:00:48,0.242s,PASSED
+"assert zip == ""20""",Chrome 128.0.0.0,,,14-09-2024 16:00:48,14-09-2024 16:00:48,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Country_account.country""), ""thailand"")",Chrome 128.0.0.0,,,14-09-2024 16:00:48,14-09-2024 16:00:49,0.490s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Country_account.country""))",Chrome 128.0.0.0,,,14-09-2024 16:00:49,14-09-2024 16:00:49,0.232s,PASSED
+"country = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Country_account.country""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 16:00:49,14-09-2024 16:00:49,0.239s,PASSED
+"assert country == ""thailand""",Chrome 128.0.0.0,,,14-09-2024 16:00:49,14-09-2024 16:00:49,0.001s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Sign up with special character in userID/input_Enable MyBanner_newAccount""))",Chrome 128.0.0.0,,,14-09-2024 16:00:49,14-09-2024 16:00:50,0.744s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,14-09-2024 16:00:50,14-09-2024 16:00:50,0.104s,PASSED
