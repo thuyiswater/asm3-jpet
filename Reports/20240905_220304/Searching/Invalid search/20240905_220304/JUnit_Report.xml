@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Invalid search" time="64.893" tests="7" failures="1" errors="0">
+   <testsuite name="Invalid search" tests="7" failures="1" errors="0" time="64.893" skipped="0" timestamp="05-09-2024T22:03:06" hostname="dudu - dungs-air" id="Test Suites/Searching/Invalid search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/dudu/git/asm3-jpet/Reports/20240905_220304/Searching/Invalid search/20240905_220304"/>
+         <property name="logFiles" value="/Users/dudu/git/asm3-jpet/Reports/20240905_220304/Searching/Invalid search/20240905_220304/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dudu - dungs-air"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.211"/>
+         <property name="sessionId" value="e618004b06f2ddc25288cde8f637fcc5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Searching/Search Product Empty" time="13.071" classname="Test Cases/Searching/Search Product Empty" status="PASSED">
+         <system-out><![CDATA[05-09-2024T22:03:06 - [TEST_CASE][PASSED] - Test Cases/Searching/Search Product Empty: Test Cases/Searching/Search Product Empty
+
+05-09-2024T22:03:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-09-2024T22:03:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-09-2024T22:03:06 - [MESSAGE][INFO] - User set preference: ['property', '']
+
+05-09-2024T22:03:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-09-2024T22:03:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-09-2024T22:03:15 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+05-09-2024T22:03:16 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+05-09-2024T22:03:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Search Product/Search Product Empty/h2_Welcome to JPetStore 6"), 0): Object 'Object Repository/Search Product/Search Product Empty/h2_Welcome to JPetStore 6' is present
+
+05-09-2024T22:03:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-09-2024T22:03:16 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Empty/h2_Welcome to JPetStore 6' is present
+
+05-09-2024T22:03:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Product/Search Product Empty/a_Enter the Store")): Object: 'Object Repository/Search Product/Search Product Empty/a_Enter the Store' is clicked on
+
+05-09-2024T22:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Product Empty/a_Enter the Store' is clicked on
+
+05-09-2024T22:03:17 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Search Product/Search Product Empty/input__searchProducts")): Object 'Object Repository/Search Product/Search Product Empty/input__searchProducts' is clickable
+
+05-09-2024T22:03:18 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Empty/input__searchProducts' is clickable
+
+05-09-2024T22:03:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Product/Search Product Empty/input__searchProducts")): Object: 'Object Repository/Search Product/Search Product Empty/input__searchProducts' is clicked on
+
+05-09-2024T22:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Product Empty/input__searchProducts' is clicked on
+
+05-09-2024T22:03:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Search Product/Search Product Empty/li_Please enter a keyword to search for, th_53394b")): Object 'Object Repository/Search Product/Search Product Empty/li_Please enter a keyword to search for, th_53394b' is visible
+
+05-09-2024T22:03:18 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Empty/li_Please enter a keyword to search for, th_53394b' is visible
+
+05-09-2024T22:03:18 - [TEST_STEP][PASSED] - result = getText(findTestObject("Object Repository/Search Product/Search Product Empty/li_Please enter a keyword to search for, th_53394b")): Text of object 'Object Repository/Search Product/Search Product Empty/li_Please enter a keyword to search for, th_53394b' is: 'Please enter a keyword to search for, then press the search button.'
+
+05-09-2024T22:03:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Product/Search Product Empty/li_Please enter a keyword to search for, th_53394b' is: 'Please enter a keyword to search for, then press the search button.'
+
+05-09-2024T22:03:19 - [TEST_STEP][PASSED] - assert result == "Please enter a keyword to search for, then press the search button.": null
+
+05-09-2024T22:03:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-09-2024T22:03:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Searching/Search Product Typo" time="5.107" classname="Test Cases/Searching/Search Product Typo" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Searching/Search Product Typo FAILED.&#xa;Reason:&#xa;java.lang.AssertionError: The table does not contain 'Bulldog'.. Expression: isBulldogPresent. Values: isBulldogPresent = false&#xa;	at Search Product Typo.run(Search Product Typo:46)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1725548584378.run(TempTestSuite1725548584378.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[05-09-2024T22:03:35 - [TEST_CASE][FAILED] - Test Cases/Searching/Search Product Typo: Test Cases/Searching/Search Product Typo FAILED.
+Reason:
+java.lang.AssertionError: The table does not contain 'Bulldog'.. Expression: isBulldogPresent. Values: isBulldogPresent = false
+	at Search Product Typo.run(Search Product Typo:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1725548584378.run(TempTestSuite1725548584378.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+05-09-2024T22:03:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-09-2024T22:03:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-09-2024T22:03:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-09-2024T22:03:35 - [MESSAGE][INFO] - User set preference: ['property', '']
+
+05-09-2024T22:03:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-09-2024T22:03:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-09-2024T22:03:36 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+05-09-2024T22:03:37 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+05-09-2024T22:03:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Search Product/Search Product Typo/h2_Welcome to JPetStore 6"), 0): Object 'Object Repository/Search Product/Search Product Typo/h2_Welcome to JPetStore 6' is present
+
+05-09-2024T22:03:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-09-2024T22:03:37 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Typo/h2_Welcome to JPetStore 6' is present
+
+05-09-2024T22:03:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Product/Search Product Typo/a_Enter the Store")): Object: 'Object Repository/Search Product/Search Product Typo/a_Enter the Store' is clicked on
+
+05-09-2024T22:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Product Typo/a_Enter the Store' is clicked on
+
+05-09-2024T22:03:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Search Product/Search Product Typo/input__searchProducts")): Object 'Object Repository/Search Product/Search Product Typo/input__searchProducts' is clickable
+
+05-09-2024T22:03:39 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Typo/input__searchProducts' is clickable
+
+05-09-2024T22:03:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search Product/Search Product Typo/input__keyword"), "doug"): Text 'doug' is set on object 'Object Repository/Search Product/Search Product Typo/input__keyword'
+
+05-09-2024T22:03:39 - [MESSAGE][PASSED] - Text 'doug' is set on object 'Object Repository/Search Product/Search Product Typo/input__keyword'
+
+05-09-2024T22:03:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search Product/Search Product Typo/input__keyword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search Product/Search Product Typo/input__keyword'
+
+05-09-2024T22:03:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search Product/Search Product Typo/input__keyword'
+
+05-09-2024T22:03:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Search Product/Search Product Typo/table_Product IDName")): Object 'Object Repository/Search Product/Search Product Typo/table_Product IDName' is visible
+
+05-09-2024T22:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Typo/table_Product IDName' is visible
+
+05-09-2024T22:03:40 - [TEST_STEP][PASSED] - table = findTestObject("Object Repository/Search Product/Search Product Typo/table_Product IDName"): null
+
+05-09-2024T22:03:40 - [TEST_STEP][PASSED] - tableText = getText(table): Text of object 'Object Repository/Search Product/Search Product Typo/table_Product IDName' is: '  Product ID Name'
+
+05-09-2024T22:03:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Product/Search Product Typo/table_Product IDName' is: '  Product ID Name'
+
+05-09-2024T22:03:40 - [TEST_STEP][PASSED] - isBulldogPresent = tableText.contains("Bulldog"): null
+
+05-09-2024T22:03:40 - [TEST_STEP][FAILED] - assert isBulldogPresent : "The table does not contain 'Bulldog'.": Test Cases/Searching/Search Product Typo FAILED.
+Reason:
+java.lang.AssertionError: The table does not contain 'Bulldog'.. Expression: isBulldogPresent. Values: isBulldogPresent = false
+	at Search Product Typo.run(Search Product Typo:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1725548584378.run(TempTestSuite1725548584378.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+05-09-2024T22:03:40 - [MESSAGE][FAILED] - Test Cases/Searching/Search Product Typo FAILED.
+Reason:
+java.lang.AssertionError: The table does not contain 'Bulldog'.. Expression: isBulldogPresent. Values: isBulldogPresent = false
+	at Search Product Typo.run(Search Product Typo:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1725548584378.run(TempTestSuite1725548584378.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[05-09-2024T22:03:35 - [TEST_CASE][FAILED] - Test Cases/Searching/Search Product Typo: Test Cases/Searching/Search Product Typo FAILED.
+Reason:
+java.lang.AssertionError: The table does not contain 'Bulldog'.. Expression: isBulldogPresent. Values: isBulldogPresent = false
+	at Search Product Typo.run(Search Product Typo:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1725548584378.run(TempTestSuite1725548584378.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Searching/Search Product Incomplete" time="9.632" classname="Test Cases/Searching/Search Product Incomplete" status="PASSED">
+         <system-out><![CDATA[05-09-2024T22:03:40 - [TEST_CASE][PASSED] - Test Cases/Searching/Search Product Incomplete: Test Cases/Searching/Search Product Incomplete
+
+05-09-2024T22:03:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-09-2024T22:03:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-09-2024T22:03:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-09-2024T22:03:40 - [MESSAGE][INFO] - User set preference: ['property', '']
+
+05-09-2024T22:03:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-09-2024T22:03:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-09-2024T22:03:41 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+05-09-2024T22:03:42 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+05-09-2024T22:03:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Search Product/Search Product Incomplete/h2_Welcome to JPetStore 6"), 0): Object 'Object Repository/Search Product/Search Product Incomplete/h2_Welcome to JPetStore 6' is present
+
+05-09-2024T22:03:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-09-2024T22:03:42 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Incomplete/h2_Welcome to JPetStore 6' is present
+
+05-09-2024T22:03:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Product/Search Product Incomplete/a_Enter the Store")): Object: 'Object Repository/Search Product/Search Product Incomplete/a_Enter the Store' is clicked on
+
+05-09-2024T22:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Product Incomplete/a_Enter the Store' is clicked on
+
+05-09-2024T22:03:43 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Search Product/Search Product Incomplete/input__searchProducts")): Object 'Object Repository/Search Product/Search Product Incomplete/input__searchProducts' is clickable
+
+05-09-2024T22:03:44 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Incomplete/input__searchProducts' is clickable
+
+05-09-2024T22:03:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search Product/Search Product Incomplete/input__keyword"), "poo"): Text 'poo' is set on object 'Object Repository/Search Product/Search Product Incomplete/input__keyword'
+
+05-09-2024T22:03:45 - [MESSAGE][PASSED] - Text 'poo' is set on object 'Object Repository/Search Product/Search Product Incomplete/input__keyword'
+
+05-09-2024T22:03:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Product/Search Product Incomplete/input__searchProducts")): Object: 'Object Repository/Search Product/Search Product Incomplete/input__searchProducts' is clicked on
+
+05-09-2024T22:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Product Incomplete/input__searchProducts' is clicked on
+
+05-09-2024T22:03:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Search Product/Search Product Incomplete/table_Product IDName")): Object 'Object Repository/Search Product/Search Product Incomplete/table_Product IDName' is visible
+
+05-09-2024T22:03:48 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Incomplete/table_Product IDName' is visible
+
+05-09-2024T22:03:48 - [TEST_STEP][PASSED] - table = findTestObject("Object Repository/Search Product/Search Product Incomplete/table_Product IDName"): null
+
+05-09-2024T22:03:48 - [TEST_STEP][PASSED] - tableText = getText(table): Text of object 'Object Repository/Search Product/Search Product Incomplete/table_Product IDName' is: '  Product ID Name
+Cute dog from France K9-PO-02 Poodle'
+
+05-09-2024T22:03:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Product/Search Product Incomplete/table_Product IDName' is: '  Product ID Name
+Cute dog from France K9-PO-02 Poodle'
+
+05-09-2024T22:03:50 - [TEST_STEP][PASSED] - isPoodlePresent = tableText.contains("Poodle"): null
+
+05-09-2024T22:03:50 - [TEST_STEP][PASSED] - assert isPoodlePresent : "The table does not contain 'Poodle'.": null
+
+05-09-2024T22:03:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-09-2024T22:03:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Searching/Search Product With Space In Input" time="5.773" classname="Test Cases/Searching/Search Product With Space In Input" status="PASSED">
+         <system-out><![CDATA[05-09-2024T22:03:50 - [TEST_CASE][PASSED] - Test Cases/Searching/Search Product With Space In Input: Test Cases/Searching/Search Product With Space In Input
+
+05-09-2024T22:03:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-09-2024T22:03:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-09-2024T22:03:50 - [MESSAGE][INFO] - User set preference: ['property', '']
+
+05-09-2024T22:03:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-09-2024T22:03:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-09-2024T22:03:51 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+05-09-2024T22:03:51 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+05-09-2024T22:03:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Search Product/Search Product With Space In Input/h2_Welcome to JPetStore 6"), 0): Object 'Object Repository/Search Product/Search Product With Space In Input/h2_Welcome to JPetStore 6' is present
+
+05-09-2024T22:03:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-09-2024T22:03:52 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product With Space In Input/h2_Welcome to JPetStore 6' is present
+
+05-09-2024T22:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Product/Search Product With Space In Input/a_Enter the Store")): Object: 'Object Repository/Search Product/Search Product With Space In Input/a_Enter the Store' is clicked on
+
+05-09-2024T22:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Product With Space In Input/a_Enter the Store' is clicked on
+
+05-09-2024T22:03:53 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Search Product/Search Product With Space In Input/input__searchProducts")): Object 'Object Repository/Search Product/Search Product With Space In Input/input__searchProducts' is clickable
+
+05-09-2024T22:03:53 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product With Space In Input/input__searchProducts' is clickable
+
+05-09-2024T22:03:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search Product/Search Product With Space In Input/input__keyword"), "gold fish"): Text 'gold fish' is set on object 'Object Repository/Search Product/Search Product With Space In Input/input__keyword'
+
+05-09-2024T22:03:54 - [MESSAGE][PASSED] - Text 'gold fish' is set on object 'Object Repository/Search Product/Search Product With Space In Input/input__keyword'
+
+05-09-2024T22:03:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search Product/Search Product With Space In Input/input__keyword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search Product/Search Product With Space In Input/input__keyword'
+
+05-09-2024T22:03:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search Product/Search Product With Space In Input/input__keyword'
+
+05-09-2024T22:03:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Search Product/Search Product With Space In Input/table_Product IDName")): Object 'Object Repository/Search Product/Search Product With Space In Input/table_Product IDName' is visible
+
+05-09-2024T22:03:55 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product With Space In Input/table_Product IDName' is visible
+
+05-09-2024T22:03:55 - [TEST_STEP][PASSED] - table = findTestObject("Object Repository/Search Product/Search Product With Space In Input/table_Product IDName"): null
+
+05-09-2024T22:03:55 - [TEST_STEP][PASSED] - tableText = getText(table): Text of object 'Object Repository/Search Product/Search Product With Space In Input/table_Product IDName' is: '  Product ID Name
+Fresh Water fish from China FI-FW-02 Goldfish
+Great family dog K9-RT-01 Golden Retriever
+Fresh Water fish from China FI-FW-02 Goldfish
+Salt Water fish from Australia FI-SW-01 Angelfish'
+
+05-09-2024T22:03:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search Product/Search Product With Space In Input/table_Product IDName' is: '  Product ID Name
+Fresh Water fish from China FI-FW-02 Goldfish
+Great family dog K9-RT-01 Golden Retriever
+Fresh Water fish from China FI-FW-02 Goldfish
+Salt Water fish from Australia FI-SW-01 Angelfish'
+
+05-09-2024T22:03:56 - [TEST_STEP][PASSED] - isGoldfishPresent = tableText.contains("Goldfish"): null
+
+05-09-2024T22:03:56 - [TEST_STEP][PASSED] - assert isGoldfishPresent : "The table does not contain 'Goldfish'.": null
+
+05-09-2024T22:03:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-09-2024T22:03:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Searching/Search Product Numeric" time="5.038" classname="Test Cases/Searching/Search Product Numeric" status="PASSED">
+         <system-out><![CDATA[05-09-2024T22:03:56 - [TEST_CASE][PASSED] - Test Cases/Searching/Search Product Numeric: Test Cases/Searching/Search Product Numeric
+
+05-09-2024T22:03:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-09-2024T22:03:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-09-2024T22:03:56 - [MESSAGE][INFO] - User set preference: ['property', '']
+
+05-09-2024T22:03:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-09-2024T22:03:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-09-2024T22:03:57 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+05-09-2024T22:03:57 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+05-09-2024T22:03:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Search Product/Search Product Numeric/h2_Welcome to JPetStore 6"), 0): Object 'Object Repository/Search Product/Search Product Numeric/h2_Welcome to JPetStore 6' is present
+
+05-09-2024T22:03:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-09-2024T22:03:58 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Numeric/h2_Welcome to JPetStore 6' is present
+
+05-09-2024T22:03:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Product/Search Product Numeric/a_Enter the Store")): Object: 'Object Repository/Search Product/Search Product Numeric/a_Enter the Store' is clicked on
+
+05-09-2024T22:03:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Product Numeric/a_Enter the Store' is clicked on
+
+05-09-2024T22:03:59 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Search Product/Search Product Numeric/input__searchProducts")): Object 'Object Repository/Search Product/Search Product Numeric/input__searchProducts' is clickable
+
+05-09-2024T22:03:59 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Numeric/input__searchProducts' is clickable
+
+05-09-2024T22:03:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search Product/Search Product Numeric/input__keyword"), "123456789"): Text '123456789' is set on object 'Object Repository/Search Product/Search Product Numeric/input__keyword'
+
+05-09-2024T22:04:00 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Search Product/Search Product Numeric/input__keyword'
+
+05-09-2024T22:04:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Product/Search Product Numeric/input__searchProducts")): Object: 'Object Repository/Search Product/Search Product Numeric/input__searchProducts' is clicked on
+
+05-09-2024T22:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Product Numeric/input__searchProducts' is clicked on
+
+05-09-2024T22:04:00 - [TEST_STEP][PASSED] - tableRows = TestObject().addProperty("xpath", EQUALS, "//div[@id='Catalog']/table//tr"): null
+
+05-09-2024T22:04:00 - [TEST_STEP][PASSED] - rowCount = findWebElements(tableRows, 0).size(): Found web elements by test object 
+
+05-09-2024T22:04:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-09-2024T22:04:01 - [MESSAGE][PASSED] - Found web elements by test object 
+
+05-09-2024T22:04:01 - [TEST_STEP][PASSED] - assert rowCount <= 2 : "The table is not empty.": null
+
+05-09-2024T22:04:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-09-2024T22:04:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Searching/Search Product Special Characters" time="4.968" classname="Test Cases/Searching/Search Product Special Characters" status="PASSED">
+         <system-out><![CDATA[05-09-2024T22:04:01 - [TEST_CASE][PASSED] - Test Cases/Searching/Search Product Special Characters: Test Cases/Searching/Search Product Special Characters
+
+05-09-2024T22:04:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-09-2024T22:04:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-09-2024T22:04:01 - [MESSAGE][INFO] - User set preference: ['property', '']
+
+05-09-2024T22:04:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-09-2024T22:04:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-09-2024T22:04:02 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+05-09-2024T22:04:02 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+05-09-2024T22:04:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Search Product/Search Product Special Characters/h2_Welcome to JPetStore 6"), 0): Object 'Object Repository/Search Product/Search Product Special Characters/h2_Welcome to JPetStore 6' is present
+
+05-09-2024T22:04:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-09-2024T22:04:03 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Special Characters/h2_Welcome to JPetStore 6' is present
+
+05-09-2024T22:04:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Product/Search Product Special Characters/a_Enter the Store")): Object: 'Object Repository/Search Product/Search Product Special Characters/a_Enter the Store' is clicked on
+
+05-09-2024T22:04:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Product Special Characters/a_Enter the Store' is clicked on
+
+05-09-2024T22:04:04 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Search Product/Search Product Special Characters/input__searchProducts")): Object 'Object Repository/Search Product/Search Product Special Characters/input__searchProducts' is clickable
+
+05-09-2024T22:04:04 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Special Characters/input__searchProducts' is clickable
+
+05-09-2024T22:04:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search Product/Search Product Special Characters/input__keyword"), "doug"): Text 'doug' is set on object 'Object Repository/Search Product/Search Product Special Characters/input__keyword'
+
+05-09-2024T22:04:05 - [MESSAGE][PASSED] - Text 'doug' is set on object 'Object Repository/Search Product/Search Product Special Characters/input__keyword'
+
+05-09-2024T22:04:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Product/Search Product Special Characters/input__searchProducts")): Object: 'Object Repository/Search Product/Search Product Special Characters/input__searchProducts' is clicked on
+
+05-09-2024T22:04:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Product Special Characters/input__searchProducts' is clicked on
+
+05-09-2024T22:04:05 - [TEST_STEP][PASSED] - tableRows = TestObject().addProperty("xpath", EQUALS, "//div[@id='Catalog']/table//tr"): null
+
+05-09-2024T22:04:05 - [TEST_STEP][PASSED] - rowCount = findWebElements(tableRows, 0).size(): Found web elements by test object 
+
+05-09-2024T22:04:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-09-2024T22:04:06 - [MESSAGE][PASSED] - Found web elements by test object 
+
+05-09-2024T22:04:06 - [TEST_STEP][PASSED] - assert rowCount <= 2 : "The table is not empty.": null
+
+05-09-2024T22:04:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-09-2024T22:04:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Searching/Search Product Long Input" time="4.889" classname="Test Cases/Searching/Search Product Long Input" status="PASSED">
+         <system-out><![CDATA[05-09-2024T22:04:06 - [TEST_CASE][PASSED] - Test Cases/Searching/Search Product Long Input: Test Cases/Searching/Search Product Long Input
+
+05-09-2024T22:04:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-09-2024T22:04:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-09-2024T22:04:06 - [MESSAGE][INFO] - User set preference: ['property', '']
+
+05-09-2024T22:04:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-09-2024T22:04:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-09-2024T22:04:06 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+05-09-2024T22:04:07 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+05-09-2024T22:04:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Search Product/Search Product Long Input/h2_Welcome to JPetStore 6"), 0): Object 'Object Repository/Search Product/Search Product Long Input/h2_Welcome to JPetStore 6' is present
+
+05-09-2024T22:04:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-09-2024T22:04:08 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Long Input/h2_Welcome to JPetStore 6' is present
+
+05-09-2024T22:04:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Product/Search Product Long Input/a_Enter the Store")): Object: 'Object Repository/Search Product/Search Product Long Input/a_Enter the Store' is clicked on
+
+05-09-2024T22:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Product Long Input/a_Enter the Store' is clicked on
+
+05-09-2024T22:04:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Search Product/Search Product Long Input/input__searchProducts")): Object 'Object Repository/Search Product/Search Product Long Input/input__searchProducts' is clickable
+
+05-09-2024T22:04:09 - [MESSAGE][PASSED] - Object 'Object Repository/Search Product/Search Product Long Input/input__searchProducts' is clickable
+
+05-09-2024T22:04:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search Product/Search Product Long Input/input__keyword"), "aB3$dE9fG!hJkLmN2oPqRsTuVwXyZ1@cD4eF5gH^iJ6kL7mN8oP9qR*sT!uVxYz0#A1bC2dE3fG4hI5jK6lM7nO8pQ9rS&tU*vW!xYz0@A1B2C3D4E5F6G7H8I9J0K!lM^nO*pQ+rS-tU=vW+xY=z0@1A2B3C4D5E6F7G8H9I0J!kL^mN*oP+qR-sT/uV=wX+yZ"): Text 'aB3$dE9fG!hJkLmN2oPqRsTuVwXyZ1@cD4eF5gH^iJ6kL7mN8oP9qR*sT!uVxYz0#A1bC2dE3fG4hI5jK6lM7nO8pQ9rS&tU*vW!xYz0@A1B2C3D4E5F6G7H8I9J0K!lM^nO*pQ+rS-tU=vW+xY=z0@1A2B3C4D5E6F7G8H9I0J!kL^mN*oP+qR-sT/uV=wX+yZ' is set on object 'Object Repository/Search Product/Search Product Long Input/input__keyword'
+
+05-09-2024T22:04:10 - [MESSAGE][PASSED] - Text 'aB3$dE9fG!hJkLmN2oPqRsTuVwXyZ1@cD4eF5gH^iJ6kL7mN8oP9qR*sT!uVxYz0#A1bC2dE3fG4hI5jK6lM7nO8pQ9rS&tU*vW!xYz0@A1B2C3D4E5F6G7H8I9J0K!lM^nO*pQ+rS-tU=vW+xY=z0@1A2B3C4D5E6F7G8H9I0J!kL^mN*oP+qR-sT/uV=wX+yZ' is set on object 'Object Repository/Search Product/Search Product Long Input/input__keyword'
+
+05-09-2024T22:04:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Product/Search Product Long Input/input__searchProducts")): Object: 'Object Repository/Search Product/Search Product Long Input/input__searchProducts' is clicked on
+
+05-09-2024T22:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Product/Search Product Long Input/input__searchProducts' is clicked on
+
+05-09-2024T22:04:10 - [TEST_STEP][PASSED] - tableRows = TestObject().addProperty("xpath", EQUALS, "//div[@id='Catalog']/table//tr"): null
+
+05-09-2024T22:04:10 - [TEST_STEP][PASSED] - rowCount = findWebElements(tableRows, 0).size(): Found web elements by test object 
+
+05-09-2024T22:04:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-09-2024T22:04:10 - [MESSAGE][PASSED] - Found web elements by test object 
+
+05-09-2024T22:04:10 - [TEST_STEP][PASSED] - assert rowCount <= 2 : "The table is not empty.": null
+
+05-09-2024T22:04:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-09-2024T22:04:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-09-2024T22:03:06 - [TEST_SUITE][FAILED] - Invalid search: Test Cases/Searching/Search Product Typo FAILED.
+Reason:
+java.lang.AssertionError: The table does not contain 'Bulldog'.. Expression: isBulldogPresent. Values: isBulldogPresent = false
+	at Search Product Typo.run(Search Product Typo:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1725548584378.run(TempTestSuite1725548584378.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[05-09-2024T22:03:06 - [TEST_SUITE][FAILED] - Invalid search: Test Cases/Searching/Search Product Typo FAILED.
+Reason:
+java.lang.AssertionError: The table does not contain 'Bulldog'.. Expression: isBulldogPresent. Values: isBulldogPresent = false
+	at Search Product Typo.run(Search Product Typo:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1725548584378.run(TempTestSuite1725548584378.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

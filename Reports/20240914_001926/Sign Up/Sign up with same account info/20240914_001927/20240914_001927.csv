@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sign up with same account info,Chrome 128.0.0.0,,,14-09-2024 00:19:29,14-09-2024 00:22:29,2m - 59.702s,PASSED
+,,,,,,,
+Test Cases/Sign Up Test Case/Sign up with same account info,Chrome 128.0.0.0,,,14-09-2024 00:19:29,14-09-2024 00:22:29,2m - 59.616s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,14-09-2024 00:19:29,14-09-2024 00:19:47,17.209s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 128.0.0.0,,,14-09-2024 00:19:47,14-09-2024 00:19:48,1.631s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/a_Enter the Store""))",Chrome 128.0.0.0,,,14-09-2024 00:19:48,14-09-2024 00:19:50,1.863s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/a_Sign In""))",Chrome 128.0.0.0,,,14-09-2024 00:19:50,14-09-2024 00:19:51,1.378s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/a_Register Now""))",Chrome 128.0.0.0,,,14-09-2024 00:19:51,14-09-2024 00:19:52,0.795s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_User ID_username""), ""kaka1"")",Chrome 128.0.0.0,,,14-09-2024 00:19:52,14-09-2024 00:20:55,1m - 3.180s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_User ID_username""))",Chrome 128.0.0.0,,,14-09-2024 00:20:55,14-09-2024 00:21:27,31.334s,PASSED
+"userID = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_User ID_username""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 00:21:27,14-09-2024 00:21:58,31.469s,PASSED
+"assert userID == ""kaka1""",Chrome 128.0.0.0,,,14-09-2024 00:21:58,14-09-2024 00:21:58,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_New password_password""), ""123456"")",Chrome 128.0.0.0,,,14-09-2024 00:21:58,14-09-2024 00:21:59,1.268s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_New password_password""))",Chrome 128.0.0.0,,,14-09-2024 00:21:59,14-09-2024 00:22:00,0.501s,PASSED
+"password = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_New password_password""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 00:22:00,14-09-2024 00:22:00,0.306s,PASSED
+"assert password == ""123456""",Chrome 128.0.0.0,,,14-09-2024 00:22:00,14-09-2024 00:22:00,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Repeat password_repeatedPassword""), ""123456"")",Chrome 128.0.0.0,,,14-09-2024 00:22:00,14-09-2024 00:22:01,0.864s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Repeat password_repeatedPassword""))",Chrome 128.0.0.0,,,14-09-2024 00:22:01,14-09-2024 00:22:02,0.391s,PASSED
+"repeat_password = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Repeat password_repeatedPassword""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 00:22:02,14-09-2024 00:22:02,0.353s,PASSED
+"assert repeat_password == ""123456""",Chrome 128.0.0.0,,,14-09-2024 00:22:02,14-09-2024 00:22:02,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_First name_account.firstName""), ""kaka"")",Chrome 128.0.0.0,,,14-09-2024 00:22:02,14-09-2024 00:22:03,1.019s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_First name_account.firstName""))",Chrome 128.0.0.0,,,14-09-2024 00:22:03,14-09-2024 00:22:03,0.435s,PASSED
+"firstname = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_First name_account.firstName""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 00:22:03,14-09-2024 00:22:04,0.500s,PASSED
+"assert firstname == ""kaka""",Chrome 128.0.0.0,,,14-09-2024 00:22:04,14-09-2024 00:22:04,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Last name_account.lastName""), ""kaka"")",Chrome 128.0.0.0,,,14-09-2024 00:22:04,14-09-2024 00:22:05,1.083s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Last name_account.lastName""))",Chrome 128.0.0.0,,,14-09-2024 00:22:05,14-09-2024 00:22:06,1.038s,PASSED
+"lastname = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Last name_account.lastName""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 00:22:06,14-09-2024 00:22:07,1.523s,PASSED
+"assert lastname == ""kaka""",Chrome 128.0.0.0,,,14-09-2024 00:22:07,14-09-2024 00:22:07,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Email_account.email""), ""kaka12@gmail.com"")",Chrome 128.0.0.0,,,14-09-2024 00:22:07,14-09-2024 00:22:10,2.787s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Email_account.email""))",Chrome 128.0.0.0,,,14-09-2024 00:22:10,14-09-2024 00:22:11,0.434s,PASSED
+"email = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Email_account.email""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 00:22:11,14-09-2024 00:22:11,0.320s,PASSED
+"assert email == ""kaka12@gmail.com""",Chrome 128.0.0.0,,,14-09-2024 00:22:11,14-09-2024 00:22:11,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Phone_account.phone""), ""12345"")",Chrome 128.0.0.0,,,14-09-2024 00:22:11,14-09-2024 00:22:12,0.837s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Phone_account.phone""))",Chrome 128.0.0.0,,,14-09-2024 00:22:12,14-09-2024 00:22:12,0.498s,PASSED
+"phone = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Phone_account.phone""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 00:22:12,14-09-2024 00:22:13,0.554s,PASSED
+"assert phone == ""12345""",Chrome 128.0.0.0,,,14-09-2024 00:22:13,14-09-2024 00:22:13,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Address 1_account.address1""), ""12 abc"")",Chrome 128.0.0.0,,,14-09-2024 00:22:13,14-09-2024 00:22:14,1.142s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Address 1_account.address1""))",Chrome 128.0.0.0,,,14-09-2024 00:22:14,14-09-2024 00:22:15,0.859s,PASSED
+"address1 = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Address 1_account.address1""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 00:22:15,14-09-2024 00:22:15,0.440s,PASSED
+"assert address1 == ""12 abc""",Chrome 128.0.0.0,,,14-09-2024 00:22:15,14-09-2024 00:22:15,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Address 2_account.address2""), ""12 abc"")",Chrome 128.0.0.0,,,14-09-2024 00:22:15,14-09-2024 00:22:17,1.167s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Address 2_account.address2""))",Chrome 128.0.0.0,,,14-09-2024 00:22:17,14-09-2024 00:22:17,0.373s,PASSED
+"address2 = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Address 2_account.address2""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 00:22:17,14-09-2024 00:22:17,0.507s,PASSED
+"assert address2 == ""12 abc""",Chrome 128.0.0.0,,,14-09-2024 00:22:17,14-09-2024 00:22:17,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_City_account.city""), ""abc"")",Chrome 128.0.0.0,,,14-09-2024 00:22:17,14-09-2024 00:22:18,0.804s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_City_account.city""))",Chrome 128.0.0.0,,,14-09-2024 00:22:18,14-09-2024 00:22:19,0.426s,PASSED
+"city = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_City_account.city""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 00:22:19,14-09-2024 00:22:19,0.481s,PASSED
+"assert city == ""abc""",Chrome 128.0.0.0,,,14-09-2024 00:22:19,14-09-2024 00:22:19,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_State_account.state""), ""abc"")",Chrome 128.0.0.0,,,14-09-2024 00:22:19,14-09-2024 00:22:22,2.532s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_State_account.state""))",Chrome 128.0.0.0,,,14-09-2024 00:22:22,14-09-2024 00:22:22,0.399s,PASSED
+"state = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_State_account.state""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 00:22:22,14-09-2024 00:22:22,0.337s,PASSED
+"assert state == ""abc""",Chrome 128.0.0.0,,,14-09-2024 00:22:22,14-09-2024 00:22:22,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Zip_account.zip""), ""50"")",Chrome 128.0.0.0,,,14-09-2024 00:22:22,14-09-2024 00:22:23,0.802s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Zip_account.zip""))",Chrome 128.0.0.0,,,14-09-2024 00:22:23,14-09-2024 00:22:24,0.329s,PASSED
+"zip = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Zip_account.zip""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 00:22:24,14-09-2024 00:22:24,0.346s,PASSED
+"assert zip == ""50""",Chrome 128.0.0.0,,,14-09-2024 00:22:24,14-09-2024 00:22:24,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Country_account.country""), ""vietnam"")",Chrome 128.0.0.0,,,14-09-2024 00:22:24,14-09-2024 00:22:25,1.029s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Country_account.country""))",Chrome 128.0.0.0,,,14-09-2024 00:22:25,14-09-2024 00:22:25,0.450s,PASSED
+"country = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Country_account.country""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 00:22:25,14-09-2024 00:22:26,0.508s,PASSED
+"assert country == ""vietnam""",Chrome 128.0.0.0,,,14-09-2024 00:22:26,14-09-2024 00:22:26,0.001s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_Enable MyBanner_newAccount""))",Chrome 128.0.0.0,,,14-09-2024 00:22:26,14-09-2024 00:22:28,2.179s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,14-09-2024 00:22:28,14-09-2024 00:22:29,0.701s,PASSED

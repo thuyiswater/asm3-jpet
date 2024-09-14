@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign up with special character in userID" time="58.104" tests="1" failures="0" errors="0">
+   <testsuite name="Sign up with special character in userID" tests="1" failures="0" errors="0" time="58.104" skipped="0" timestamp="14-09-2024T15:59:52" hostname="maichieuthuy - localhost" id="Test Suites/Sign Up/Sign up with special character in userID">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/maichieuthuy/Katalon Studio/asm3-jpet/Reports/20240914_155949/Sign Up/Sign up with special character in userID/20240914_155950"/>
+         <property name="logFiles" value="/Users/maichieuthuy/Katalon Studio/asm3-jpet/Reports/20240914_155949/Sign Up/Sign up with special character in userID/20240914_155950/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="maichieuthuy - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="bea1299f233c631554a80e90d36a80e6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Sign Up Test Case/Sign up with special character in userID" time="58.044" classname="Test Cases/Sign Up Test Case/Sign up with special character in userID" status="PASSED">
+         <system-out><![CDATA[14-09-2024T15:59:52 - [TEST_CASE][PASSED] - Test Cases/Sign Up Test Case/Sign up with special character in userID: Test Cases/Sign Up Test Case/Sign up with special character in userID
+
+14-09-2024T15:59:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-09-2024T15:59:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-09-2024T15:59:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-09-2024T15:59:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-09-2024T15:59:54 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+14-09-2024T15:59:55 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+14-09-2024T15:59:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/a_Enter the Store")): Object: 'Object Repository/Sign Up/Sign up with special character in userID/a_Enter the Store' is clicked on
+
+14-09-2024T15:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Sign up with special character in userID/a_Enter the Store' is clicked on
+
+14-09-2024T15:59:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/a_Sign In")): Object: 'Object Repository/Sign Up/Sign up with special character in userID/a_Sign In' is clicked on
+
+14-09-2024T15:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Sign up with special character in userID/a_Sign In' is clicked on
+
+14-09-2024T15:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/a_Register Now")): Object: 'Object Repository/Sign Up/Sign up with special character in userID/a_Register Now' is clicked on
+
+14-09-2024T15:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Sign up with special character in userID/a_Register Now' is clicked on
+
+14-09-2024T15:59:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_User ID_username"), "thuy*"): Text 'thuy*' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_User ID_username'
+
+14-09-2024T15:59:58 - [MESSAGE][PASSED] - Text 'thuy*' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_User ID_username'
+
+14-09-2024T15:59:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_User ID_username")): Object 'Object Repository/Sign Up/Sign up with special character in userID/input_User ID_username' is visible
+
+14-09-2024T15:59:58 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with special character in userID/input_User ID_username' is visible
+
+14-09-2024T15:59:58 - [TEST_STEP][PASSED] - userID = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_User ID_username"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_User ID_username' is: 'thuy*'
+
+14-09-2024T15:59:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_User ID_username' is: 'thuy*'
+
+14-09-2024T15:59:59 - [TEST_STEP][PASSED] - assert userID == "thuy*": null
+
+14-09-2024T15:59:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_New password_password"), "12345"): Text '12345' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_New password_password'
+
+14-09-2024T16:00:03 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_New password_password'
+
+14-09-2024T16:00:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_New password_password")): Object 'Object Repository/Sign Up/Sign up with special character in userID/input_New password_password' is visible
+
+14-09-2024T16:00:05 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with special character in userID/input_New password_password' is visible
+
+14-09-2024T16:00:05 - [TEST_STEP][PASSED] - password = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_New password_password"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_New password_password' is: '12345'
+
+14-09-2024T16:00:07 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_New password_password' is: '12345'
+
+14-09-2024T16:00:07 - [TEST_STEP][PASSED] - assert password == "12345": null
+
+14-09-2024T16:00:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Repeat password_repeatedPassword"), "12345"): Text '12345' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Repeat password_repeatedPassword'
+
+14-09-2024T16:00:11 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Repeat password_repeatedPassword'
+
+14-09-2024T16:00:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Repeat password_repeatedPassword")): Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Repeat password_repeatedPassword' is visible
+
+14-09-2024T16:00:13 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Repeat password_repeatedPassword' is visible
+
+14-09-2024T16:00:13 - [TEST_STEP][PASSED] - repeat_password = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Repeat password_repeatedPassword"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Repeat password_repeatedPassword' is: '12345'
+
+14-09-2024T16:00:15 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Repeat password_repeatedPassword' is: '12345'
+
+14-09-2024T16:00:15 - [TEST_STEP][PASSED] - assert repeat_password == "12345": null
+
+14-09-2024T16:00:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_First name_account.firstName"), "hi"): Text 'hi' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_First name_account.firstName'
+
+14-09-2024T16:00:19 - [MESSAGE][PASSED] - Text 'hi' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_First name_account.firstName'
+
+14-09-2024T16:00:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_First name_account.firstName")): Object 'Object Repository/Sign Up/Sign up with special character in userID/input_First name_account.firstName' is visible
+
+14-09-2024T16:00:21 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with special character in userID/input_First name_account.firstName' is visible
+
+14-09-2024T16:00:21 - [TEST_STEP][PASSED] - firstname = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_First name_account.firstName"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_First name_account.firstName' is: 'hi'
+
+14-09-2024T16:00:23 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_First name_account.firstName' is: 'hi'
+
+14-09-2024T16:00:23 - [TEST_STEP][PASSED] - assert firstname == "hi": null
+
+14-09-2024T16:00:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Last name_account.lastName"), "hi"): Text 'hi' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Last name_account.lastName'
+
+14-09-2024T16:00:23 - [MESSAGE][PASSED] - Text 'hi' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Last name_account.lastName'
+
+14-09-2024T16:00:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Last name_account.lastName")): Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Last name_account.lastName' is visible
+
+14-09-2024T16:00:23 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Last name_account.lastName' is visible
+
+14-09-2024T16:00:23 - [TEST_STEP][PASSED] - lastname = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Last name_account.lastName"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Last name_account.lastName' is: 'hi'
+
+14-09-2024T16:00:24 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Last name_account.lastName' is: 'hi'
+
+14-09-2024T16:00:24 - [TEST_STEP][PASSED] - assert lastname == "hi": null
+
+14-09-2024T16:00:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Email_account.email"), "hi@gmail.com"): Text 'hi@gmail.com' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Email_account.email'
+
+14-09-2024T16:00:24 - [MESSAGE][PASSED] - Text 'hi@gmail.com' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Email_account.email'
+
+14-09-2024T16:00:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Email_account.email")): Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Email_account.email' is visible
+
+14-09-2024T16:00:24 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Email_account.email' is visible
+
+14-09-2024T16:00:24 - [TEST_STEP][PASSED] - email = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Email_account.email"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Email_account.email' is: 'hi@gmail.com'
+
+14-09-2024T16:00:25 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Email_account.email' is: 'hi@gmail.com'
+
+14-09-2024T16:00:25 - [TEST_STEP][PASSED] - assert email == "hi@gmail.com": null
+
+14-09-2024T16:00:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Phone_account.phone"), "12345"): Text '12345' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Phone_account.phone'
+
+14-09-2024T16:00:25 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Phone_account.phone'
+
+14-09-2024T16:00:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Phone_account.phone")): Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Phone_account.phone' is visible
+
+14-09-2024T16:00:25 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Phone_account.phone' is visible
+
+14-09-2024T16:00:25 - [TEST_STEP][PASSED] - phone = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Phone_account.phone"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Phone_account.phone' is: '12345'
+
+14-09-2024T16:00:27 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Phone_account.phone' is: '12345'
+
+14-09-2024T16:00:27 - [TEST_STEP][PASSED] - assert phone == "12345": null
+
+14-09-2024T16:00:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Address 1_account.address1"), "12 abc"): Text '12 abc' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Address 1_account.address1'
+
+14-09-2024T16:00:31 - [MESSAGE][PASSED] - Text '12 abc' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Address 1_account.address1'
+
+14-09-2024T16:00:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Address 1_account.address1")): Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Address 1_account.address1' is visible
+
+14-09-2024T16:00:33 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Address 1_account.address1' is visible
+
+14-09-2024T16:00:33 - [TEST_STEP][PASSED] - address1 = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Address 1_account.address1"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Address 1_account.address1' is: '12 abc'
+
+14-09-2024T16:00:35 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Address 1_account.address1' is: '12 abc'
+
+14-09-2024T16:00:35 - [TEST_STEP][PASSED] - assert address1 == "12 abc": null
+
+14-09-2024T16:00:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Address 2_account.address2"), "12 abc"): Text '12 abc' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Address 2_account.address2'
+
+14-09-2024T16:00:39 - [MESSAGE][PASSED] - Text '12 abc' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Address 2_account.address2'
+
+14-09-2024T16:00:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Address 2_account.address2")): Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Address 2_account.address2' is visible
+
+14-09-2024T16:00:41 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Address 2_account.address2' is visible
+
+14-09-2024T16:00:41 - [TEST_STEP][PASSED] - address2 = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Address 2_account.address2"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Address 2_account.address2' is: '12 abc'
+
+14-09-2024T16:00:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Address 2_account.address2' is: '12 abc'
+
+14-09-2024T16:00:43 - [TEST_STEP][PASSED] - assert address2 == "12 abc": null
+
+14-09-2024T16:00:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_City_account.city"), "abc"): Text 'abc' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_City_account.city'
+
+14-09-2024T16:00:46 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_City_account.city'
+
+14-09-2024T16:00:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_City_account.city")): Object 'Object Repository/Sign Up/Sign up with special character in userID/input_City_account.city' is visible
+
+14-09-2024T16:00:46 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with special character in userID/input_City_account.city' is visible
+
+14-09-2024T16:00:46 - [TEST_STEP][PASSED] - city = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_City_account.city"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_City_account.city' is: 'abc'
+
+14-09-2024T16:00:46 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_City_account.city' is: 'abc'
+
+14-09-2024T16:00:46 - [TEST_STEP][PASSED] - assert city == "abc": null
+
+14-09-2024T16:00:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_State_account.state"), "abc"): Text 'abc' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_State_account.state'
+
+14-09-2024T16:00:47 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_State_account.state'
+
+14-09-2024T16:00:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_State_account.state")): Object 'Object Repository/Sign Up/Sign up with special character in userID/input_State_account.state' is visible
+
+14-09-2024T16:00:47 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with special character in userID/input_State_account.state' is visible
+
+14-09-2024T16:00:47 - [TEST_STEP][PASSED] - state = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_State_account.state"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_State_account.state' is: 'abc'
+
+14-09-2024T16:00:47 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_State_account.state' is: 'abc'
+
+14-09-2024T16:00:47 - [TEST_STEP][PASSED] - assert state == "abc": null
+
+14-09-2024T16:00:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Zip_account.zip"), "20"): Text '20' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Zip_account.zip'
+
+14-09-2024T16:00:48 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Zip_account.zip'
+
+14-09-2024T16:00:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Zip_account.zip")): Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Zip_account.zip' is visible
+
+14-09-2024T16:00:48 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Zip_account.zip' is visible
+
+14-09-2024T16:00:48 - [TEST_STEP][PASSED] - zip = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Zip_account.zip"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Zip_account.zip' is: '20'
+
+14-09-2024T16:00:48 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Zip_account.zip' is: '20'
+
+14-09-2024T16:00:48 - [TEST_STEP][PASSED] - assert zip == "20": null
+
+14-09-2024T16:00:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Country_account.country"), "thailand"): Text 'thailand' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Country_account.country'
+
+14-09-2024T16:00:49 - [MESSAGE][PASSED] - Text 'thailand' is set on object 'Object Repository/Sign Up/Sign up with special character in userID/input_Country_account.country'
+
+14-09-2024T16:00:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Country_account.country")): Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Country_account.country' is visible
+
+14-09-2024T16:00:49 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with special character in userID/input_Country_account.country' is visible
+
+14-09-2024T16:00:49 - [TEST_STEP][PASSED] - country = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Country_account.country"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Country_account.country' is: 'thailand'
+
+14-09-2024T16:00:49 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with special character in userID/input_Country_account.country' is: 'thailand'
+
+14-09-2024T16:00:49 - [TEST_STEP][PASSED] - assert country == "thailand": null
+
+14-09-2024T16:00:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Sign up with special character in userID/input_Enable MyBanner_newAccount")): Object: 'Object Repository/Sign Up/Sign up with special character in userID/input_Enable MyBanner_newAccount' is clicked on
+
+14-09-2024T16:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Sign up with special character in userID/input_Enable MyBanner_newAccount' is clicked on
+
+14-09-2024T16:00:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-09-2024T16:00:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-09-2024T15:59:52 - [TEST_SUITE][PASSED] - Sign up with special character in userID: Test Cases/Sign Up Test Case/Sign up with special character in userID]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

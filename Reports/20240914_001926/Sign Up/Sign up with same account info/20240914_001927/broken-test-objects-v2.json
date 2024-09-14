@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_User ID_username",
+      "brokenLocator": "//input[@id\u003d\u0027stripes-870105024\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027Catalog\u0027]/form/table/tbody/tr/td[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240914_001926/Sign Up/Sign up with same account info/20240914_001927/Object Repository/Sign Up/Sign up with same account info/Page_JPetStore Demo/input_User ID_username_idRelative.png"
+    }
+  ]
+}
