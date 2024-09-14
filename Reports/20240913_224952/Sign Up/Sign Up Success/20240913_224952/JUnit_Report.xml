@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign Up Success" time="70.375" tests="1" failures="0" errors="0">
+   <testsuite name="Sign Up Success" tests="1" failures="0" errors="0" time="70.375" skipped="0" timestamp="13-09-2024T22:49:53" hostname="maichieuthuy - localhost" id="Test Suites/Sign Up/Sign Up Success">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/maichieuthuy/Katalon Studio/asm3-jpet/Reports/20240913_224952/Sign Up/Sign Up Success/20240913_224952"/>
+         <property name="logFiles" value="/Users/maichieuthuy/Katalon Studio/asm3-jpet/Reports/20240913_224952/Sign Up/Sign Up Success/20240913_224952/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="maichieuthuy - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="7463411e127a738fb6471217cdb44d34"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Sign Up Test Case/Sign Up Successfully" time="70.317" classname="Test Cases/Sign Up Test Case/Sign Up Successfully" status="PASSED">
+         <system-out><![CDATA[13-09-2024T22:49:53 - [TEST_CASE][PASSED] - Test Cases/Sign Up Test Case/Sign Up Successfully: Test Cases/Sign Up Test Case/Sign Up Successfully
+
+13-09-2024T22:49:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-09-2024T22:49:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-09-2024T22:49:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-09-2024T22:49:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-09-2024T22:49:55 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+13-09-2024T22:49:56 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+13-09-2024T22:49:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Sign Up Success/a_Enter the Store")): Object: 'Object Repository/Sign Up/Sign Up Success/a_Enter the Store' is clicked on
+
+13-09-2024T22:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Sign Up Success/a_Enter the Store' is clicked on
+
+13-09-2024T22:49:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Sign Up Success/a_Sign In")): Object: 'Object Repository/Sign Up/Sign Up Success/a_Sign In' is clicked on
+
+13-09-2024T22:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Sign Up Success/a_Sign In' is clicked on
+
+13-09-2024T22:49:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Sign Up Success/a_Register Now")): Object: 'Object Repository/Sign Up/Sign Up Success/a_Register Now' is clicked on
+
+13-09-2024T22:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Sign Up Success/a_Register Now' is clicked on
+
+13-09-2024T22:49:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign Up Success/input_User ID_username"), "kaka"): Text 'kaka' is set on object 'Object Repository/Sign Up/Sign Up Success/input_User ID_username'
+
+13-09-2024T22:49:59 - [MESSAGE][PASSED] - Text 'kaka' is set on object 'Object Repository/Sign Up/Sign Up Success/input_User ID_username'
+
+13-09-2024T22:49:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign Up Success/input_User ID_username")): Object 'Object Repository/Sign Up/Sign Up Success/input_User ID_username' is visible
+
+13-09-2024T22:49:59 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign Up Success/input_User ID_username' is visible
+
+13-09-2024T22:49:59 - [TEST_STEP][PASSED] - userID = getAttribute(findTestObject("Object Repository/Sign Up/Sign Up Success/input_User ID_username"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_User ID_username' is: 'kaka'
+
+13-09-2024T22:50:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_User ID_username' is: 'kaka'
+
+13-09-2024T22:50:01 - [TEST_STEP][PASSED] - assert userID == "kaka": null
+
+13-09-2024T22:50:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign Up Success/input_New password_password"), "12345"): Text '12345' is set on object 'Object Repository/Sign Up/Sign Up Success/input_New password_password'
+
+13-09-2024T22:50:05 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Sign Up/Sign Up Success/input_New password_password'
+
+13-09-2024T22:50:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign Up Success/input_New password_password")): Object 'Object Repository/Sign Up/Sign Up Success/input_New password_password' is visible
+
+13-09-2024T22:50:07 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign Up Success/input_New password_password' is visible
+
+13-09-2024T22:50:07 - [TEST_STEP][PASSED] - password = getAttribute(findTestObject("Object Repository/Sign Up/Sign Up Success/input_New password_password"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_New password_password' is: '12345'
+
+13-09-2024T22:50:08 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_New password_password' is: '12345'
+
+13-09-2024T22:50:08 - [TEST_STEP][PASSED] - assert password == "12345": null
+
+13-09-2024T22:50:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Repeat password_repeatedPassword"), "12345"): Text '12345' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Repeat password_repeatedPassword'
+
+13-09-2024T22:50:09 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Repeat password_repeatedPassword'
+
+13-09-2024T22:50:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Repeat password_repeatedPassword")): Object 'Object Repository/Sign Up/Sign Up Success/input_Repeat password_repeatedPassword' is visible
+
+13-09-2024T22:50:09 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign Up Success/input_Repeat password_repeatedPassword' is visible
+
+13-09-2024T22:50:09 - [TEST_STEP][PASSED] - repeat_password = getAttribute(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Repeat password_repeatedPassword"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Repeat password_repeatedPassword' is: '12345'
+
+13-09-2024T22:50:09 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Repeat password_repeatedPassword' is: '12345'
+
+13-09-2024T22:50:09 - [TEST_STEP][PASSED] - assert repeat_password == "12345": null
+
+13-09-2024T22:50:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign Up Success/input_First name_account.firstName"), "kaka"): Text 'kaka' is set on object 'Object Repository/Sign Up/Sign Up Success/input_First name_account.firstName'
+
+13-09-2024T22:50:09 - [MESSAGE][PASSED] - Text 'kaka' is set on object 'Object Repository/Sign Up/Sign Up Success/input_First name_account.firstName'
+
+13-09-2024T22:50:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign Up Success/input_First name_account.firstName")): Object 'Object Repository/Sign Up/Sign Up Success/input_First name_account.firstName' is visible
+
+13-09-2024T22:50:10 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign Up Success/input_First name_account.firstName' is visible
+
+13-09-2024T22:50:10 - [TEST_STEP][PASSED] - firstname = getAttribute(findTestObject("Object Repository/Sign Up/Sign Up Success/input_First name_account.firstName"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_First name_account.firstName' is: 'kaka'
+
+13-09-2024T22:50:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_First name_account.firstName' is: 'kaka'
+
+13-09-2024T22:50:10 - [TEST_STEP][PASSED] - assert firstname == "kaka": null
+
+13-09-2024T22:50:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Last name_account.lastName"), "kaka"): Text 'kaka' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Last name_account.lastName'
+
+13-09-2024T22:50:10 - [MESSAGE][PASSED] - Text 'kaka' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Last name_account.lastName'
+
+13-09-2024T22:50:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Last name_account.lastName")): Object 'Object Repository/Sign Up/Sign Up Success/input_Last name_account.lastName' is visible
+
+13-09-2024T22:50:11 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign Up Success/input_Last name_account.lastName' is visible
+
+13-09-2024T22:50:11 - [TEST_STEP][PASSED] - lastname = getAttribute(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Last name_account.lastName"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Last name_account.lastName' is: 'kaka'
+
+13-09-2024T22:50:11 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Last name_account.lastName' is: 'kaka'
+
+13-09-2024T22:50:11 - [TEST_STEP][PASSED] - assert lastname == "kaka": null
+
+13-09-2024T22:50:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Email_account.email"), "kaka12@gmail.com"): Text 'kaka12@gmail.com' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Email_account.email'
+
+13-09-2024T22:50:11 - [MESSAGE][PASSED] - Text 'kaka12@gmail.com' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Email_account.email'
+
+13-09-2024T22:50:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Email_account.email")): Object 'Object Repository/Sign Up/Sign Up Success/input_Email_account.email' is visible
+
+13-09-2024T22:50:12 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign Up Success/input_Email_account.email' is visible
+
+13-09-2024T22:50:12 - [TEST_STEP][PASSED] - email = getAttribute(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Email_account.email"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Email_account.email' is: 'kaka12@gmail.com'
+
+13-09-2024T22:50:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Email_account.email' is: 'kaka12@gmail.com'
+
+13-09-2024T22:50:12 - [TEST_STEP][PASSED] - assert email == "kaka12@gmail.com": null
+
+13-09-2024T22:50:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Phone_account.phone"), "12345"): Text '12345' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Phone_account.phone'
+
+13-09-2024T22:50:15 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Phone_account.phone'
+
+13-09-2024T22:50:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Phone_account.phone")): Object 'Object Repository/Sign Up/Sign Up Success/input_Phone_account.phone' is visible
+
+13-09-2024T22:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign Up Success/input_Phone_account.phone' is visible
+
+13-09-2024T22:50:17 - [TEST_STEP][PASSED] - phone = getAttribute(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Phone_account.phone"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Phone_account.phone' is: '12345'
+
+13-09-2024T22:50:19 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Phone_account.phone' is: '12345'
+
+13-09-2024T22:50:19 - [TEST_STEP][PASSED] - assert phone == "12345": null
+
+13-09-2024T22:50:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Address 1_account.address1"), "12 abc"): Text '12 abc' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Address 1_account.address1'
+
+13-09-2024T22:50:23 - [MESSAGE][PASSED] - Text '12 abc' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Address 1_account.address1'
+
+13-09-2024T22:50:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Address 1_account.address1")): Object 'Object Repository/Sign Up/Sign Up Success/input_Address 1_account.address1' is visible
+
+13-09-2024T22:50:25 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign Up Success/input_Address 1_account.address1' is visible
+
+13-09-2024T22:50:25 - [TEST_STEP][PASSED] - address1 = getAttribute(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Address 1_account.address1"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Address 1_account.address1' is: '12 abc'
+
+13-09-2024T22:50:27 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Address 1_account.address1' is: '12 abc'
+
+13-09-2024T22:50:27 - [TEST_STEP][PASSED] - assert address1 == "12 abc": null
+
+13-09-2024T22:50:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Address 2_account.address2"), "12 abc "): Text '12 abc ' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Address 2_account.address2'
+
+13-09-2024T22:50:31 - [MESSAGE][PASSED] - Text '12 abc ' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Address 2_account.address2'
+
+13-09-2024T22:50:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Address 2_account.address2")): Object 'Object Repository/Sign Up/Sign Up Success/input_Address 2_account.address2' is visible
+
+13-09-2024T22:50:33 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign Up Success/input_Address 2_account.address2' is visible
+
+13-09-2024T22:50:33 - [TEST_STEP][PASSED] - address2 = getAttribute(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Address 2_account.address2"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Address 2_account.address2' is: '12 abc '
+
+13-09-2024T22:50:35 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Address 2_account.address2' is: '12 abc '
+
+13-09-2024T22:50:35 - [TEST_STEP][PASSED] - assert address2 == "12 abc ": null
+
+13-09-2024T22:50:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign Up Success/input_City_account.city"), "abc"): Text 'abc' is set on object 'Object Repository/Sign Up/Sign Up Success/input_City_account.city'
+
+13-09-2024T22:50:39 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Sign Up/Sign Up Success/input_City_account.city'
+
+13-09-2024T22:50:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign Up Success/input_City_account.city")): Object 'Object Repository/Sign Up/Sign Up Success/input_City_account.city' is visible
+
+13-09-2024T22:50:41 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign Up Success/input_City_account.city' is visible
+
+13-09-2024T22:50:41 - [TEST_STEP][PASSED] - city = getAttribute(findTestObject("Object Repository/Sign Up/Sign Up Success/input_City_account.city"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_City_account.city' is: 'abc'
+
+13-09-2024T22:50:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_City_account.city' is: 'abc'
+
+13-09-2024T22:50:43 - [TEST_STEP][PASSED] - assert city == "abc": null
+
+13-09-2024T22:50:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign Up Success/input_State_account.state"), "abc"): Text 'abc' is set on object 'Object Repository/Sign Up/Sign Up Success/input_State_account.state'
+
+13-09-2024T22:50:47 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Sign Up/Sign Up Success/input_State_account.state'
+
+13-09-2024T22:50:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign Up Success/input_State_account.state")): Object 'Object Repository/Sign Up/Sign Up Success/input_State_account.state' is visible
+
+13-09-2024T22:50:49 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign Up Success/input_State_account.state' is visible
+
+13-09-2024T22:50:49 - [TEST_STEP][PASSED] - state = getAttribute(findTestObject("Object Repository/Sign Up/Sign Up Success/input_State_account.state"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_State_account.state' is: 'abc'
+
+13-09-2024T22:50:51 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_State_account.state' is: 'abc'
+
+13-09-2024T22:50:51 - [TEST_STEP][PASSED] - assert state == "abc": null
+
+13-09-2024T22:50:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Zip_account.zip"), "50"): Text '50' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Zip_account.zip'
+
+13-09-2024T22:50:55 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Zip_account.zip'
+
+13-09-2024T22:50:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Zip_account.zip")): Object 'Object Repository/Sign Up/Sign Up Success/input_Zip_account.zip' is visible
+
+13-09-2024T22:50:57 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign Up Success/input_Zip_account.zip' is visible
+
+13-09-2024T22:50:57 - [TEST_STEP][PASSED] - zip = getAttribute(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Zip_account.zip"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Zip_account.zip' is: '50'
+
+13-09-2024T22:50:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Zip_account.zip' is: '50'
+
+13-09-2024T22:50:59 - [TEST_STEP][PASSED] - assert zip == "50": null
+
+13-09-2024T22:50:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Country_account.country"), "vietnam"): Text 'vietnam' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Country_account.country'
+
+13-09-2024T22:51:02 - [MESSAGE][PASSED] - Text 'vietnam' is set on object 'Object Repository/Sign Up/Sign Up Success/input_Country_account.country'
+
+13-09-2024T22:51:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Country_account.country")): Object 'Object Repository/Sign Up/Sign Up Success/input_Country_account.country' is visible
+
+13-09-2024T22:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign Up Success/input_Country_account.country' is visible
+
+13-09-2024T22:51:02 - [TEST_STEP][PASSED] - country = getAttribute(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Country_account.country"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Country_account.country' is: 'vietnam'
+
+13-09-2024T22:51:03 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign Up Success/input_Country_account.country' is: 'vietnam'
+
+13-09-2024T22:51:03 - [TEST_STEP][PASSED] - assert country == "vietnam": null
+
+13-09-2024T22:51:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Sign Up Success/input_Enable MyBanner_newAccount")): Object: 'Object Repository/Sign Up/Sign Up Success/input_Enable MyBanner_newAccount' is clicked on
+
+13-09-2024T22:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Sign Up Success/input_Enable MyBanner_newAccount' is clicked on
+
+13-09-2024T22:51:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-09-2024T22:51:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-09-2024T22:49:53 - [TEST_SUITE][PASSED] - Sign Up Success: Test Cases/Sign Up Test Case/Sign Up Successfully]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

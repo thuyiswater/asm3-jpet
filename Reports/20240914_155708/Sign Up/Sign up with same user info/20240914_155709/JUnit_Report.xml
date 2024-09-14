@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign up with same user info" time="149.882" tests="1" failures="0" errors="0">
+   <testsuite name="Sign up with same user info" tests="1" failures="0" errors="0" time="149.882" skipped="0" timestamp="14-09-2024T15:57:10" hostname="maichieuthuy - localhost" id="Test Suites/Sign Up/Sign up with same user info">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/maichieuthuy/Katalon Studio/asm3-jpet/Reports/20240914_155708/Sign Up/Sign up with same user info/20240914_155709"/>
+         <property name="logFiles" value="/Users/maichieuthuy/Katalon Studio/asm3-jpet/Reports/20240914_155708/Sign Up/Sign up with same user info/20240914_155709/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="maichieuthuy - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="b1fc3b84d2db543c28c06a6fdc45bb1b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Sign Up Test Case/Sign up with same user info" time="149.82" classname="Test Cases/Sign Up Test Case/Sign up with same user info" status="PASSED">
+         <system-out><![CDATA[14-09-2024T15:57:10 - [TEST_CASE][PASSED] - Test Cases/Sign Up Test Case/Sign up with same user info: Test Cases/Sign Up Test Case/Sign up with same user info
+
+14-09-2024T15:57:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-09-2024T15:57:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-09-2024T15:57:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-09-2024T15:57:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-09-2024T15:57:12 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+14-09-2024T15:57:14 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+14-09-2024T15:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+14-09-2024T15:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+14-09-2024T15:57:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/a_Sign In")): Object: 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/a_Sign In' is clicked on
+
+14-09-2024T15:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/a_Sign In' is clicked on
+
+14-09-2024T15:57:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/a_Register Now")): Object: 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/a_Register Now' is clicked on
+
+14-09-2024T15:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/a_Register Now' is clicked on
+
+14-09-2024T15:57:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username"), "kaka"): Text 'kaka' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username'
+
+14-09-2024T15:57:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes--567573058']'. Please recheck the objects properties to make sure the desired element is located. 
+
+14-09-2024T15:57:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username'. Try using Self-healing.
+
+14-09-2024T15:57:50 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='stripes--567573058']'.
+
+14-09-2024T15:57:52 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[@id='Catalog']/form/table/tbody/tr/td[2]/input'.
+
+14-09-2024T15:57:53 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/maichieuthuy/Katalon Studio/asm3-jpet/Reports/Self-healing/Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username_idRelative.png
+
+14-09-2024T15:57:53 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/table/tbody/tr/td[2]/input'.
+
+14-09-2024T15:58:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes--567573058']'. Please recheck the objects properties to make sure the desired element is located. 
+
+14-09-2024T15:58:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username'. Try using Self-healing.
+
+14-09-2024T15:58:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/table/tbody/tr/td[2]/input'.
+
+14-09-2024T15:58:24 - [MESSAGE][PASSED] - Text 'kaka' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username'
+
+14-09-2024T15:58:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username")): Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username' is visible
+
+14-09-2024T15:58:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes--567573058']'. Please recheck the objects properties to make sure the desired element is located. 
+
+14-09-2024T15:58:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username'. Try using Self-healing.
+
+14-09-2024T15:58:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/table/tbody/tr/td[2]/input'.
+
+14-09-2024T15:58:56 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username' is visible
+
+14-09-2024T15:58:56 - [TEST_STEP][PASSED] - userID = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username' is: 'kaka'
+
+14-09-2024T15:59:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes--567573058']'. Please recheck the objects properties to make sure the desired element is located. 
+
+14-09-2024T15:59:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username'. Try using Self-healing.
+
+14-09-2024T15:59:27 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/table/tbody/tr/td[2]/input'.
+
+14-09-2024T15:59:27 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username' is: 'kaka'
+
+14-09-2024T15:59:27 - [TEST_STEP][PASSED] - assert userID == "kaka": null
+
+14-09-2024T15:59:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_New password_password"), "12345"): Text '12345' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_New password_password'
+
+14-09-2024T15:59:28 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_New password_password'
+
+14-09-2024T15:59:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_New password_password")): Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_New password_password' is visible
+
+14-09-2024T15:59:28 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_New password_password' is visible
+
+14-09-2024T15:59:28 - [TEST_STEP][PASSED] - password = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_New password_password"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_New password_password' is: '12345'
+
+14-09-2024T15:59:28 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_New password_password' is: '12345'
+
+14-09-2024T15:59:28 - [TEST_STEP][PASSED] - assert password == "12345": null
+
+14-09-2024T15:59:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Repeat password_repeatedPassword"), "12345"): Text '12345' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Repeat password_repeatedPassword'
+
+14-09-2024T15:59:29 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Repeat password_repeatedPassword'
+
+14-09-2024T15:59:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Repeat password_repeatedPassword")): Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Repeat password_repeatedPassword' is visible
+
+14-09-2024T15:59:29 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Repeat password_repeatedPassword' is visible
+
+14-09-2024T15:59:29 - [TEST_STEP][PASSED] - repeat_password = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Repeat password_repeatedPassword"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Repeat password_repeatedPassword' is: '12345'
+
+14-09-2024T15:59:29 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Repeat password_repeatedPassword' is: '12345'
+
+14-09-2024T15:59:29 - [TEST_STEP][PASSED] - assert repeat_password == "12345": null
+
+14-09-2024T15:59:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_First name_account.firstName"), "hi"): Text 'hi' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_First name_account.firstName'
+
+14-09-2024T15:59:30 - [MESSAGE][PASSED] - Text 'hi' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_First name_account.firstName'
+
+14-09-2024T15:59:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_First name_account.firstName")): Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_First name_account.firstName' is visible
+
+14-09-2024T15:59:30 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_First name_account.firstName' is visible
+
+14-09-2024T15:59:30 - [TEST_STEP][PASSED] - firstname = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_First name_account.firstName"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_First name_account.firstName' is: 'hi'
+
+14-09-2024T15:59:30 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_First name_account.firstName' is: 'hi'
+
+14-09-2024T15:59:30 - [TEST_STEP][PASSED] - assert firstname == "hi": null
+
+14-09-2024T15:59:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Last name_account.lastName"), "hi"): Text 'hi' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Last name_account.lastName'
+
+14-09-2024T15:59:31 - [MESSAGE][PASSED] - Text 'hi' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Last name_account.lastName'
+
+14-09-2024T15:59:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Last name_account.lastName")): Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Last name_account.lastName' is visible
+
+14-09-2024T15:59:31 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Last name_account.lastName' is visible
+
+14-09-2024T15:59:31 - [TEST_STEP][PASSED] - lastname = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Last name_account.lastName"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Last name_account.lastName' is: 'hi'
+
+14-09-2024T15:59:31 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Last name_account.lastName' is: 'hi'
+
+14-09-2024T15:59:31 - [TEST_STEP][PASSED] - assert lastname == "hi": null
+
+14-09-2024T15:59:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Email_account.email"), "hi12@gmail.com"): Text 'hi12@gmail.com' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Email_account.email'
+
+14-09-2024T15:59:32 - [MESSAGE][PASSED] - Text 'hi12@gmail.com' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Email_account.email'
+
+14-09-2024T15:59:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Email_account.email")): Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Email_account.email' is visible
+
+14-09-2024T15:59:32 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Email_account.email' is visible
+
+14-09-2024T15:59:32 - [TEST_STEP][PASSED] - email = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Email_account.email"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Email_account.email' is: 'hi12@gmail.com'
+
+14-09-2024T15:59:32 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Email_account.email' is: 'hi12@gmail.com'
+
+14-09-2024T15:59:32 - [TEST_STEP][PASSED] - assert email == "hi12@gmail.com": null
+
+14-09-2024T15:59:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Phone_account.phone"), "123456"): Text '123456' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Phone_account.phone'
+
+14-09-2024T15:59:33 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Phone_account.phone'
+
+14-09-2024T15:59:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Phone_account.phone")): Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Phone_account.phone' is visible
+
+14-09-2024T15:59:33 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Phone_account.phone' is visible
+
+14-09-2024T15:59:33 - [TEST_STEP][PASSED] - phone = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Phone_account.phone"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Phone_account.phone' is: '123456'
+
+14-09-2024T15:59:33 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Phone_account.phone' is: '123456'
+
+14-09-2024T15:59:33 - [TEST_STEP][PASSED] - assert phone == "123456": null
+
+14-09-2024T15:59:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 1_account.address1"), "123 abc"): Text '123 abc' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 1_account.address1'
+
+14-09-2024T15:59:34 - [MESSAGE][PASSED] - Text '123 abc' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 1_account.address1'
+
+14-09-2024T15:59:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 1_account.address1")): Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 1_account.address1' is visible
+
+14-09-2024T15:59:34 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 1_account.address1' is visible
+
+14-09-2024T15:59:34 - [TEST_STEP][PASSED] - address1 = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 1_account.address1"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 1_account.address1' is: '123 abc'
+
+14-09-2024T15:59:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 1_account.address1' is: '123 abc'
+
+14-09-2024T15:59:34 - [TEST_STEP][PASSED] - assert address1 == "123 abc": null
+
+14-09-2024T15:59:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 2_account.address2"), "123 abc"): Text '123 abc' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 2_account.address2'
+
+14-09-2024T15:59:34 - [MESSAGE][PASSED] - Text '123 abc' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 2_account.address2'
+
+14-09-2024T15:59:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 2_account.address2")): Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 2_account.address2' is visible
+
+14-09-2024T15:59:35 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 2_account.address2' is visible
+
+14-09-2024T15:59:35 - [TEST_STEP][PASSED] - address2 = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 2_account.address2"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 2_account.address2' is: '123 abc'
+
+14-09-2024T15:59:35 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 2_account.address2' is: '123 abc'
+
+14-09-2024T15:59:35 - [TEST_STEP][PASSED] - assert address2 == "123 abc": null
+
+14-09-2024T15:59:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_City_account.city"), "ab"): Text 'ab' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_City_account.city'
+
+14-09-2024T15:59:35 - [MESSAGE][PASSED] - Text 'ab' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_City_account.city'
+
+14-09-2024T15:59:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_City_account.city")): Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_City_account.city' is visible
+
+14-09-2024T15:59:36 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_City_account.city' is visible
+
+14-09-2024T15:59:36 - [TEST_STEP][PASSED] - city = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_City_account.city"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_City_account.city' is: 'ab'
+
+14-09-2024T15:59:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_City_account.city' is: 'ab'
+
+14-09-2024T15:59:36 - [TEST_STEP][PASSED] - assert city == "ab": null
+
+14-09-2024T15:59:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_State_account.state"), "ab"): Text 'ab' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_State_account.state'
+
+14-09-2024T15:59:36 - [MESSAGE][PASSED] - Text 'ab' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_State_account.state'
+
+14-09-2024T15:59:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_State_account.state")): Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_State_account.state' is visible
+
+14-09-2024T15:59:37 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_State_account.state' is visible
+
+14-09-2024T15:59:37 - [TEST_STEP][PASSED] - state = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_State_account.state"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_State_account.state' is: 'ab'
+
+14-09-2024T15:59:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_State_account.state' is: 'ab'
+
+14-09-2024T15:59:37 - [TEST_STEP][PASSED] - assert state == "ab": null
+
+14-09-2024T15:59:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Zip_account.zip"), "20"): Text '20' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Zip_account.zip'
+
+14-09-2024T15:59:37 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Zip_account.zip'
+
+14-09-2024T15:59:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Zip_account.zip")): Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Zip_account.zip' is visible
+
+14-09-2024T15:59:38 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Zip_account.zip' is visible
+
+14-09-2024T15:59:38 - [TEST_STEP][PASSED] - zip = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Zip_account.zip"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Zip_account.zip' is: '20'
+
+14-09-2024T15:59:38 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Zip_account.zip' is: '20'
+
+14-09-2024T15:59:38 - [TEST_STEP][PASSED] - assert zip == "20": null
+
+14-09-2024T15:59:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Country_account.country"), "thailand"): Text 'thailand' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Country_account.country'
+
+14-09-2024T15:59:38 - [MESSAGE][PASSED] - Text 'thailand' is set on object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Country_account.country'
+
+14-09-2024T15:59:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Country_account.country")): Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Country_account.country' is visible
+
+14-09-2024T15:59:39 - [MESSAGE][PASSED] - Object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Country_account.country' is visible
+
+14-09-2024T15:59:39 - [TEST_STEP][PASSED] - country = getAttribute(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Country_account.country"), "value"): Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Country_account.country' is: 'thailand'
+
+14-09-2024T15:59:39 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Country_account.country' is: 'thailand'
+
+14-09-2024T15:59:39 - [TEST_STEP][PASSED] - assert country == "thailand": null
+
+14-09-2024T15:59:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Enable MyBanner_newAccount")): Object: 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Enable MyBanner_newAccount' is clicked on
+
+14-09-2024T15:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Enable MyBanner_newAccount' is clicked on
+
+14-09-2024T15:59:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-09-2024T15:59:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-09-2024T15:57:10 - [TEST_SUITE][PASSED] - Sign up with same user info: Test Cases/Sign Up Test Case/Sign up with same user info]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

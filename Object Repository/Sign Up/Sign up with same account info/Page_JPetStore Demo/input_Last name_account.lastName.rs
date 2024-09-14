@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Last name_account.lastName</name>
+   <tag></tag>
+   <elementGuidId>d8e3f747-3d26-4bc3-864f-d41239da8c47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='account.lastName']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//input[@name='account.lastName']</value>
+      <webElementGuid>52e3c0a4-2300-4cf6-84da-3847f11b7f24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//div[@id='Catalog']/form/table[2]/tbody/tr[2]/td[2]/input</value>
+      <webElementGuid>b0c537fa-c18f-422a-8eb2-d3f92b1b64ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//table[2]/tbody/tr[2]/td[2]/input</value>
+      <webElementGuid>8947121b-69a7-4bb1-84e3-6f21b9d39284</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//input[@name = 'account.lastName' and @type = 'text']</value>
+      <webElementGuid>73a38b5f-e47f-4c4a-b4b7-fee46a518365</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
