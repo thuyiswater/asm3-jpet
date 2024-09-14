@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Booking,Chrome 128.0.0.0,,,14-09-2024 09:11:02,14-09-2024 09:18:01,6m - 58.137s,FAILED
+,,,,,,,
+Test Cases/Booking/Booking Successfully,Chrome 128.0.0.0,,,14-09-2024 09:11:03,14-09-2024 09:12:50,1m - 46.926s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,14-09-2024 09:11:03,14-09-2024 09:11:05,1.804s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,14-09-2024 09:11:05,14-09-2024 09:11:10,5.031s,PASSED
+"click(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/a_Sign In""))",Chrome 128.0.0.0,,,14-09-2024 09:11:10,14-09-2024 09:11:12,2.004s,PASSED
+"setText(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_username""), ""pollux"")",Chrome 128.0.0.0,,,14-09-2024 09:11:12,14-09-2024 09:12:20,1m - 7.672s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_password""), ""tzH6RvlfSTg="")",Chrome 128.0.0.0,,,14-09-2024 09:12:20,14-09-2024 09:12:21,1.979s,PASSED
+"click(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_signon""))",Chrome 128.0.0.0,,,14-09-2024 09:12:21,14-09-2024 09:12:24,2.648s,PASSED
+"click(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/img""))",Chrome 128.0.0.0,,,14-09-2024 09:12:24,14-09-2024 09:12:26,1.690s,PASSED
+"click(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/a_K9-PO-02""))",Chrome 128.0.0.0,,,14-09-2024 09:12:26,14-09-2024 09:12:28,1.985s,PASSED
+"click(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/a_Add to Cart""))",Chrome 128.0.0.0,,,14-09-2024 09:12:28,14-09-2024 09:12:30,2.005s,PASSED
+"setText(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/input_false_EST-8""), ""2"")",Chrome 128.0.0.0,,,14-09-2024 09:12:30,14-09-2024 09:12:33,3.674s,PASSED
+"click(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities""))",Chrome 128.0.0.0,,,14-09-2024 09:12:33,14-09-2024 09:12:36,2.320s,PASSED
+"quantityText = getAttribute(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/input_false_EST-8""), ""value"")",Chrome 128.0.0.0,,,14-09-2024 09:12:36,14-09-2024 09:12:37,1.643s,PASSED
+quantity = Integer.parseInt(quantityText.trim()),Chrome 128.0.0.0,,,14-09-2024 09:12:37,14-09-2024 09:12:37,0.002s,PASSED
+"verifyEqual(quantity, 2)",Chrome 128.0.0.0,,,14-09-2024 09:12:37,14-09-2024 09:12:37,0.021s,PASSED
+"click(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/a_Proceed to Checkout""))",Chrome 128.0.0.0,,,14-09-2024 09:12:37,14-09-2024 09:12:40,2.343s,PASSED
+"click(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/input_Ship to different address_newOrder""))",Chrome 128.0.0.0,,,14-09-2024 09:12:40,14-09-2024 09:12:42,2.002s,PASSED
+"click(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/a_Confirm""))",Chrome 128.0.0.0,,,14-09-2024 09:12:42,14-09-2024 09:12:44,1.994s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/td_1""), 2)",Chrome 128.0.0.0,,,14-09-2024 09:12:44,14-09-2024 09:12:45,1.674s,PASSED
+"checkoutQuantityText = getText(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/td_1""))",Chrome 128.0.0.0,,,14-09-2024 09:12:45,14-09-2024 09:12:47,1.966s,PASSED
+"itemIdText = getText(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/td_EST-8""))",Chrome 128.0.0.0,,,14-09-2024 09:12:47,14-09-2024 09:12:49,1.992s,PASSED
+checkoutQuantity = Integer.parseInt(checkoutQuantityText.trim()),Chrome 128.0.0.0,,,14-09-2024 09:12:49,14-09-2024 09:12:49,0.002s,PASSED
+"verifyEqual(checkoutQuantity, 2)",Chrome 128.0.0.0,,,14-09-2024 09:12:49,14-09-2024 09:12:49,0.002s,PASSED
+"verifyEqual(itemIdText, ""EST-8"", CONTINUE_ON_FAILURE)",Chrome 128.0.0.0,,,14-09-2024 09:12:49,14-09-2024 09:12:49,0.011s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,14-09-2024 09:12:49,14-09-2024 09:12:50,0.107s,PASSED
+,,,,,,,
+Test Cases/Booking/Invalid Quantity String Input,Chrome 128.0.0.0,,,14-09-2024 09:16:36,14-09-2024 09:17:51,1m - 15.000s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,14-09-2024 09:16:36,14-09-2024 09:16:37,0.826s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,14-09-2024 09:16:37,14-09-2024 09:16:41,3.781s,PASSED
+"click(findTestObject(""Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Sign In_1""))",Chrome 128.0.0.0,,,14-09-2024 09:16:41,14-09-2024 09:16:42,0.635s,PASSED
+"setText(findTestObject(""Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_username_1""), ""pollux"")",Chrome 128.0.0.0,,,14-09-2024 09:16:42,14-09-2024 09:17:44,1m - 2.869s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_password""), ""tzH6RvlfSTg="")",Chrome 128.0.0.0,,,14-09-2024 09:17:44,14-09-2024 09:17:45,0.317s,PASSED
+"click(findTestObject(""Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_signon""))",Chrome 128.0.0.0,,,14-09-2024 09:17:45,14-09-2024 09:17:46,0.954s,PASSED
+"click(findTestObject(""Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/img""))",Chrome 128.0.0.0,,,14-09-2024 09:17:46,14-09-2024 09:17:46,0.628s,PASSED
+"click(findTestObject(""Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_K9-PO-02""))",Chrome 128.0.0.0,,,14-09-2024 09:17:46,14-09-2024 09:17:47,0.636s,PASSED
+"click(findTestObject(""Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Add to Cart""))",Chrome 128.0.0.0,,,14-09-2024 09:17:47,14-09-2024 09:17:48,0.626s,PASSED
+"setText(findTestObject(""Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_false_EST-8""), ""two"")",Chrome 128.0.0.0,,,14-09-2024 09:17:48,14-09-2024 09:17:48,0.539s,PASSED
+"click(findTestObject(""Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities""))",Chrome 128.0.0.0,,,14-09-2024 09:17:48,14-09-2024 09:17:49,0.590s,PASSED
+"click(findTestObject(""Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Proceed to Checkout""))",Chrome 128.0.0.0,,,14-09-2024 09:17:49,14-09-2024 09:17:49,0.627s,PASSED
+"click(findTestObject(""Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Ship to different address_newOrder""))",Chrome 128.0.0.0,,,14-09-2024 09:17:49,14-09-2024 09:17:50,0.643s,PASSED
+"click(findTestObject(""Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Confirm""))",Chrome 128.0.0.0,,,14-09-2024 09:17:50,14-09-2024 09:17:51,0.630s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/td_1""), 2)",Chrome 128.0.0.0,,,14-09-2024 09:17:51,14-09-2024 09:17:51,0.255s,PASSED
+"checkoutQuantityText = getText(findTestObject(""Object Repository/Booking Successfully/Page_JPetStore Demo/td_1""))",Chrome 128.0.0.0,,,14-09-2024 09:17:51,14-09-2024 09:17:51,0.241s,PASSED
+checkoutQuantity = Integer.parseInt(checkoutQuantityText.trim()),Chrome 128.0.0.0,,,14-09-2024 09:17:51,14-09-2024 09:17:51,0.000s,PASSED
+"if (checkoutQuantityText.equals(""2"") || checkoutQuantityText.equalsIgnoreCase(""two""))",Chrome 128.0.0.0,,,14-09-2024 09:17:51,14-09-2024 09:17:51,0.000s,PASSED
+else,Chrome 128.0.0.0,,,14-09-2024 09:17:51,14-09-2024 09:17:51,0.003s,FAILED
+closeBrowser(),Chrome 128.0.0.0,,,14-09-2024 09:17:51,14-09-2024 09:17:51,0.184s,PASSED
+,,,,,,,
+Test Cases/Booking/Submit an Order Unsuccessfully,Chrome 128.0.0.0,,,14-09-2024 09:17:51,14-09-2024 09:18:01,9.318s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,14-09-2024 09:17:51,14-09-2024 09:17:52,0.780s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,14-09-2024 09:17:52,14-09-2024 09:17:56,4.069s,PASSED
+"click(findTestObject(""Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/img""))",Chrome 128.0.0.0,,,14-09-2024 09:17:56,14-09-2024 09:17:57,0.675s,PASSED
+"click(findTestObject(""Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/a_K9-PO-02""))",Chrome 128.0.0.0,,,14-09-2024 09:17:57,14-09-2024 09:17:58,0.635s,PASSED
+"click(findTestObject(""Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/a_Add to Cart""))",Chrome 128.0.0.0,,,14-09-2024 09:17:58,14-09-2024 09:17:58,0.640s,PASSED
+"setText(findTestObject(""Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/input_true_EST-8""), ""2"")",Chrome 128.0.0.0,,,14-09-2024 09:17:58,14-09-2024 09:17:59,0.539s,PASSED
+"click(findTestObject(""Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities""))",Chrome 128.0.0.0,,,14-09-2024 09:17:59,14-09-2024 09:17:59,0.598s,PASSED
+"click(findTestObject(""Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/a_Proceed to Checkout""))",Chrome 128.0.0.0,,,14-09-2024 09:17:59,14-09-2024 09:18:00,0.669s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/li_You must sign on before attempting to check out.  Please sign on and try checking out again""), 10)",Chrome 128.0.0.0,,,14-09-2024 09:18:00,14-09-2024 09:18:00,0.271s,PASSED
+"loginRequiredText = getText(findTestObject(""Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/li_You must sign on before attempting to check out.  Please sign on and try checking out again""))",Chrome 128.0.0.0,,,14-09-2024 09:18:00,14-09-2024 09:18:00,0.241s,PASSED
+"if (loginRequiredText == ""You must sign on before attempting to check out.  Please sign on and try checking out again"")",Chrome 128.0.0.0,,,14-09-2024 09:18:00,14-09-2024 09:18:00,0.000s,PASSED
+else,Chrome 128.0.0.0,,,14-09-2024 09:18:00,14-09-2024 09:18:01,0.008s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,14-09-2024 09:18:01,14-09-2024 09:18:01,0.131s,PASSED

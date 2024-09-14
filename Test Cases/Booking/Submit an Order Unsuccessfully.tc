@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Submit an Order Unsuccessfully</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e00f3a6b-fbcb-4e08-a6af-647a44e25fa3</testCaseGuid>
+</TestCaseEntity>
