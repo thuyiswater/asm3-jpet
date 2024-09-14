@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Invalid search,Chrome 128.0.0.0,,,02-09-2024 23:00:30,02-09-2024 23:27:59,27m - 29.168s,FAILED
+,,,,,,,
+Test Cases/Searching/Search Product Empty,Chrome 128.0.0.0,,,02-09-2024 23:00:30,02-09-2024 23:00:37,6.241s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,02-09-2024 23:00:30,02-09-2024 23:00:33,2.955s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,02-09-2024 23:00:33,02-09-2024 23:00:35,1.925s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input__searchProducts""))",Chrome 128.0.0.0,,,02-09-2024 23:00:35,02-09-2024 23:00:36,0.601s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/li_Please enter a keyword to search for, th_53394b""))",Chrome 128.0.0.0,,,02-09-2024 23:00:36,02-09-2024 23:00:36,0.276s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_JPetStore Demo/li_Please enter a keyword to search for, th_53394b""))",Chrome 128.0.0.0,,,02-09-2024 23:00:36,02-09-2024 23:00:36,0.282s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,02-09-2024 23:00:36,02-09-2024 23:00:36,0.086s,PASSED
+,,,,,,,
+Test Cases/Searching/Search Product Typo,Chrome 128.0.0.0,,,02-09-2024 23:02:32,02-09-2024 23:03:12,39.986s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,02-09-2024 23:02:32,02-09-2024 23:02:33,0.925s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,02-09-2024 23:02:33,02-09-2024 23:02:34,1.375s,PASSED
+"setText(findTestObject(""Object Repository/Page_JPetStore Demo/input__keyword""), ""doug"")",Chrome 128.0.0.0,,,02-09-2024 23:02:34,02-09-2024 23:02:38,3.315s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_JPetStore Demo/input__keyword""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,02-09-2024 23:02:38,02-09-2024 23:02:40,2.162s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_JPetStore Demo/div_Product IDName""), 0)",Chrome 128.0.0.0,,,02-09-2024 23:02:40,02-09-2024 23:03:12,32.184s,FAILED
+,,,,,,,
+Test Cases/Searching/Search Product Incomplete,Chrome 128.0.0.0,,,02-09-2024 23:03:12,02-09-2024 23:03:22,9.614s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,02-09-2024 23:03:12,02-09-2024 23:03:13,0.877s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,02-09-2024 23:03:13,02-09-2024 23:03:14,1.394s,PASSED
+"setText(findTestObject(""Object Repository/Page_JPetStore Demo/input__keyword""), ""poo"")",Chrome 128.0.0.0,,,02-09-2024 23:03:14,02-09-2024 23:03:18,3.325s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input__searchProducts""))",Chrome 128.0.0.0,,,02-09-2024 23:03:18,02-09-2024 23:03:20,2.608s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/td_Poodle""), 0)",Chrome 128.0.0.0,,,02-09-2024 23:03:20,02-09-2024 23:03:22,1.278s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,02-09-2024 23:03:22,02-09-2024 23:03:22,0.085s,PASSED
+,,,,,,,
+Test Cases/Searching/Search Product With Space In Input,Chrome 128.0.0.0,,,02-09-2024 23:03:22,02-09-2024 23:03:29,7.008s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,02-09-2024 23:03:22,02-09-2024 23:03:23,1.026s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,02-09-2024 23:03:23,02-09-2024 23:03:23,0.701s,PASSED
+"setText(findTestObject(""Object Repository/Page_JPetStore Demo/input__keyword""), ""gold fish"")",Chrome 128.0.0.0,,,02-09-2024 23:03:23,02-09-2024 23:03:25,1.282s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_JPetStore Demo/input__keyword""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,02-09-2024 23:03:25,02-09-2024 23:03:27,2.591s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/td_Goldfish""), 0)",Chrome 128.0.0.0,,,02-09-2024 23:03:27,02-09-2024 23:03:29,1.287s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,02-09-2024 23:03:29,02-09-2024 23:03:29,0.090s,PASSED
+,,,,,,,
+Test Cases/Searching/Search Product Numeric,Chrome 128.0.0.0,,,02-09-2024 23:05:18,02-09-2024 23:05:58,40.011s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,02-09-2024 23:05:18,02-09-2024 23:05:19,0.916s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,02-09-2024 23:05:19,02-09-2024 23:05:20,1.283s,PASSED
+"setText(findTestObject(""Object Repository/Page_JPetStore Demo/input__keyword""), ""123456789"")",Chrome 128.0.0.0,,,02-09-2024 23:05:20,02-09-2024 23:05:24,3.425s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input__searchProducts""))",Chrome 128.0.0.0,,,02-09-2024 23:05:24,02-09-2024 23:05:26,2.234s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_JPetStore Demo/div_Product IDName""), 0)",Chrome 128.0.0.0,,,02-09-2024 23:05:26,02-09-2024 23:05:58,32.136s,FAILED
+,,,,,,,
+Test Cases/Searching/Search Product Special Characters,Chrome 128.0.0.0,,,02-09-2024 23:07:41,02-09-2024 23:08:15,34.141s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,02-09-2024 23:07:41,02-09-2024 23:07:41,0.817s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,02-09-2024 23:07:41,02-09-2024 23:07:43,1.246s,PASSED
+"setText(findTestObject(""Object Repository/Page_JPetStore Demo/input__keyword""), ""!@#$%^&*()"")",Chrome 128.0.0.0,,,02-09-2024 23:07:43,02-09-2024 23:07:44,1.000s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input__searchProducts""))",Chrome 128.0.0.0,,,02-09-2024 23:07:44,02-09-2024 23:07:44,0.526s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_JPetStore Demo/div_Product IDName""), 0)",Chrome 128.0.0.0,,,02-09-2024 23:07:44,02-09-2024 23:08:15,30.533s,FAILED
+,,,,,,,
+Test Cases/Searching/Search Product Long Input,Chrome 128.0.0.0,,,02-09-2024 23:27:24,02-09-2024 23:27:59,35.641s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,02-09-2024 23:27:24,02-09-2024 23:27:25,0.856s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,02-09-2024 23:27:25,02-09-2024 23:27:26,1.580s,PASSED
+"setText(findTestObject(""Object Repository/Page_JPetStore Demo/input__keyword""), ""aB3$dE9fG!hJkLmN2oPqRsTuVwXyZ1@cD4eF5gH^iJ6kL7mN8oP9qR*sT!uVxYz0#A1bC2dE3fG4hI5jK6lM7nO8pQ9rS&tU*vW!xYz0@A1B2C3D4E5F6G7H8I9J0K!lM^nO*pQ+rS-tU=vW+xY=z0@1A2B3C4D5E6F7G8H9I0J!kL^mN*oP+qR-sT/uV=wX+yZ"")",Chrome 128.0.0.0,,,02-09-2024 23:27:26,02-09-2024 23:27:27,0.697s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/input__searchProducts""))",Chrome 128.0.0.0,,,02-09-2024 23:27:27,02-09-2024 23:27:27,0.499s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_JPetStore Demo/div_Product IDName""), 0)",Chrome 128.0.0.0,,,02-09-2024 23:27:27,02-09-2024 23:27:59,31.993s,FAILED
