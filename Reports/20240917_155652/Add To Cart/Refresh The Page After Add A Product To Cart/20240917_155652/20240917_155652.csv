@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Refresh The Page After Add A Product To Cart,Chrome 128.0.0.0,,,17-09-2024 15:56:55,17-09-2024 15:57:32,36.857s,FAILED
+,,,,,,,
+Test Cases/Add To Cart/Refresh The Page After Add A Product To Cart,Chrome 128.0.0.0,,,17-09-2024 15:57:23,17-09-2024 15:57:32,8.788s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,17-09-2024 15:57:23,17-09-2024 15:57:24,0.751s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 128.0.0.0,,,17-09-2024 15:57:24,17-09-2024 15:57:25,0.888s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/a_Enter the Store""))",Chrome 128.0.0.0,,,17-09-2024 15:57:25,17-09-2024 15:57:25,0.246s,PASSED
+"click(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/a_Enter the Store""))",Chrome 128.0.0.0,,,17-09-2024 15:57:25,17-09-2024 15:57:26,1.113s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/img""))",Chrome 128.0.0.0,,,17-09-2024 15:57:26,17-09-2024 15:57:26,0.249s,PASSED
+"click(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/img""))",Chrome 128.0.0.0,,,17-09-2024 15:57:26,17-09-2024 15:57:27,0.497s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/a_FI-SW-01""))",Chrome 128.0.0.0,,,17-09-2024 15:57:27,17-09-2024 15:57:27,0.251s,PASSED
+"click(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/a_FI-SW-01""))",Chrome 128.0.0.0,,,17-09-2024 15:57:27,17-09-2024 15:57:27,0.472s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/a_Add to Cart""))",Chrome 128.0.0.0,,,17-09-2024 15:57:27,17-09-2024 15:57:28,0.243s,PASSED
+"click(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/a_Add to Cart""))",Chrome 128.0.0.0,,,17-09-2024 15:57:28,17-09-2024 15:57:28,0.483s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/a_EST-1""))",Chrome 128.0.0.0,,,17-09-2024 15:57:28,17-09-2024 15:57:28,0.235s,PASSED
+"itemId = getText(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/a_EST-1""))",Chrome 128.0.0.0,,,17-09-2024 15:57:28,17-09-2024 15:57:29,0.232s,PASSED
+"assert itemId == ""EST-1""",Chrome 128.0.0.0,,,17-09-2024 15:57:29,17-09-2024 15:57:29,0.000s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/td_FI-SW-01""))",Chrome 128.0.0.0,,,17-09-2024 15:57:29,17-09-2024 15:57:29,0.242s,PASSED
+"productId = getText(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/td_FI-SW-01""))",Chrome 128.0.0.0,,,17-09-2024 15:57:29,17-09-2024 15:57:29,0.239s,PASSED
+"assert productId == ""FI-SW-01""",Chrome 128.0.0.0,,,17-09-2024 15:57:29,17-09-2024 15:57:29,0.000s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/input_false_EST-1""))",Chrome 128.0.0.0,,,17-09-2024 15:57:29,17-09-2024 15:57:29,0.239s,PASSED
+"quantityInput = findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/input_false_EST-1"")",Chrome 128.0.0.0,,,17-09-2024 15:57:29,17-09-2024 15:57:29,0.003s,PASSED
+if (quantityInput != null),Chrome 128.0.0.0,,,17-09-2024 15:57:29,17-09-2024 15:57:30,0.243s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/td_16.50""))",Chrome 128.0.0.0,,,17-09-2024 15:57:30,17-09-2024 15:57:30,0.240s,PASSED
+"totalCost = getText(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/td_16.50""))",Chrome 128.0.0.0,,,17-09-2024 15:57:30,17-09-2024 15:57:30,0.240s,PASSED
+"assert totalCost == ""$16.50""",Chrome 128.0.0.0,,,17-09-2024 15:57:30,17-09-2024 15:57:30,0.000s,PASSED
+refresh(),Chrome 128.0.0.0,,,17-09-2024 15:57:30,17-09-2024 15:57:30,0.233s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/a_EST-1""))",Chrome 128.0.0.0,,,17-09-2024 15:57:30,17-09-2024 15:57:31,0.241s,PASSED
+"itemId = getText(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/a_EST-1""))",Chrome 128.0.0.0,,,17-09-2024 15:57:31,17-09-2024 15:57:31,0.242s,PASSED
+"assert itemId == ""EST-1""",Chrome 128.0.0.0,,,17-09-2024 15:57:31,17-09-2024 15:57:31,0.001s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/td_FI-SW-01""))",Chrome 128.0.0.0,,,17-09-2024 15:57:31,17-09-2024 15:57:31,0.239s,PASSED
+"productId = getText(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/td_FI-SW-01""))",Chrome 128.0.0.0,,,17-09-2024 15:57:31,17-09-2024 15:57:31,0.240s,PASSED
+"assert productId == ""FI-SW-01""",Chrome 128.0.0.0,,,17-09-2024 15:57:31,17-09-2024 15:57:31,0.000s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/input_false_EST-1""))",Chrome 128.0.0.0,,,17-09-2024 15:57:31,17-09-2024 15:57:31,0.236s,PASSED
+"quantityInput = findTestObject(""Object Repository/Add To Cart/Refresh The Page After Add A Product To Cart/input_false_EST-1"")",Chrome 128.0.0.0,,,17-09-2024 15:57:31,17-09-2024 15:57:31,0.002s,PASSED
+if (quantityInput != null),Chrome 128.0.0.0,,,17-09-2024 15:57:31,17-09-2024 15:57:32,0.230s,FAILED

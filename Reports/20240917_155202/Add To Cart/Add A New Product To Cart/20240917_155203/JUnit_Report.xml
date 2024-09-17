@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add A New Product To Cart" time="8.246" tests="1" failures="0" errors="0">
+   <testsuite name="Add A New Product To Cart" tests="1" failures="0" errors="0" time="8.246" skipped="0" timestamp="17-09-2024T15:52:07" hostname="PC - DESKTOP-QCB13V0" id="Test Suites/Add To Cart/Add A New Product To Cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\PC\\AppData\\Roaming\\SPB_Data\\git\\asm3-jpet\\Reports\\20240917_155202\\Add To Cart\\Add A New Product To Cart\\20240917_155203"/>
+         <property name="logFiles" value="C:\\Users\\PC\\AppData\\Roaming\\SPB_Data\\git\\asm3-jpet\\Reports\\20240917_155202\\Add To Cart\\Add A New Product To Cart\\20240917_155203\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PC - DESKTOP-QCB13V0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.109"/>
+         <property name="sessionId" value="ce2f0b65fd81d2911f7ab6293cce3a64"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Add To Cart/Add A New Product To Cart" time="8.123" classname="Test Cases/Add To Cart/Add A New Product To Cart" status="PASSED">
+         <system-out><![CDATA[17-09-2024T15:52:07 - [TEST_CASE][PASSED] - Test Cases/Add To Cart/Add A New Product To Cart: Test Cases/Add To Cart/Add A New Product To Cart
+
+17-09-2024T15:52:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-09-2024T15:52:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-09-2024T15:52:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-09-2024T15:52:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-09-2024T15:52:08 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+17-09-2024T15:52:09 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+17-09-2024T15:52:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Add To Cart/Add A New Product To Cart/a_Enter the Store")): Object 'Object Repository/Add To Cart/Add A New Product To Cart/a_Enter the Store' is visible
+
+17-09-2024T15:52:10 - [MESSAGE][PASSED] - Object 'Object Repository/Add To Cart/Add A New Product To Cart/a_Enter the Store' is visible
+
+17-09-2024T15:52:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add To Cart/Add A New Product To Cart/a_Enter the Store")): Object: 'Object Repository/Add To Cart/Add A New Product To Cart/a_Enter the Store' is clicked on
+
+17-09-2024T15:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Add To Cart/Add A New Product To Cart/a_Enter the Store' is clicked on
+
+17-09-2024T15:52:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Add To Cart/Add A New Product To Cart/img")): Object 'Object Repository/Add To Cart/Add A New Product To Cart/img' is visible
+
+17-09-2024T15:52:11 - [MESSAGE][PASSED] - Object 'Object Repository/Add To Cart/Add A New Product To Cart/img' is visible
+
+17-09-2024T15:52:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add To Cart/Add A New Product To Cart/img")): Object: 'Object Repository/Add To Cart/Add A New Product To Cart/img' is clicked on
+
+17-09-2024T15:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Add To Cart/Add A New Product To Cart/img' is clicked on
+
+17-09-2024T15:52:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Add To Cart/Add A New Product To Cart/a_FI-SW-01")): Object 'Object Repository/Add To Cart/Add A New Product To Cart/a_FI-SW-01' is visible
+
+17-09-2024T15:52:12 - [MESSAGE][PASSED] - Object 'Object Repository/Add To Cart/Add A New Product To Cart/a_FI-SW-01' is visible
+
+17-09-2024T15:52:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add To Cart/Add A New Product To Cart/a_FI-SW-01")): Object: 'Object Repository/Add To Cart/Add A New Product To Cart/a_FI-SW-01' is clicked on
+
+17-09-2024T15:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Add To Cart/Add A New Product To Cart/a_FI-SW-01' is clicked on
+
+17-09-2024T15:52:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Add To Cart/Add A New Product To Cart/a_Add to Cart")): Object 'Object Repository/Add To Cart/Add A New Product To Cart/a_Add to Cart' is visible
+
+17-09-2024T15:52:13 - [MESSAGE][PASSED] - Object 'Object Repository/Add To Cart/Add A New Product To Cart/a_Add to Cart' is visible
+
+17-09-2024T15:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add To Cart/Add A New Product To Cart/a_Add to Cart")): Object: 'Object Repository/Add To Cart/Add A New Product To Cart/a_Add to Cart' is clicked on
+
+17-09-2024T15:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Add To Cart/Add A New Product To Cart/a_Add to Cart' is clicked on
+
+17-09-2024T15:52:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Add To Cart/Add A New Product To Cart/a_EST-1")): Object 'Object Repository/Add To Cart/Add A New Product To Cart/a_EST-1' is visible
+
+17-09-2024T15:52:13 - [MESSAGE][PASSED] - Object 'Object Repository/Add To Cart/Add A New Product To Cart/a_EST-1' is visible
+
+17-09-2024T15:52:13 - [TEST_STEP][PASSED] - itemId = getText(findTestObject("Object Repository/Add To Cart/Add A New Product To Cart/a_EST-1")): Text of object 'Object Repository/Add To Cart/Add A New Product To Cart/a_EST-1' is: 'EST-1'
+
+17-09-2024T15:52:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add To Cart/Add A New Product To Cart/a_EST-1' is: 'EST-1'
+
+17-09-2024T15:52:14 - [TEST_STEP][PASSED] - assert itemId == "EST-1": null
+
+17-09-2024T15:52:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Add To Cart/Add A New Product To Cart/td_FI-SW-01")): Object 'Object Repository/Add To Cart/Add A New Product To Cart/td_FI-SW-01' is visible
+
+17-09-2024T15:52:14 - [MESSAGE][PASSED] - Object 'Object Repository/Add To Cart/Add A New Product To Cart/td_FI-SW-01' is visible
+
+17-09-2024T15:52:14 - [TEST_STEP][PASSED] - productId = getText(findTestObject("Object Repository/Add To Cart/Add A New Product To Cart/td_FI-SW-01")): Text of object 'Object Repository/Add To Cart/Add A New Product To Cart/td_FI-SW-01' is: 'FI-SW-01'
+
+17-09-2024T15:52:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add To Cart/Add A New Product To Cart/td_FI-SW-01' is: 'FI-SW-01'
+
+17-09-2024T15:52:14 - [TEST_STEP][PASSED] - assert productId == "FI-SW-01": null
+
+17-09-2024T15:52:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Add To Cart/Add A New Product To Cart/input_false_EST-1")): Object 'Object Repository/Add To Cart/Add A New Product To Cart/input_false_EST-1' is visible
+
+17-09-2024T15:52:14 - [MESSAGE][PASSED] - Object 'Object Repository/Add To Cart/Add A New Product To Cart/input_false_EST-1' is visible
+
+17-09-2024T15:52:14 - [TEST_STEP][PASSED] - quantityInput = findTestObject("Object Repository/Add To Cart/Add A New Product To Cart/input_false_EST-1"): null
+
+17-09-2024T15:52:14 - [TEST_STEP][PASSED] - if (quantityInput != null): null
+
+17-09-2024T15:52:14 - [TEST_STEP][PASSED] - quantity = getAttribute(quantityInput, "value"): Attribute 'value' of object 'Object Repository/Add To Cart/Add A New Product To Cart/input_false_EST-1' is: '1'
+
+17-09-2024T15:52:15 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Add To Cart/Add A New Product To Cart/input_false_EST-1' is: '1'
+
+17-09-2024T15:52:15 - [TEST_STEP][PASSED] - assert quantity == "1": null
+
+17-09-2024T15:52:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-09-2024T15:52:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-09-2024T15:52:07 - [TEST_SUITE][PASSED] - Add A New Product To Cart: Test Cases/Add To Cart/Add A New Product To Cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

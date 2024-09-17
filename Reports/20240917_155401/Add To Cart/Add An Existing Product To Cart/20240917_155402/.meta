@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20240917_155402</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;issueCollectionMap&quot;:{&quot;0&quot;:{&quot;testCaseId&quot;:&quot;Test Cases/Add To Cart/Add An Existing Product To Cart&quot;,&quot;issues&quot;:[{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10020&quot;:[{&quot;id&quot;:15,&quot;name&quot;:&quot;JO Sprint 5&quot;,&quot;state&quot;:&quot;future&quot;,&quot;boardId&quot;:6}],&quot;customfield_10002&quot;:[],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i000cx:&quot;},&quot;status&quot;:{&quot;id&quot;:10015,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://rmit-team-thobur1i.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://rmit-team-thobur1i.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://rmit-team-thobur1i.atlassian.net/rest/api/2/status/10015&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://rmit-team-thobur1i.atlassian.net/rest/api/2/project/10005&quot;,&quot;key&quot;:&quot;JO&quot;,&quot;id&quot;:10005,&quot;name&quot;:&quot;JPET-Octo&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Add An Existing Product To The Cart&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;s3904632@rmit.edu.vn&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Long Nguyen Vi Phi&quot;,&quot;accountId&quot;:&quot;712020:5617a843-962c-46b9-829e-b666990b75b0&quot;,&quot;self&quot;:&quot;https://rmit-team-thobur1i.atlassian.net/rest/api/2/user?accountId\u003d712020%3A5617a843-962c-46b9-829e-b666990b75b0&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;s3904632@rmit.edu.vn&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Long Nguyen Vi Phi&quot;,&quot;accountId&quot;:&quot;712020:5617a843-962c-46b9-829e-b666990b75b0&quot;,&quot;self&quot;:&quot;https://rmit-team-thobur1i.atlassian.net/rest/api/2/user?accountId\u003d712020%3A5617a843-962c-46b9-829e-b666990b75b0&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://rmit-team-thobur1i.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://rmit-team-thobur1i.atlassian.net/rest/api/2/issue/JO-54/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://rmit-team-thobur1i.atlassian.net/rest/api/2/issue/10170&quot;,&quot;key&quot;:&quot;JO-54&quot;,&quot;id&quot;:10170}]}}}</value>
+         </entry>
+      </properties>
+      <type>REPORT</type>
+   </integratedEntity>
+   <displayName>20240917_155402</displayName>
+</ReportEntity>
