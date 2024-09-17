@@ -11,7 +11,11 @@
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>9.6.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+<<<<<<< HEAD
    <projectFileLocation>/Users/maichieuthuy/Katalon Studio/asm3-jpet/asm3-jpet.prj</projectFileLocation>
+=======
+   <projectFileLocation>/Users/dudu/git/asm3-jpet/asm3-jpet.prj</projectFileLocation>
+>>>>>>> branch 'sign-up' of https://github.com/thuyiswater/asm3-jpet.git
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
