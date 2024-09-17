@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Booking" time="418.137" tests="3" failures="1" errors="0">
+   <testsuite name="Booking" tests="3" failures="1" errors="0" time="418.137" skipped="0" timestamp="14-09-2024T09:11:02" hostname="Admin - 26.156.167.198" id="Test Suites/Booking/Booking">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Admin\\Documents\\GitHub\\asm3-jpet\\Reports\\20240914_091054\\Booking\\Booking\\20240914_091054"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\Documents\\GitHub\\asm3-jpet\\Reports\\20240914_091054\\Booking\\Booking\\20240914_091054\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - 26.156.167.198"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="26.156.167.198"/>
+         <property name="sessionId" value="f16704d514ad4c79181714cc94bf955a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Booking/Booking Successfully" time="106.926" classname="Test Cases/Booking/Booking Successfully" status="PASSED">
+         <system-out><![CDATA[14-09-2024T09:11:03 - [TEST_CASE][PASSED] - Test Cases/Booking/Booking Successfully: Test Cases/Booking/Booking Successfully
+
+14-09-2024T09:11:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-09-2024T09:11:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-09-2024T09:11:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-09-2024T09:11:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-09-2024T09:11:05 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/actions/Catalog.action"): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+14-09-2024T09:11:10 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+14-09-2024T09:11:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/a_Sign In")): Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/a_Sign In' is clicked on
+
+14-09-2024T09:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/a_Sign In' is clicked on
+
+14-09-2024T09:11:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_username"), "pollux"): Text 'pollux' is set on object 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_username'
+
+14-09-2024T09:11:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes-715576518']'. Please recheck the objects properties to make sure the desired element is located. 
+
+14-09-2024T09:11:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_username'. Try using Self-healing.
+
+14-09-2024T09:11:45 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+14-09-2024T09:12:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes-715576518']'. Please recheck the objects properties to make sure the desired element is located. 
+
+14-09-2024T09:12:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_username'. Try using Self-healing.
+
+14-09-2024T09:12:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_username' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+14-09-2024T09:12:20 - [MESSAGE][PASSED] - Text 'pollux' is set on object 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_username'
+
+14-09-2024T09:12:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_password"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_password'
+
+14-09-2024T09:12:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_password'
+
+14-09-2024T09:12:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+14-09-2024T09:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+14-09-2024T09:12:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/img")): Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/img' is clicked on
+
+14-09-2024T09:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/img' is clicked on
+
+14-09-2024T09:12:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/a_K9-PO-02")): Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/a_K9-PO-02' is clicked on
+
+14-09-2024T09:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/a_K9-PO-02' is clicked on
+
+14-09-2024T09:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+14-09-2024T09:12:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+14-09-2024T09:12:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/input_false_EST-8"), "2"): Text '2' is set on object 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_false_EST-8'
+
+14-09-2024T09:12:33 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_false_EST-8'
+
+14-09-2024T09:12:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities")): Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities' is clicked on
+
+14-09-2024T09:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities' is clicked on
+
+14-09-2024T09:12:36 - [TEST_STEP][PASSED] - quantityText = getAttribute(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/input_false_EST-8"), "value"): Attribute 'value' of object 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_false_EST-8' is: '2'
+
+14-09-2024T09:12:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_false_EST-8' is: '2'
+
+14-09-2024T09:12:37 - [TEST_STEP][PASSED] - quantity = Integer.parseInt(quantityText.trim()): null
+
+14-09-2024T09:12:37 - [TEST_STEP][PASSED] - verifyEqual(quantity, 2): Actual object '2' and expected object '2' are equal
+
+14-09-2024T09:12:37 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+14-09-2024T09:12:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/a_Proceed to Checkout")): Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+14-09-2024T09:12:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+14-09-2024T09:12:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/input_Ship to different address_newOrder")): Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_Ship to different address_newOrder' is clicked on
+
+14-09-2024T09:12:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/input_Ship to different address_newOrder' is clicked on
+
+14-09-2024T09:12:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/a_Confirm")): Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/a_Confirm' is clicked on
+
+14-09-2024T09:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Successfully/Page_JPetStore Demo/a_Confirm' is clicked on
+
+14-09-2024T09:12:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/td_1"), 2): Object 'Object Repository/Booking Successfully/Page_JPetStore Demo/td_1' is visible
+
+14-09-2024T09:12:45 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Successfully/Page_JPetStore Demo/td_1' is visible
+
+14-09-2024T09:12:45 - [TEST_STEP][PASSED] - checkoutQuantityText = getText(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/td_1")): Text of object 'Object Repository/Booking Successfully/Page_JPetStore Demo/td_1' is: '2'
+
+14-09-2024T09:12:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Booking Successfully/Page_JPetStore Demo/td_1' is: '2'
+
+14-09-2024T09:12:47 - [TEST_STEP][PASSED] - itemIdText = getText(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/td_EST-8")): Text of object 'Object Repository/Booking Successfully/Page_JPetStore Demo/td_EST-8' is: 'EST-8'
+
+14-09-2024T09:12:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Booking Successfully/Page_JPetStore Demo/td_EST-8' is: 'EST-8'
+
+14-09-2024T09:12:49 - [TEST_STEP][PASSED] - checkoutQuantity = Integer.parseInt(checkoutQuantityText.trim()): null
+
+14-09-2024T09:12:49 - [TEST_STEP][PASSED] - verifyEqual(checkoutQuantity, 2): Actual object '2' and expected object '2' are equal
+
+14-09-2024T09:12:49 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+14-09-2024T09:12:49 - [TEST_STEP][PASSED] - verifyEqual(itemIdText, "EST-8", CONTINUE_ON_FAILURE): Actual object 'EST-8' and expected object 'EST-8' are equal
+
+14-09-2024T09:12:49 - [MESSAGE][PASSED] - Actual object 'EST-8' and expected object 'EST-8' are equal
+
+14-09-2024T09:12:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-09-2024T09:12:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Invalid Quantity String Input" time="75.0" classname="Test Cases/Booking/Invalid Quantity String Input" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Booking/Invalid Quantity String Input FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '1' and expected object 'two' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object 'two' are not equal&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:131)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at Invalid Quantity String Input.run(Invalid Quantity String Input:65)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726279854804.run(TempTestSuite1726279854804.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:131)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at Invalid Quantity String Input.run(Invalid Quantity String Input:65)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726279854804.run(TempTestSuite1726279854804.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object 'two' are not equal&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	... 26 more&#xa;"/>
+         <system-out><![CDATA[14-09-2024T09:16:36 - [TEST_CASE][FAILED] - Test Cases/Booking/Invalid Quantity String Input: Test Cases/Booking/Invalid Quantity String Input FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '1' and expected object 'two' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object 'two' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Invalid Quantity String Input.run(Invalid Quantity String Input:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726279854804.run(TempTestSuite1726279854804.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Invalid Quantity String Input.run(Invalid Quantity String Input:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726279854804.run(TempTestSuite1726279854804.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object 'two' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 26 more
+
+
+14-09-2024T09:16:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-09-2024T09:16:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-09-2024T09:16:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-09-2024T09:16:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-09-2024T09:16:37 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/actions/Catalog.action"): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+14-09-2024T09:16:41 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+14-09-2024T09:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Sign In_1")): Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Sign In_1' is clicked on
+
+14-09-2024T09:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Sign In_1' is clicked on
+
+14-09-2024T09:16:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_username_1"), "pollux"): Text 'pollux' is set on object 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_username_1'
+
+14-09-2024T09:17:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes--655300178']'. Please recheck the objects properties to make sure the desired element is located. 
+
+14-09-2024T09:17:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_username_1'. Try using Self-healing.
+
+14-09-2024T09:17:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_username_1' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+14-09-2024T09:17:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='stripes--655300178']'. Please recheck the objects properties to make sure the desired element is located. 
+
+14-09-2024T09:17:44 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_username_1'. Try using Self-healing.
+
+14-09-2024T09:17:44 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_username_1' was broken. Propose an alternative one: '//div[@id='Catalog']/form/p[2]/input'.
+
+14-09-2024T09:17:44 - [MESSAGE][PASSED] - Text 'pollux' is set on object 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_username_1'
+
+14-09-2024T09:17:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_password"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_password'
+
+14-09-2024T09:17:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_password'
+
+14-09-2024T09:17:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+14-09-2024T09:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+14-09-2024T09:17:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/img")): Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/img' is clicked on
+
+14-09-2024T09:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/img' is clicked on
+
+14-09-2024T09:17:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_K9-PO-02")): Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_K9-PO-02' is clicked on
+
+14-09-2024T09:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_K9-PO-02' is clicked on
+
+14-09-2024T09:17:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+14-09-2024T09:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+14-09-2024T09:17:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_false_EST-8"), "two"): Text 'two' is set on object 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_false_EST-8'
+
+14-09-2024T09:17:48 - [MESSAGE][PASSED] - Text 'two' is set on object 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_false_EST-8'
+
+14-09-2024T09:17:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities")): Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities' is clicked on
+
+14-09-2024T09:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities' is clicked on
+
+14-09-2024T09:17:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Proceed to Checkout")): Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+14-09-2024T09:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+14-09-2024T09:17:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Ship to different address_newOrder")): Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Ship to different address_newOrder' is clicked on
+
+14-09-2024T09:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/input_Ship to different address_newOrder' is clicked on
+
+14-09-2024T09:17:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Confirm")): Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Confirm' is clicked on
+
+14-09-2024T09:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid Quantity String Input/Page_JPetStore Demo/a_Confirm' is clicked on
+
+14-09-2024T09:17:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/td_1"), 2): Object 'Object Repository/Booking Successfully/Page_JPetStore Demo/td_1' is visible
+
+14-09-2024T09:17:51 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Successfully/Page_JPetStore Demo/td_1' is visible
+
+14-09-2024T09:17:51 - [TEST_STEP][PASSED] - checkoutQuantityText = getText(findTestObject("Object Repository/Booking Successfully/Page_JPetStore Demo/td_1")): Text of object 'Object Repository/Booking Successfully/Page_JPetStore Demo/td_1' is: '1'
+
+14-09-2024T09:17:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Booking Successfully/Page_JPetStore Demo/td_1' is: '1'
+
+14-09-2024T09:17:51 - [TEST_STEP][PASSED] - checkoutQuantity = Integer.parseInt(checkoutQuantityText.trim()): null
+
+14-09-2024T09:17:51 - [TEST_STEP][PASSED] - if (checkoutQuantityText.equals("2") || checkoutQuantityText.equalsIgnoreCase("two")): null
+
+14-09-2024T09:17:51 - [TEST_STEP][FAILED] - else: null
+
+14-09-2024T09:17:51 - [TEST_STEP][FAILED] - verifyEqual(checkoutQuantityText, "two", CONTINUE_ON_FAILURE): Unable to verify equal between actual object '1' and expected object 'two' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object 'two' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Invalid Quantity String Input.run(Invalid Quantity String Input:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726279854804.run(TempTestSuite1726279854804.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+14-09-2024T09:17:51 - [MESSAGE][FAILED] - Unable to verify equal between actual object '1' and expected object 'two' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object 'two' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Invalid Quantity String Input.run(Invalid Quantity String Input:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726279854804.run(TempTestSuite1726279854804.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+14-09-2024T09:17:51 - [TEST_STEP][FAILED] - verifyEqual(checkoutQuantityText, "2", CONTINUE_ON_FAILURE): Unable to verify equal between actual object '1' and expected object '2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object '2' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Invalid Quantity String Input.run(Invalid Quantity String Input:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726279854804.run(TempTestSuite1726279854804.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+14-09-2024T09:17:51 - [MESSAGE][FAILED] - Unable to verify equal between actual object '1' and expected object '2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object '2' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Invalid Quantity String Input.run(Invalid Quantity String Input:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726279854804.run(TempTestSuite1726279854804.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+14-09-2024T09:17:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-09-2024T09:17:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[14-09-2024T09:16:36 - [TEST_CASE][FAILED] - Test Cases/Booking/Invalid Quantity String Input: Test Cases/Booking/Invalid Quantity String Input FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '1' and expected object 'two' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object 'two' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Invalid Quantity String Input.run(Invalid Quantity String Input:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726279854804.run(TempTestSuite1726279854804.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Invalid Quantity String Input.run(Invalid Quantity String Input:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726279854804.run(TempTestSuite1726279854804.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object 'two' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 26 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Submit an Order Unsuccessfully" time="9.318" classname="Test Cases/Booking/Submit an Order Unsuccessfully" status="PASSED">
+         <system-out><![CDATA[14-09-2024T09:17:51 - [TEST_CASE][PASSED] - Test Cases/Booking/Submit an Order Unsuccessfully: Test Cases/Booking/Submit an Order Unsuccessfully
+
+14-09-2024T09:17:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-09-2024T09:17:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-09-2024T09:17:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-09-2024T09:17:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-09-2024T09:17:52 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/actions/Catalog.action"): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+14-09-2024T09:17:56 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+14-09-2024T09:17:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/img")): Object: 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/img' is clicked on
+
+14-09-2024T09:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/img' is clicked on
+
+14-09-2024T09:17:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/a_K9-PO-02")): Object: 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/a_K9-PO-02' is clicked on
+
+14-09-2024T09:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/a_K9-PO-02' is clicked on
+
+14-09-2024T09:17:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+14-09-2024T09:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+14-09-2024T09:17:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/input_true_EST-8"), "2"): Text '2' is set on object 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/input_true_EST-8'
+
+14-09-2024T09:17:59 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/input_true_EST-8'
+
+14-09-2024T09:17:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities")): Object: 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities' is clicked on
+
+14-09-2024T09:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/input_Sub Total 18.50_updateCartQuantities' is clicked on
+
+14-09-2024T09:17:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/a_Proceed to Checkout")): Object: 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+14-09-2024T09:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/a_Proceed to Checkout' is clicked on
+
+14-09-2024T09:18:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/li_You must sign on before attempting to check out.  Please sign on and try checking out again"), 10): Object 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/li_You must sign on before attempting to check out.  Please sign on and try checking out again' is visible
+
+14-09-2024T09:18:00 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/li_You must sign on before attempting to check out.  Please sign on and try checking out again' is visible
+
+14-09-2024T09:18:00 - [TEST_STEP][PASSED] - loginRequiredText = getText(findTestObject("Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/li_You must sign on before attempting to check out.  Please sign on and try checking out again")): Text of object 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/li_You must sign on before attempting to check out.  Please sign on and try checking out again' is: 'You must sign on before attempting to check out. Please sign on and try checking out again.'
+
+14-09-2024T09:18:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Booking Unsuccessfully/Page_JPetStore Demo/li_You must sign on before attempting to check out.  Please sign on and try checking out again' is: 'You must sign on before attempting to check out. Please sign on and try checking out again.'
+
+14-09-2024T09:18:00 - [TEST_STEP][PASSED] - if (loginRequiredText == "You must sign on before attempting to check out.  Please sign on and try checking out again"): null
+
+14-09-2024T09:18:00 - [TEST_STEP][PASSED] - else: User is already logged in.
+
+14-09-2024T09:18:00 - [TEST_STEP][PASSED] - comment("User is already logged in."): User is already logged in.
+
+14-09-2024T09:18:01 - [MESSAGE][INFO] - User is already logged in.
+
+14-09-2024T09:18:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-09-2024T09:18:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-09-2024T09:11:02 - [TEST_SUITE][FAILED] - Booking: Test Cases/Booking/Invalid Quantity String Input FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '1' and expected object 'two' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object 'two' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Invalid Quantity String Input.run(Invalid Quantity String Input:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726279854804.run(TempTestSuite1726279854804.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Invalid Quantity String Input.run(Invalid Quantity String Input:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726279854804.run(TempTestSuite1726279854804.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object 'two' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 23 more]]></system-out>
+      <system-err><![CDATA[14-09-2024T09:11:02 - [TEST_SUITE][FAILED] - Booking: Test Cases/Booking/Invalid Quantity String Input FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object '1' and expected object 'two' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object 'two' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Invalid Quantity String Input.run(Invalid Quantity String Input:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726279854804.run(TempTestSuite1726279854804.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Invalid Quantity String Input.run(Invalid Quantity String Input:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726279854804.run(TempTestSuite1726279854804.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual object '1' and expected object 'two' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>
