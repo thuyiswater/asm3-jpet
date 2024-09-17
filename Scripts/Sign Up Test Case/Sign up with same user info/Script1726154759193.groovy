@@ -34,36 +34,31 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up wit
 String userID = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_User ID_username'), 'value')
 assert userID == 'kaka' : "Expect userID is kaka1, but found '${userID}'"
 
-WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_New password_password'), 
-    '12345')
+WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_New password_password'), '12345')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_New password_password'))
 String password = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_New password_password'), 'value')
 assert password == '12345' : "Expect password is 12345, but found '${password}'"
 
-WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Repeat password_repeatedPassword'), 
-    '12345')
+WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Repeat password_repeatedPassword'), '12345')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Repeat password_repeatedPassword'))
 String repeat_password = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Repeat password_repeatedPassword'), 'value')
 assert repeat_password == '12345' : "Expect password is 12345, but found '${repeat_password}'"
 
-WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_First name_account.firstName'), 
-    'hi')
+WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_First name_account.firstName'), 'hi')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_First name_account.firstName'))
 String firstname = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_First name_account.firstName'), 'value')
 assert firstname == 'hi' : "Expect user firstname is hi, but found '${firstname}'"
 
-WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Last name_account.lastName'), 
-    'hi')
+WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Last name_account.lastName'), 'hi')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Last name_account.lastName'))
 String lastname = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Last name_account.lastName'), 'value')
 assert lastname == 'hi' : "Expect user lastname is hi, but found '${lastname}'"
 
-WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Email_account.email'), 
-    'hi12@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Email_account.email'), 'hi12@gmail.com')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Email_account.email'))
 String email = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Email_account.email'), 'value')
@@ -76,8 +71,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up wit
 String phone = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Phone_account.phone'), 'value')
 assert phone == '123456' : "Expect user phone is 123456, but found '${phone}'"
 
-WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 1_account.address1'), 
-    '123 abc')
+WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 1_account.address1'), '123 abc')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 1_account.address1'))
 String address1 = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with same user info/Page_JPetStore Demo/input_Address 1_account.address1'), 'value')

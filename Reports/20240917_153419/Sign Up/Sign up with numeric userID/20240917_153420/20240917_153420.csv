@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sign up with numeric userID,Chrome 128.0.0.0,,,17-09-2024 15:34:21,17-09-2024 15:35:08,46.449s,PASSED
+,,,,,,,
+Test Cases/Sign Up Test Case/Sign up with numeric userID,Chrome 128.0.0.0,,,17-09-2024 15:34:22,17-09-2024 15:35:08,46.385s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,17-09-2024 15:34:22,17-09-2024 15:34:23,1.289s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 128.0.0.0,,,17-09-2024 15:34:23,17-09-2024 15:34:24,1.060s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/a_Enter the Store""))",Chrome 128.0.0.0,,,17-09-2024 15:34:24,17-09-2024 15:34:25,1.322s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/a_Sign In""))",Chrome 128.0.0.0,,,17-09-2024 15:34:25,17-09-2024 15:34:26,0.555s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/a_Register Now""))",Chrome 128.0.0.0,,,17-09-2024 15:34:26,17-09-2024 15:34:26,0.517s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_User ID_username""), ""12345"")",Chrome 128.0.0.0,,,17-09-2024 15:34:26,17-09-2024 15:34:30,3.706s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_User ID_username""))",Chrome 128.0.0.0,,,17-09-2024 15:34:30,17-09-2024 15:34:32,1.907s,PASSED
+"userID = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_User ID_username""), ""value"")",Chrome 128.0.0.0,,,17-09-2024 15:34:32,17-09-2024 15:34:34,2.009s,PASSED
+"assert userID == ""12345""",Chrome 128.0.0.0,,,17-09-2024 15:34:34,17-09-2024 15:34:34,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_New password_password""), ""12345"")",Chrome 128.0.0.0,,,17-09-2024 15:34:34,17-09-2024 15:34:38,4.016s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_New password_password""))",Chrome 128.0.0.0,,,17-09-2024 15:34:38,17-09-2024 15:34:40,1.983s,PASSED
+"password = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_New password_password""), ""value"")",Chrome 128.0.0.0,,,17-09-2024 15:34:40,17-09-2024 15:34:42,1.995s,PASSED
+"assert password == ""12345""",Chrome 128.0.0.0,,,17-09-2024 15:34:42,17-09-2024 15:34:42,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Repeat password_repeatedPassword""), ""12345"")",Chrome 128.0.0.0,,,17-09-2024 15:34:42,17-09-2024 15:34:46,4.000s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Repeat password_repeatedPassword""))",Chrome 128.0.0.0,,,17-09-2024 15:34:46,17-09-2024 15:34:48,1.999s,PASSED
+"repeat_password = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Repeat password_repeatedPassword""), ""value"")",Chrome 128.0.0.0,,,17-09-2024 15:34:48,17-09-2024 15:34:50,1.994s,PASSED
+"assert repeat_password == ""12345""",Chrome 128.0.0.0,,,17-09-2024 15:34:50,17-09-2024 15:34:50,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_First name_account.firstName""), ""hi"")",Chrome 128.0.0.0,,,17-09-2024 15:34:50,17-09-2024 15:34:54,4.027s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_First name_account.firstName""))",Chrome 128.0.0.0,,,17-09-2024 15:34:54,17-09-2024 15:34:56,1.976s,PASSED
+"firstname = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_First name_account.firstName""), ""value"")",Chrome 128.0.0.0,,,17-09-2024 15:34:56,17-09-2024 15:34:58,1.994s,PASSED
+"assert firstname == ""hi""",Chrome 128.0.0.0,,,17-09-2024 15:34:58,17-09-2024 15:34:58,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Last name_account.lastName""), ""hi"")",Chrome 128.0.0.0,,,17-09-2024 15:34:58,17-09-2024 15:34:59,0.583s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Last name_account.lastName""))",Chrome 128.0.0.0,,,17-09-2024 15:34:59,17-09-2024 15:34:59,0.243s,PASSED
+"lastname = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Last name_account.lastName""), ""value"")",Chrome 128.0.0.0,,,17-09-2024 15:34:59,17-09-2024 15:34:59,0.242s,PASSED
+"assert lastname == ""hi""",Chrome 128.0.0.0,,,17-09-2024 15:34:59,17-09-2024 15:34:59,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Email_account.email""), ""hi@gmail.com"")",Chrome 128.0.0.0,,,17-09-2024 15:34:59,17-09-2024 15:35:00,0.530s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Email_account.email""))",Chrome 128.0.0.0,,,17-09-2024 15:35:00,17-09-2024 15:35:00,0.237s,PASSED
+"email = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Email_account.email""), ""value"")",Chrome 128.0.0.0,,,17-09-2024 15:35:00,17-09-2024 15:35:00,0.241s,PASSED
+"assert email == ""hi@gmail.com""",Chrome 128.0.0.0,,,17-09-2024 15:35:00,17-09-2024 15:35:00,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Phone_account.phone""), ""12345"")",Chrome 128.0.0.0,,,17-09-2024 15:35:00,17-09-2024 15:35:01,0.500s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Phone_account.phone""))",Chrome 128.0.0.0,,,17-09-2024 15:35:01,17-09-2024 15:35:01,0.240s,PASSED
+"phone = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Phone_account.phone""), ""value"")",Chrome 128.0.0.0,,,17-09-2024 15:35:01,17-09-2024 15:35:01,0.242s,PASSED
+"assert phone == ""12345""",Chrome 128.0.0.0,,,17-09-2024 15:35:01,17-09-2024 15:35:01,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Address 1_account.address1""), ""123 abc"")",Chrome 128.0.0.0,,,17-09-2024 15:35:01,17-09-2024 15:35:02,0.525s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Address 1_account.address1""))",Chrome 128.0.0.0,,,17-09-2024 15:35:02,17-09-2024 15:35:02,0.245s,PASSED
+"address1 = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Address 1_account.address1""), ""value"")",Chrome 128.0.0.0,,,17-09-2024 15:35:02,17-09-2024 15:35:02,0.243s,PASSED
+"assert address1 == ""123 abc""",Chrome 128.0.0.0,,,17-09-2024 15:35:02,17-09-2024 15:35:02,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Address 2_account.address2""), ""123 abc"")",Chrome 128.0.0.0,,,17-09-2024 15:35:02,17-09-2024 15:35:03,0.517s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Address 2_account.address2""))",Chrome 128.0.0.0,,,17-09-2024 15:35:03,17-09-2024 15:35:03,0.237s,PASSED
+"address2 = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Address 2_account.address2""), ""value"")",Chrome 128.0.0.0,,,17-09-2024 15:35:03,17-09-2024 15:35:03,0.238s,PASSED
+"assert address2 == ""123 abc""",Chrome 128.0.0.0,,,17-09-2024 15:35:03,17-09-2024 15:35:03,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_City_account.city""), ""abc"")",Chrome 128.0.0.0,,,17-09-2024 15:35:03,17-09-2024 15:35:04,0.523s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_City_account.city""))",Chrome 128.0.0.0,,,17-09-2024 15:35:04,17-09-2024 15:35:04,0.235s,PASSED
+"city = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_City_account.city""), ""value"")",Chrome 128.0.0.0,,,17-09-2024 15:35:04,17-09-2024 15:35:04,0.238s,PASSED
+"assert city == ""abc""",Chrome 128.0.0.0,,,17-09-2024 15:35:04,17-09-2024 15:35:04,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_State_account.state""), ""abc"")",Chrome 128.0.0.0,,,17-09-2024 15:35:04,17-09-2024 15:35:05,0.539s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_State_account.state""))",Chrome 128.0.0.0,,,17-09-2024 15:35:05,17-09-2024 15:35:05,0.230s,PASSED
+"state = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_State_account.state""), ""value"")",Chrome 128.0.0.0,,,17-09-2024 15:35:05,17-09-2024 15:35:05,0.225s,PASSED
+"assert state == ""abc""",Chrome 128.0.0.0,,,17-09-2024 15:35:05,17-09-2024 15:35:05,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Zip_account.zip""), ""20"")",Chrome 128.0.0.0,,,17-09-2024 15:35:05,17-09-2024 15:35:06,0.486s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Zip_account.zip""))",Chrome 128.0.0.0,,,17-09-2024 15:35:06,17-09-2024 15:35:06,0.234s,PASSED
+"zip = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Zip_account.zip""), ""value"")",Chrome 128.0.0.0,,,17-09-2024 15:35:06,17-09-2024 15:35:06,0.243s,PASSED
+"assert zip == ""20""",Chrome 128.0.0.0,,,17-09-2024 15:35:06,17-09-2024 15:35:06,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Country_account.country""), ""abc"")",Chrome 128.0.0.0,,,17-09-2024 15:35:06,17-09-2024 15:35:07,0.489s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Country_account.country""))",Chrome 128.0.0.0,,,17-09-2024 15:35:07,17-09-2024 15:35:07,0.238s,PASSED
+"country = getAttribute(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Country_account.country""), ""value"")",Chrome 128.0.0.0,,,17-09-2024 15:35:07,17-09-2024 15:35:07,0.242s,PASSED
+"assert country == ""abc""",Chrome 128.0.0.0,,,17-09-2024 15:35:07,17-09-2024 15:35:07,0.001s,PASSED
+"click(findTestObject(""Object Repository/Sign Up/Sign up with numeric userID/input_Enable MyBanner_newAccount""))",Chrome 128.0.0.0,,,17-09-2024 15:35:07,17-09-2024 15:35:08,0.782s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,17-09-2024 15:35:08,17-09-2024 15:35:08,0.092s,PASSED
