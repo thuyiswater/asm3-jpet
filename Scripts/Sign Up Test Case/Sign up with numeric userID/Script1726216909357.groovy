@@ -53,23 +53,57 @@ assert firstname == 'hi' : "Expect user firstname is hi, but found '${firstname}
 
 WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Last name_account.lastName'), 'hi')
 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Last name_account.lastName'))
+String lastname = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Last name_account.lastName'), 'value')
+assert lastname == 'hi' : "Expect user lastname is hi, but found '${lastname}'"
+
 WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Email_account.email'), 'hi@gmail.com')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Email_account.email'))
+String email = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Email_account.email'), 'value')
+assert email == 'hi@gmail.com' : "Expect user email is hi@gmail.com, but found '${email}'"
 
 WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Phone_account.phone'), '12345')
 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Phone_account.phone'))
+String phone = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Phone_account.phone'), 'value')
+assert phone == '12345' : "Expect user phone is 12345, but found '${phone}'"
+
 WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Address 1_account.address1'), '123 abc')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Address 1_account.address1'))
+String address1 = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Address 1_account.address1'), 'value')
+assert address1 == '123 abc' : "Expect user address 1 is 123 abc, but found '${address1}'"
 
 WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Address 2_account.address2'), '123 abc')
 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Address 2_account.address2'))
+String address2 = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Address 2_account.address2'), 'value')
+assert address2 == '123 abc' : "Expect user address 2 is 123 abc, but found '${address2}'"
+
 WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_City_account.city'), 'abc')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_City_account.city'))
+String city = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_City_account.city'), 'value')
+assert city == 'abc' : "Expect user city is abc, but found '${city}'"
 
 WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_State_account.state'), 'abc')
 
-WebUI.sendKeys(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_State_account.state'), Keys.chord(Keys.ENTER))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_State_account.state'))
+String state = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_State_account.state'), 'value')
+assert state == 'abc' : "Expect user state is abc, but found '${state}'"
 
 WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Zip_account.zip'), '20')
 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Zip_account.zip'))
+String zip = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Zip_account.zip'), 'value')
+assert zip == '20' : "Expect user zip code is 20, but found '${zip}'"
+
 WebUI.setText(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Country_account.country'), 'abc')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Country_account.country'))
+String country = WebUI.getAttribute(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Country_account.country'), 'value')
+assert country == 'abc' : "Expect user country is abc, but found '${country}'"
 
 WebUI.click(findTestObject('Object Repository/Sign Up/Sign up with numeric userID/input_Enable MyBanner_newAccount'))
 

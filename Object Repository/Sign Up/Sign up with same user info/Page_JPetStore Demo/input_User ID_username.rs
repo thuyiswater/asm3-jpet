@@ -6,12 +6,12 @@
    <elementGuidId>d1383eab-c577-4367-b1a2-b52dd7158bcc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='stripes--567573058']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#stripes--567573058</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='Catalog']/form/table/tbody/tr/td[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
